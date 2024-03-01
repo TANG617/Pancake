@@ -26,6 +26,8 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "App/Display.h"
+#include "can.h"
+#include "Drv/NodeMotor.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -227,7 +229,7 @@ void StartConnectivityTask(void *argument)
   /* Infinite loop */
   for(;;)
   {
-    osDelay(1);
+      osDelay(1000);
   }
   /* USER CODE END StartConnectivityTask */
 }
@@ -242,10 +244,26 @@ void StartConnectivityTask(void *argument)
 void StartMotionTask(void *argument)
 {
   /* USER CODE BEGIN StartMotionTask */
+    NodeMotorType NodeMotor1, NodeMotor2;
+    NodeMotor1.CanHandler = &hcan;
+    NodeMotor1.id = 0x01;
+    NodeMotor1.Mode = Velocity;
+    NodeMotor1.Velocity = 1;
+
+    NodeMotor2.CanHandler = &hcan;
+    NodeMotor2.id = 0x02;
+    NodeMotor2.Mode = Velocity;
+    NodeMotor2.Velocity = -1;
+    NodeMotorEnable(&NodeMotor1);
+    osDelay(100);
+    NodeMotorEnable(&NodeMotor2);
   /* Infinite loop */
   for(;;)
   {
-    osDelay(1);
+      NodeMotorEnable(&NodeMotor1);
+      osDelay(1000);
+      NodeMotorEnable(&NodeMotor2);
+      osDelay(1000);
   }
   /* USER CODE END StartMotionTask */
 }

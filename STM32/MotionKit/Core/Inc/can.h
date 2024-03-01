@@ -7,7 +7,7 @@
   ******************************************************************************
   * @attention
   *
-  * Copyright (c) 2024 STMicroelectronics.
+  * Copyright (c) 2023 STMicroelectronics.
   * All rights reserved.
   *
   * This software is licensed under terms that can be found in the LICENSE file
@@ -35,7 +35,9 @@ extern "C" {
 extern CAN_HandleTypeDef hcan;
 
 /* USER CODE BEGIN Private defines */
-
+//extern CAN_TxHeaderTypeDef TxHeader;
+//extern uint32_t TxMailbox;
+//extern uint8_t TxData[8];
 /* USER CODE END Private defines */
 
 void MX_CAN_Init(void);
