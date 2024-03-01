@@ -25,7 +25,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "App/Display.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -58,7 +58,7 @@ const osThreadAttr_t defaultTask_attributes = {
 osThreadId_t DisplayTaskHandle;
 const osThreadAttr_t DisplayTask_attributes = {
   .name = "DisplayTask",
-  .stack_size = 128 * 4,
+  .stack_size = 3000 * 4,
   .priority = (osPriority_t) osPriorityLow,
 };
 /* Definitions for ConnectivityTas */
@@ -150,7 +150,9 @@ void StartDefaultTask(void *argument)
   /* Infinite loop */
   for(;;)
   {
-    osDelay(1);
+      HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_0);
+
+      osDelay(1000);
   }
   /* USER CODE END StartDefaultTask */
 }
@@ -165,10 +167,49 @@ void StartDefaultTask(void *argument)
 void StartDisplayTask(void *argument)
 {
   /* USER CODE BEGIN StartDisplayTask */
+    DisplayInit();
+    uint8_t status = 120;
+    static lv_style_t style_bg;
+    static lv_style_t style_indic;
+
+    lv_style_init(&style_bg);
+    lv_style_set_border_color(&style_bg, lv_palette_main(LV_PALETTE_BLUE));
+    lv_style_set_border_width(&style_bg, 2);
+    lv_style_set_pad_all(&style_bg, 6); /*To make the indicator smaller*/
+    lv_style_set_radius(&style_bg, 6);
+    lv_style_set_anim_time(&style_bg, 100);
+
+    lv_style_init(&style_indic);
+    lv_style_set_bg_opa(&style_indic, LV_OPA_COVER);
+    lv_style_set_bg_color(&style_indic, lv_palette_main(LV_PALETTE_BLUE));
+    lv_style_set_radius(&style_indic, 3);
+
+    lv_obj_t *bar = lv_bar_create(lv_scr_act());
+    lv_obj_remove_style_all(bar);  /*To have a clean start*/
+    lv_obj_add_style(bar, &style_bg, 0);
+    lv_obj_add_style(bar, &style_indic, LV_PART_INDICATOR);
+
+    lv_obj_set_size(bar, 200, 20);
+    lv_obj_center(bar);
+    lv_bar_set_range(bar,0,255);
+
   /* Infinite loop */
   for(;;)
   {
-    osDelay(1);
+      lv_bar_set_value(bar, status%255, LV_ANIM_ON);
+      lv_tick_inc(30);
+      lv_timer_handler();
+
+      osDelay(30);
+      if (HAL_GPIO_ReadPin(BTN_PUSH_GPIO_Port, BTN_PUSH_Pin) == 0) {
+          status = 120;
+      }
+      if (HAL_GPIO_ReadPin(BTN_UP_GPIO_Port, BTN_UP_Pin) == 0) {
+          status--;
+      }
+      if (HAL_GPIO_ReadPin(BTN_DOWN_GPIO_Port, BTN_DOWN_Pin) == 0) {
+          status++;
+      }
   }
   /* USER CODE END StartDisplayTask */
 }
