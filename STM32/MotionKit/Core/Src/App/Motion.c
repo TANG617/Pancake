@@ -35,6 +35,6 @@ void MotionSetVolocity(MotionType *Motion,double Velocity){
 }
 
 void MotionSetRotate(MotionType *Motion, double Rotate){
-    Motion->LMotor.Velocity -= Rotate * Motion->LMotor.Direction;
+    Motion->LMotor.Velocity += Rotate * Motion->LMotor.Direction;
     Motion->RMotor.Velocity -= Rotate * Motion->RMotor.Direction;
 }

@@ -10,25 +10,7 @@
 #define RMOTOR_ID (0x02)
 #define DIRECTION (1)
 
-typedef struct {
-    double x;
-    double y;
-    double z;
-}LinearType;
-//Based on ROS Vector3/linear
 
-typedef struct {
-    double x;
-    double y;
-    double z;
-}AngularType;
-//Based on ROS Vector3/angular
-
-typedef struct{
-    LinearType linear;
-    AngularType angular;
-}TwistyType;
-//Based on ROS Geometry/Twist
 
 typedef struct{
     NodeMotorMode MotionMode;

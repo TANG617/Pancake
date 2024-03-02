@@ -28,7 +28,8 @@
 //#include "can.h"
 #include "App/Display.h"
 #include "App/Motion.h"
-#include "Drv/NodeMotor.h"
+#include "App/Connection.h"
+//#include "Drv/NodeMotor.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -49,6 +50,7 @@
 /* Private variables ---------------------------------------------------------*/
 /* USER CODE BEGIN Variables */
 uint8_t status = 120;
+MotionType PancakeMotion;
 /* USER CODE END Variables */
 /* Definitions for defaultTask */
 osThreadId_t defaultTaskHandle;
@@ -154,6 +156,7 @@ void StartDefaultTask(void *argument)
   for(;;)
   {
       HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_0);
+//      HAL_UART_Transmit(&huart2,"HELLO\n",6,HAL_MAX_DELAY);
 
       osDelay(1000);
   }
@@ -231,7 +234,18 @@ void StartConnectivityTask(void *argument)
   /* Infinite loop */
   for(;;)
   {
-      osDelay(1000);
+      ControlFrameType controlFrame = PackageFetch();
+      switch(controlFrame.Mode){
+          case LinearVelocityMode:
+              MotionSetVolocity(&PancakeMotion,controlFrame.LinearVelocity);
+              break;
+          case AngularVelocityMode:
+              MotionSetRotate(&PancakeMotion,controlFrame.AngularVelocity);
+              break;
+          default:
+              break;
+      }
+//      osDelay(1000);
   }
   /* USER CODE END StartConnectivityTask */
 }
@@ -256,7 +270,7 @@ void StartMotionTask(void *argument)
 //    NodeMotor2.id = 0x02;
 //    NodeMotor2.Mode = Velocity;
 //    NodeMotor2.Velocity = -1;
-    MotionType PancakeMotion;
+
     MotionInit(&PancakeMotion,Velocity);
   /* Infinite loop */
   for(;;)
@@ -268,7 +282,7 @@ void StartMotionTask(void *argument)
       }
 //      NodeMotorVelocityControl(&NodeMotor1);
 //      NodeMotorVelocityControl(&NodeMotor2);
-      MotionSetVolocity(&PancakeMotion,(1.0*(status - 120.0)/255*40));
+//      MotionSetVolocity(&PancakeMotion,(1.0*(status - 120.0)/255*40));
       MotionUpdateVelocity(&PancakeMotion);
       osDelay(100);
   }
