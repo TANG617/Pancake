@@ -154,7 +154,7 @@ HAL_StatusTypeDef NodeMotorVelocityControl(NodeMotorType *Motor){
     Motor->TxHeader.TransmitGlobalTime = DISABLE;
 
 
-    if(HAL_CAN_AddTxMessage(Motor->CanHandler, &Motor->TxHeader, TxData, &TxMailbox)==0){
+    if(HAL_CAN_AddTxMessage(Motor->CanHandler, &Motor->TxHeader, TxData, &TxMailbox)==0) {
         return HAL_OK;
     }
 }

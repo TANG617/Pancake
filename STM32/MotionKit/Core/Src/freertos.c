@@ -60,8 +60,8 @@ const osThreadAttr_t defaultTask_attributes = {
 osThreadId_t DisplayTaskHandle;
 const osThreadAttr_t DisplayTask_attributes = {
   .name = "DisplayTask",
-  .stack_size = 3000 * 4,
-  .priority = (osPriority_t) osPriorityLow,
+  .stack_size = 3200 * 4,
+  .priority = (osPriority_t) osPriorityAboveNormal7,
 };
 /* Definitions for ConnectivityTas */
 osThreadId_t ConnectivityTasHandle;
@@ -74,8 +74,8 @@ const osThreadAttr_t ConnectivityTas_attributes = {
 osThreadId_t MotionTaskHandle;
 const osThreadAttr_t MotionTask_attributes = {
   .name = "MotionTask",
-  .stack_size = 128 * 4,
-  .priority = (osPriority_t) osPriorityLow,
+  .stack_size = 256 * 4,
+  .priority = (osPriority_t) osPriorityRealtime7,
 };
 
 /* Private function prototypes -----------------------------------------------*/
@@ -201,7 +201,6 @@ void StartDisplayTask(void *argument)
       lv_bar_set_value(bar, status%255, LV_ANIM_ON);
       lv_tick_inc(30);
       lv_timer_handler();
-
       osDelay(30);
       if (HAL_GPIO_ReadPin(BTN_PUSH_GPIO_Port, BTN_PUSH_Pin) == 0) {
           status = 120;
@@ -212,6 +211,7 @@ void StartDisplayTask(void *argument)
       if (HAL_GPIO_ReadPin(BTN_DOWN_GPIO_Port, BTN_DOWN_Pin) == 0) {
           status++;
       }
+
   }
   /* USER CODE END StartDisplayTask */
 }
@@ -244,7 +244,7 @@ void StartConnectivityTask(void *argument)
 void StartMotionTask(void *argument)
 {
   /* USER CODE BEGIN StartMotionTask */
-    NodeMotorType NodeMotor1, NodeMotor2;
+    NodeMotorType NodeMotor1,NodeMotor2;
     NodeMotor1.CanHandler = &hcan;
     NodeMotor1.id = 0x01;
     NodeMotor1.Mode = Velocity;
@@ -254,15 +254,17 @@ void StartMotionTask(void *argument)
     NodeMotor2.id = 0x02;
     NodeMotor2.Mode = Velocity;
     NodeMotor2.Velocity = -1;
-    NodeMotorEnable(&NodeMotor1);
-    osDelay(100);
-    NodeMotorEnable(&NodeMotor2);
   /* Infinite loop */
   for(;;)
   {
-      NodeMotorEnable(&NodeMotor1);
-      osDelay(1000);
-      NodeMotorEnable(&NodeMotor2);
+      if(!HAL_GPIO_ReadPin(BTN_PUSH_GPIO_Port,BTN_PUSH_Pin))
+      {
+          NodeMotorEnable(&NodeMotor1);
+          NodeMotorEnable(&NodeMotor2);
+          osDelay(1000);
+      }
+      NodeMotorVelocityControl(&NodeMotor1);
+      NodeMotorVelocityControl(&NodeMotor2);
       osDelay(1000);
   }
   /* USER CODE END StartMotionTask */
