@@ -25,8 +25,9 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+//#include "can.h"
 #include "App/Display.h"
-#include "can.h"
+#include "App/Motion.h"
 #include "Drv/NodeMotor.h"
 /* USER CODE END Includes */
 
@@ -47,7 +48,7 @@
 
 /* Private variables ---------------------------------------------------------*/
 /* USER CODE BEGIN Variables */
-
+uint8_t status = 120;
 /* USER CODE END Variables */
 /* Definitions for defaultTask */
 osThreadId_t defaultTaskHandle;
@@ -170,7 +171,7 @@ void StartDisplayTask(void *argument)
 {
   /* USER CODE BEGIN StartDisplayTask */
     DisplayInit();
-    uint8_t status = 120;
+//    uint8_t status = 120;
     static lv_style_t style_bg;
     static lv_style_t style_indic;
 
@@ -206,11 +207,12 @@ void StartDisplayTask(void *argument)
           status = 120;
       }
       if (HAL_GPIO_ReadPin(BTN_UP_GPIO_Port, BTN_UP_Pin) == 0) {
-          status--;
+          status -= 5;
       }
       if (HAL_GPIO_ReadPin(BTN_DOWN_GPIO_Port, BTN_DOWN_Pin) == 0) {
-          status++;
+          status += 5 ;
       }
+      status = status % 255;
 
   }
   /* USER CODE END StartDisplayTask */
@@ -244,28 +246,31 @@ void StartConnectivityTask(void *argument)
 void StartMotionTask(void *argument)
 {
   /* USER CODE BEGIN StartMotionTask */
-    NodeMotorType NodeMotor1,NodeMotor2;
-    NodeMotor1.CanHandler = &hcan;
-    NodeMotor1.id = 0x01;
-    NodeMotor1.Mode = Velocity;
-    NodeMotor1.Velocity = 1;
-
-    NodeMotor2.CanHandler = &hcan;
-    NodeMotor2.id = 0x02;
-    NodeMotor2.Mode = Velocity;
-    NodeMotor2.Velocity = -1;
+//    NodeMotorType NodeMotor1,NodeMotor2;
+//    NodeMotor1.CanHandler = &hcan;
+//    NodeMotor1.id = 0x01;
+//    NodeMotor1.Mode = Velocity;
+//    NodeMotor1.Velocity = 1;
+//
+//    NodeMotor2.CanHandler = &hcan;
+//    NodeMotor2.id = 0x02;
+//    NodeMotor2.Mode = Velocity;
+//    NodeMotor2.Velocity = -1;
+    MotionType PancakeMotion;
+    MotionInit(&PancakeMotion,Velocity);
   /* Infinite loop */
   for(;;)
   {
       if(!HAL_GPIO_ReadPin(BTN_PUSH_GPIO_Port,BTN_PUSH_Pin))
       {
-          NodeMotorEnable(&NodeMotor1);
-          NodeMotorEnable(&NodeMotor2);
-          osDelay(1000);
+          MotionEnable(&PancakeMotion);
+          osDelay(100);
       }
-      NodeMotorVelocityControl(&NodeMotor1);
-      NodeMotorVelocityControl(&NodeMotor2);
-      osDelay(1000);
+//      NodeMotorVelocityControl(&NodeMotor1);
+//      NodeMotorVelocityControl(&NodeMotor2);
+      MotionSetVolocity(&PancakeMotion,(1.0*(status - 120.0)/255*40));
+      MotionUpdateVelocity(&PancakeMotion);
+      osDelay(100);
   }
   /* USER CODE END StartMotionTask */
 }

@@ -135,6 +135,7 @@ HAL_StatusTypeDef NodeMotorPositionVelocityControl(NodeMotorType *Motor){
     }
 }
 
+// take direction into account
 HAL_StatusTypeDef NodeMotorVelocityControl(NodeMotorType *Motor){
     if(Motor->Mode != Velocity) return HAL_ERROR;
     uint32_t TxMailbox;

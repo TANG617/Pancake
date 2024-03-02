@@ -29,6 +29,7 @@ typedef struct{
     CAN_TxHeaderTypeDef TxHeader;
     uint16_t id;
     float Position, Velocity, Kp, Kd, Torque;
+    int Direction;
     NodeMotorMode Mode;
 }NodeMotorType;
 
@@ -40,4 +41,5 @@ HAL_StatusTypeDef NodeMotorSaveZero(NodeMotorType *Motor);
 HAL_StatusTypeDef NodeMotorMITControl(NodeMotorType *Motor);
 HAL_StatusTypeDef NodeMotorVelocityControl(NodeMotorType *Motor);
 HAL_StatusTypeDef NodeMotorPositionVelocityControl(NodeMotorType *Motor);
+
 #endif //PIONEER_NODEMOTOR_H
