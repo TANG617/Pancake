@@ -11,22 +11,15 @@ static float uint2float(int x_int, float x_min, float x_max, int bits){
 
 ControlFrameType PackageDecode(uint8_t* packageFrame){
     ControlFrameType controlFrame;
-    int32_t rawData = (packageFrame[1]<<24)
-                    + (packageFrame[2]<<16)
-                    + (packageFrame[3]<<8)
-                    + (packageFrame[4]<<0);
+    uint16_t rawLinearData  = (packageFrame[1]<<8 & packageFrame[2]<<0 );
+    uint16_t rawAngularData = (packageFrame[3]<<8 & packageFrame[4]<<0 );
     switch (packageFrame[0]) {
-        case LinearVelocityMode:
-            controlFrame.Mode = LinearVelocityMode;
-            controlFrame.LinearVelocity = rawData * 1.0 / MAX_INT32 * LINEAR_VEL_MAX ;
+        case VelocityMode:
+            controlFrame.Mode = VelocityMode;
+            controlFrame.LinearVelocity  = (rawLinearData * 1.0 / MAX_INT16 - 0.5) * LINEAR_VEL_MAX ;
+            controlFrame.AngularVelocity = (rawAngularData * 1.0 / MAX_INT16 - 0.5) * ANGULAR_VEL_MAX ;
             break;
-         case LinearPositionMode:
-            break;
-        case AngularVelocityMode:
-            controlFrame.Mode = AngularVelocityMode;
-            controlFrame.AngularVelocity = rawData * 1.0 / MAX_INT32 * ANGULAR_VEL_MAX ;
-            break;
-        case AngularPositionMode:
+         case PositionMode:
             break;
         default:
             break;

@@ -236,11 +236,9 @@ void StartConnectivityTask(void *argument)
   {
       ControlFrameType controlFrame = PackageFetch();
       switch(controlFrame.Mode){
-          case LinearVelocityMode:
-              MotionSetVolocity(&PancakeMotion,controlFrame.LinearVelocity);
-              break;
-          case AngularVelocityMode:
-              MotionSetRotate(&PancakeMotion,controlFrame.AngularVelocity);
+          case VelocityMode:
+              MotionSetLinearVelocity(&PancakeMotion,controlFrame.LinearVelocity);
+              MotionSetAngularVelocity(&PancakeMotion,controlFrame.AngularVelocity);
               break;
           default:
               break;

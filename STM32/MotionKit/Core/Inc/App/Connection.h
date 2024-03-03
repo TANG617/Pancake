@@ -14,6 +14,7 @@
 //Serial.printf("%04d_%04d_%04d_%04d_%04d_%04d#",ps5.LStickX(),ps5.LStickY(),ps5.RStickX(),ps5.RStickY(),ps5.L2Value(),ps5.R2Value());
 
 #define MAX_INT32  (128*256*256*256 -1 )
+#define MAX_INT16  (128*256 -1 )
 #define LINEAR_VEL_MAX  20
 #define ANGULAR_VEL_MAX  20
 
@@ -39,10 +40,8 @@
 
 
 typedef enum{
-    LinearVelocityMode = 0x01,
-    LinearPositionMode = 0x02,
-    AngularVelocityMode = 0x03,
-    AngularPositionMode = 0x04,
+    VelocityMode = 0x01,
+    PositionMode = 0x02,
 }ControlFrameMode;
 
 typedef struct{

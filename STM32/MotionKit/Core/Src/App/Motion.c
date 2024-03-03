@@ -17,7 +17,7 @@ void MotionInit(MotionType *Motion,NodeMotorMode MotionMode){
     Motion->RMotor.id = RMOTOR_ID;
     Motion->RMotor.Mode = MotionMode;
     Motion->RMotor.Velocity = 0;
-    Motion->LMotor.Direction = (-1)*(DIRECTION);
+    Motion->RMotor.Direction = (-1)*(DIRECTION);
 }
 
 void MotionEnable(MotionType *Motion){
@@ -37,14 +37,15 @@ void MotionUpdateVelocity(MotionType *Motion){
     NodeMotorVelocityControl(&Motion->RMotor);
 }
 
-void MotionSetVolocity(MotionType *Motion,double Velocity){
+void MotionSetLinearVelocity(MotionType *Motion,double Velocity){
     Motion->LMotor.Velocity = Velocity * Motion->LMotor.Direction;
     osDelay(DELAY);
-    Motion->RMotor.Velocity = Velocity ;
+    Motion->RMotor.Velocity = Velocity * Motion->RMotor.Direction;
 }
 
-void MotionSetRotate(MotionType *Motion, double Rotate){
+//Positive Rotate means turns right
+void MotionSetAngularVelocity(MotionType *Motion, double Rotate){
     Motion->LMotor.Velocity += Rotate * Motion->LMotor.Direction;
     osDelay(DELAY);
-    Motion->RMotor.Velocity -= Rotate * Motion->RMotor.Direction;
+    Motion->RMotor.Velocity += Rotate * Motion->RMotor.Direction;
 }
