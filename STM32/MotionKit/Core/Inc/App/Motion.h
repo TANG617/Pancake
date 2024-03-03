@@ -5,6 +5,10 @@
 #ifndef MOTIONKIT_MOTION_H
 #define MOTIONKIT_MOTION_H
 #include "Drv/NodeMotor.h"
+#include "FreeRTOS.h"
+#include "task.h"
+#include "main.h"
+#include "cmsis_os.h"
 
 #define LMOTOR_ID (0x01)
 #define RMOTOR_ID (0x02)
@@ -25,6 +29,7 @@ typedef struct{
 //extern MotionType PancakeMotion;
 void MotionInit(MotionType *Motion,NodeMotorMode MotionMode);
 void MotionEnable(MotionType *Motion);
+void MotionDisable(MotionType *Motion);
 void MotionUpdateVelocity(MotionType *Motion);
 void MotionSetVolocity(MotionType *Motion,double Velocity);
 void MotionSetRotate(MotionType *Motion, double Rotate);

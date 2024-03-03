@@ -277,8 +277,20 @@ void StartMotionTask(void *argument)
   {
       if(!HAL_GPIO_ReadPin(BTN_PUSH_GPIO_Port,BTN_PUSH_Pin))
       {
+          MotionInit(&PancakeMotion,Velocity);
           MotionEnable(&PancakeMotion);
           osDelay(100);
+          if(!HAL_GPIO_ReadPin(BTN_PUSH_GPIO_Port,BTN_PUSH_Pin))
+          {
+
+              osDelay(1000);
+              if(!HAL_GPIO_ReadPin(BTN_PUSH_GPIO_Port,BTN_PUSH_Pin))
+              {
+
+                  MotionDisable(&PancakeMotion);
+                  osDelay(1000);
+              }
+          }
       }
 //      NodeMotorVelocityControl(&NodeMotor1);
 //      NodeMotorVelocityControl(&NodeMotor2);

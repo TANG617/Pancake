@@ -3,6 +3,7 @@
 //
 
 #include "App/Motion.h"
+#define DELAY 1
 void MotionInit(MotionType *Motion,NodeMotorMode MotionMode){
     Motion->MotionMode = MotionMode;
 
@@ -21,20 +22,29 @@ void MotionInit(MotionType *Motion,NodeMotorMode MotionMode){
 
 void MotionEnable(MotionType *Motion){
     NodeMotorEnable(&Motion->LMotor);
+    osDelay(DELAY);
     NodeMotorEnable(&Motion->RMotor);
 }
 
+void MotionDisable(MotionType *Motion){
+    NodeMotorDisable(&Motion->LMotor);
+    osDelay(DELAY);
+    NodeMotorDisable(&Motion->RMotor);
+}
 void MotionUpdateVelocity(MotionType *Motion){
     NodeMotorVelocityControl(&Motion->LMotor);
+    osDelay(DELAY);
     NodeMotorVelocityControl(&Motion->RMotor);
 }
 
 void MotionSetVolocity(MotionType *Motion,double Velocity){
     Motion->LMotor.Velocity = Velocity * Motion->LMotor.Direction;
-    Motion->RMotor.Velocity = Velocity * Motion->RMotor.Direction;
+    osDelay(DELAY);
+    Motion->RMotor.Velocity = Velocity ;
 }
 
 void MotionSetRotate(MotionType *Motion, double Rotate){
     Motion->LMotor.Velocity += Rotate * Motion->LMotor.Direction;
+    osDelay(DELAY);
     Motion->RMotor.Velocity -= Rotate * Motion->RMotor.Direction;
 }
