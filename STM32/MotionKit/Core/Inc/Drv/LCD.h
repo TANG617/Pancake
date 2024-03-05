@@ -5,6 +5,8 @@
 #ifndef LCD_H
 #define LCD_H
 #include "stm32f1xx_hal.h"
+#include "lvgl/lvgl.h"
+//#include "Drv/LCD_Image.h"
 
 
 extern uint16_t	POINT_COLOR;		//Default brush color
@@ -61,4 +63,5 @@ void LCD_ShowNum(uint16_t x,uint16_t y,uint32_t num,uint8_t len,uint8_t size);		
 void LCD_ShowxNum(uint16_t x,uint16_t y,uint32_t num,uint8_t len,uint8_t size,uint8_t mode);							//Display number
 void LCD_ShowString(uint16_t x,uint16_t y,uint16_t width,uint16_t height,uint8_t size,char *p);					//display string
 void LCD_Show_Image(uint16_t x, uint16_t y, uint16_t width, uint16_t height, const uint8_t *p);					//display picture
+HAL_StatusTypeDef DisplayInit();
 #endif //LCD_H

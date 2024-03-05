@@ -6,6 +6,7 @@
 #define DELAY 1
 void MotionInit(MotionType *Motion,NodeMotorMode MotionMode){
     Motion->MotionMode = MotionMode;
+    Motion->Enable = 0;
 
     Motion->LMotor.CanHandler = &hcan;
     Motion->LMotor.id = LMOTOR_ID;
@@ -21,12 +22,14 @@ void MotionInit(MotionType *Motion,NodeMotorMode MotionMode){
 }
 
 void MotionEnable(MotionType *Motion){
+    Motion->Enable = 1;
     NodeMotorEnable(&Motion->LMotor);
     osDelay(DELAY);
     NodeMotorEnable(&Motion->RMotor);
 }
 
 void MotionDisable(MotionType *Motion){
+    Motion->Enable = 0;
     NodeMotorDisable(&Motion->LMotor);
     osDelay(DELAY);
     NodeMotorDisable(&Motion->RMotor);

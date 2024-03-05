@@ -353,9 +353,9 @@
 #define LV_FONT_MONTSERRAT_10 0
 #define LV_FONT_MONTSERRAT_12 0
 #define LV_FONT_MONTSERRAT_14 0
-#define LV_FONT_MONTSERRAT_16 0
+#define LV_FONT_MONTSERRAT_16 1
 #define LV_FONT_MONTSERRAT_18 0
-#define LV_FONT_MONTSERRAT_20 1
+#define LV_FONT_MONTSERRAT_20 0
 #define LV_FONT_MONTSERRAT_22 0
 #define LV_FONT_MONTSERRAT_24 0
 #define LV_FONT_MONTSERRAT_26 0
@@ -386,7 +386,7 @@
 #define LV_FONT_CUSTOM_DECLARE
 
 /*Always set a default font*/
-#define LV_FONT_DEFAULT &lv_font_montserrat_20
+#define LV_FONT_DEFAULT &lv_font_montserrat_16
 
 /*Enable handling large font and/or fonts with a lot of characters.
  *The limit depends on the font size, font face and bpp.
@@ -456,9 +456,9 @@
 
 #define LV_USE_BAR        1
 
-#define LV_USE_BUTTON        1
+#define LV_USE_BUTTON        0
 
-#define LV_USE_BUTTONMATRIX  1
+#define LV_USE_BUTTONMATRIX  0
 
 #define LV_USE_CALENDAR   0
 #if LV_USE_CALENDAR
@@ -480,24 +480,24 @@
 
 #define LV_USE_CHECKBOX   1
 
-#define LV_USE_DROPDOWN   1   /*Requires: lv_label*/
+#define LV_USE_DROPDOWN   0   /*Requires: lv_label*/
 
-#define LV_USE_IMAGE      1   /*Requires: lv_label*/
+#define LV_USE_IMAGE      0   /*Requires: lv_label*/
 
-#define LV_USE_IMAGEBUTTON     1
+#define LV_USE_IMAGEBUTTON     0
 
 #define LV_USE_KEYBOARD   0
 
 #define LV_USE_LABEL      1
 #if LV_USE_LABEL
-    #define LV_LABEL_TEXT_SELECTION 1 /*Enable selecting text of the label*/
-    #define LV_LABEL_LONG_TXT_HINT 1  /*Store some extra info in labels to speed up drawing of very long texts*/
-    #define LV_LABEL_WAIT_CHAR_COUNT 3  /*The count of wait chart*/
+    #define LV_LABEL_TEXT_SELECTION 0 /*Enable selecting text of the label*/
+    #define LV_LABEL_LONG_TXT_HINT 0  /*Store some extra info in labels to speed up drawing of very long texts*/
+    #define LV_LABEL_WAIT_CHAR_COUNT 0  /*The count of wait chart*/
 #endif
 
-#define LV_USE_LED        1
+#define LV_USE_LED        0
 
-#define LV_USE_LINE       1
+#define LV_USE_LINE       0
 
 #define LV_USE_LIST       0
 
@@ -523,7 +523,7 @@
 
 #define LV_USE_SPINNER    0
 
-#define LV_USE_SWITCH     1
+#define LV_USE_SWITCH     0
 
 #define LV_USE_TEXTAREA   0   /*Requires: lv_label*/
 #if LV_USE_TEXTAREA != 0

@@ -21,7 +21,7 @@ typedef struct{
     NodeMotorType LMotor;
     NodeMotorType RMotor;
 
-
+    uint8_t Enable;
     double LinearVelocity;
     double AngularVelocity;
 }MotionType;

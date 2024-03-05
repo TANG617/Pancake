@@ -1,0 +1,9 @@
+//
+// Created by 李唐 on 2024/3/5.
+//
+
+#ifndef MOTIONKIT_PANCAKECONFIG_H
+#define MOTIONKIT_PANCAKECONFIG_H
+#define LINEAR_VEL_MAX  5
+#define ANGULAR_VEL_MAX  20
+#endif //MOTIONKIT_PANCAKECONFIG_H
