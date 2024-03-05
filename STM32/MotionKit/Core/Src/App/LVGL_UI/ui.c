@@ -15,10 +15,9 @@ lv_obj_t *ui_OverviewScreen;
 lv_obj_t *ui_LMotor;
 lv_obj_t *ui_RMotor;
 lv_obj_t *ui_MotorEnable;
+lv_obj_t *ui_RosEnable;
 lv_obj_t *ui_Direction;
-lv_obj_t *ui_DirectionLabel;
 lv_obj_t *ui_MainLabel1;
-lv_obj_t *ui_MainLabel2;
 lv_obj_t *ui____initial_actions0;
 
 ///////////////////// TEST LVGL SETTINGS ////////////////////

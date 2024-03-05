@@ -20,10 +20,9 @@ extern lv_obj_t *ui_OverviewScreen;
 extern lv_obj_t *ui_LMotor;
 extern lv_obj_t *ui_RMotor;
 extern lv_obj_t *ui_MotorEnable;
+extern lv_obj_t *ui_RosEnable;
 extern lv_obj_t *ui_Direction;
-extern lv_obj_t *ui_DirectionLabel;
 extern lv_obj_t *ui_MainLabel1;
-extern lv_obj_t *ui_MainLabel2;
 extern lv_obj_t *ui____initial_actions0;
 
 

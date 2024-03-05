@@ -29,10 +29,10 @@
 #include "App/Display.h"
 //#include <string.h>
 #include <stdio.h>
+#include "PancakeConfig.h"
 #include "Drv/LCD.h"
 #include "App/Motion.h"
 #include "App/Connection.h"
-#include "PancakeConfig.h"
 #include "App/LVGL_UI/ui.h"
 //#include "Drv/NodeMotor.h"
 /* USER CODE END Includes */

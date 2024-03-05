@@ -362,6 +362,8 @@ HAL_StatusTypeDef DisplayInit(){
     disp_drv.hor_res = LCD_Width;                 /*Set the horizontal resolution in pixels*/
     disp_drv.ver_res = LCD_Height;                 /*Set the vertical resolution in pixels*/
 
+    disp_drv.sw_rotate = 1;
+    disp_drv.rotated = LV_DISP_ROT_180;
 
     disp = lv_disp_drv_register(&disp_drv); /*Register the driver and save the created display objects*/
 }
