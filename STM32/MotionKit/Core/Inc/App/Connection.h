@@ -53,8 +53,10 @@ typedef struct{
     float LinearPosition,AngularPosition;
 }ControlFrameType;
 
+extern uint8_t RawControlFrame[5];
+extern uint8_t bufByte;
 
-ControlFrameType PackageDecode(uint8_t* packageFrame);
-ControlFrameType PackageFetch();
-
+//ControlFrameType PackageDecode(uint8_t* packageFrame);
+//ControlFrameType PackageFetch();
+ControlFrameType DecodeControlFrame();
 #endif //MOTIONKIT_CONNECTION_H

@@ -41,6 +41,7 @@ void MotionUpdateVelocity(MotionType *Motion){
 }
 
 void MotionSetLinearVelocity(MotionType *Motion,double Velocity){
+    Motion->LinearVelocity = Velocity;
     Motion->LMotor.Velocity = Velocity * Motion->LMotor.Direction;
     osDelay(DELAY);
     Motion->RMotor.Velocity = Velocity * Motion->RMotor.Direction;
@@ -50,5 +51,5 @@ void MotionSetLinearVelocity(MotionType *Motion,double Velocity){
 void MotionSetAngularVelocity(MotionType *Motion, double Rotate){
     Motion->LMotor.Velocity += Rotate * Motion->LMotor.Direction;
     osDelay(DELAY);
-    Motion->RMotor.Velocity += Rotate * Motion->RMotor.Direction;
+    Motion->RMotor.Velocity -= Rotate * Motion->RMotor.Direction;
 }

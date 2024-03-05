@@ -56,6 +56,7 @@
 /* USER CODE BEGIN Variables */
 uint8_t status = 0;
 MotionType PancakeMotion;
+extern uint8_t bufByte;
 /* USER CODE END Variables */
 /* Definitions for defaultTask */
 osThreadId_t defaultTaskHandle;
@@ -217,9 +218,9 @@ void StartDisplayTask(void *argument)
       float RMotor_Status = (PancakeMotion.RMotor.Velocity * PancakeMotion.RMotor.Direction);
       lv_bar_set_value(ui_LMotor,LMotor_Status*100/LINEAR_VEL_MAX,LV_ANIM_ON);
       lv_bar_set_value(ui_RMotor,RMotor_Status*100/LINEAR_VEL_MAX,LV_ANIM_ON);
-      lv_arc_set_value(ui_Direction,(LMotor_Status - RMotor_Status));
-      sprintf(MotionVelocity, "%2.1f", PancakeMotion.RMotor.Velocity);
-      lv_label_set_text(ui_MainLabel1,MotionVelocity+1);
+      lv_arc_set_value(ui_Direction,(LMotor_Status - RMotor_Status)*ARC_SCALE_RATIO);
+      sprintf(MotionVelocity, "%2.1f", PancakeMotion.LinearVelocity);
+      lv_label_set_text(ui_MainLabel1,MotionVelocity);
       if(PancakeMotion.Enable) lv_obj_add_state(ui_MotorEnable,LV_STATE_CHECKED);
       else lv_obj_clear_state(ui_MotorEnable,LV_STATE_CHECKED);
 //      lv_obj_add_state(ui_MotorEnable,PancakeMotion.Enable ? LV_STATE_CHECKED : LV_STATE_DISABLED);
@@ -242,6 +243,7 @@ void StartDisplayTask(void *argument)
 }
 
 /* USER CODE BEGIN Header_StartConnectivityTask */
+//extern uint8_t bufByte;
 /**
 * @brief Function implementing the ConnectivityTas thread.
 * @param argument: Not used
@@ -251,10 +253,14 @@ void StartDisplayTask(void *argument)
 void StartConnectivityTask(void *argument)
 {
   /* USER CODE BEGIN StartConnectivityTask */
+//    uint8_t bufByte[] = "\0";
+    uint8_t packageFrame[5];
+    HAL_UART_Receive_IT(&huart2, &bufByte, 1);
   /* Infinite loop */
   for(;;)
   {
-      ControlFrameType controlFrame = PackageFetch();
+//      ControlFrameType controlFrame = PackageFetch();
+      ControlFrameType controlFrame = DecodeControlFrame();
       switch(controlFrame.Mode){
           case VelocityMode:
               MotionSetLinearVelocity(&PancakeMotion,controlFrame.LinearVelocity);
@@ -263,7 +269,8 @@ void StartConnectivityTask(void *argument)
           default:
               break;
       }
-//      osDelay(1000);
+      HAL_UART_Receive_IT(&huart2, &bufByte, 1);
+      osDelay(30);
   }
   /* USER CODE END StartConnectivityTask */
 }
@@ -312,7 +319,7 @@ void StartMotionTask(void *argument)
       }
 //      NodeMotorVelocityControl(&NodeMotor1);
 //      NodeMotorVelocityControl(&NodeMotor2);
-      MotionSetLinearVelocity(&PancakeMotion,(1.0*(status - 0)/100*LINEAR_VEL_MAX));
+//      MotionSetLinearVelocity(&PancakeMotion,(1.0*(status - 0)/100*LINEAR_VEL_MAX));
       MotionUpdateVelocity(&PancakeMotion);
       osDelay(100);
   }

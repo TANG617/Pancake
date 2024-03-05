@@ -9,15 +9,20 @@ static float uint2float(int x_int, float x_min, float x_max, int bits){
     return ((float)x_int)*span/((float)((1<<bits)-1)) + offset;
 }
 
-ControlFrameType PackageDecode(uint8_t* packageFrame){
+uint8_t RawControlFrame[5];
+uint8_t bufByte = '\0';
+ControlFrameType DecodeControlFrame(){
+//    uint8_t packageFrame[5];
+//    HAL_UART_Receive(&huart2,packageFrame ,5,HAL_MAX_DELAY);
+//    ControlFrameType PackageDecode(uint8_t* packageFrame){
     ControlFrameType controlFrame;
-    uint16_t rawLinearData  = (packageFrame[1]<<8 & packageFrame[2]<<0 );
-    uint16_t rawAngularData = (packageFrame[3]<<8 & packageFrame[4]<<0 );
-    switch (packageFrame[0]) {
+    uint16_t rawLinearData  = (RawControlFrame[1]<<8 | RawControlFrame[2]<<0 );
+    uint16_t rawAngularData = (RawControlFrame[3]<<8 | RawControlFrame[4]<<0 );
+    switch (RawControlFrame[0]) {
         case VelocityMode:
             controlFrame.Mode = VelocityMode;
-            controlFrame.LinearVelocity  = (rawLinearData * 1.0 / MAX_INT16 - 0.5) * LINEAR_VEL_MAX ;
-            controlFrame.AngularVelocity = (rawAngularData * 1.0 / MAX_INT16 - 0.5) * ANGULAR_VEL_MAX ;
+            controlFrame.LinearVelocity  = (rawLinearData * 1.0 / MAX_INT16 - 1)  * 2 * LINEAR_VEL_MAX ;
+            controlFrame.AngularVelocity = (rawAngularData * 1.0 / MAX_INT16 - 1) * ANGULAR_VEL_MAX ;
             break;
          case PositionMode:
             break;
@@ -27,16 +32,33 @@ ControlFrameType PackageDecode(uint8_t* packageFrame){
     return controlFrame;
 }
 
-ControlFrameType PackageFetch(){
-    uint8_t bufByte[] = "\0";
-    uint8_t packageFrame[5];
-    while(*bufByte != '#')
+//ControlFrameType PackageFetch(){
+//    uint8_t bufByte[] = "\0";
+//    uint8_t packageFrame[5];
+//    while(*bufByte != '#')
+//    {
+//        osDelay(10);
+////        HAL_UART_Receive(&huart2,bufByte,1,HAL_MAX_DELAY);
+//        HAL_UART_Receive_IT(&huart2, bufByte, 1);
+//    }
+//    HAL_UART_Receive(&huart2,packageFrame ,5,HAL_MAX_DELAY);
+//    return PackageDecode(&packageFrame);
+//}
+
+
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
+{
+    if (huart->Instance == huart2.Instance)
     {
-        osDelay(10);
-        HAL_UART_Receive(&huart2,bufByte,1,HAL_MAX_DELAY);
+//        uint8_t bufByte[] = "\0";
+//        HAL_UART_Receive_IT(&huart2, bufByte, 1);
+        if(bufByte == '#'){
+            HAL_UART_Receive(&huart2,RawControlFrame ,5,HAL_MAX_DELAY);
+        }
+//        HAL_UART_Receive_IT(&huart2, packageFrame, 1);
+        bufByte = '\0';
+//        HAL_UART_Receive_IT(&huart2, &bufByte, 1);
     }
-    HAL_UART_Receive(&huart2,packageFrame ,5,HAL_MAX_DELAY);
-    return PackageDecode(&packageFrame);
 }
 //uint8_t* DSC_GET(int16_t *data)
 //{
