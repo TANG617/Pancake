@@ -13,7 +13,7 @@
 #include "cmsis_os.h"
 
 #include "PancakeConfig.h"
-//Serial.printf("%04d_%04d_%04d_%04d_%04d_%04d#",ps5.LStickX(),ps5.LStickY(),ps5.RStickX(),ps5.RStickY(),ps5.L2Value(),ps5.R2Value());
+#include "Motion.h"
 
 #define MAX_INT32  (128*256*256*256 -1 )
 #define MAX_INT16  (128*256 -1 )

@@ -29,11 +29,11 @@
 #include "App/Display.h"
 //#include <string.h>
 #include <stdio.h>
-#include "PancakeConfig.h"
-#include "Drv/LCD.h"
-#include "App/Motion.h"
-#include "App/Connection.h"
-#include "App/LVGL_UI/ui.h"
+//#include "PancakeConfig.h"
+//#include "Drv/LCD.h"
+//#include "App/Motion.h"
+//#include "App/Connection.h"
+//#include "App/LVGL_UI/ui.h"
 //#include "Drv/NodeMotor.h"
 /* USER CODE END Includes */
 
@@ -72,10 +72,10 @@ const osThreadAttr_t DisplayTask_attributes = {
   .stack_size = 3200 * 4,
   .priority = (osPriority_t) osPriorityAboveNormal7,
 };
-/* Definitions for ConnectivityTas */
-osThreadId_t ConnectivityTasHandle;
-const osThreadAttr_t ConnectivityTas_attributes = {
-  .name = "ConnectivityTas",
+/* Definitions for ConnectionTask */
+osThreadId_t ConnectionTaskHandle;
+const osThreadAttr_t ConnectionTask_attributes = {
+  .name = "ConnectionTask",
   .stack_size = 128 * 4,
   .priority = (osPriority_t) osPriorityLow,
 };
@@ -94,7 +94,7 @@ const osThreadAttr_t MotionTask_attributes = {
 
 void StartDefaultTask(void *argument);
 void StartDisplayTask(void *argument);
-void StartConnectivityTask(void *argument);
+void StartConnectionTask(void *argument);
 void StartMotionTask(void *argument);
 
 void MX_FREERTOS_Init(void); /* (MISRA C 2004 rule 8.1) */
@@ -132,8 +132,8 @@ void MX_FREERTOS_Init(void) {
   /* creation of DisplayTask */
   DisplayTaskHandle = osThreadNew(StartDisplayTask, NULL, &DisplayTask_attributes);
 
-  /* creation of ConnectivityTas */
-  ConnectivityTasHandle = osThreadNew(StartConnectivityTask, NULL, &ConnectivityTas_attributes);
+  /* creation of ConnectionTask */
+  ConnectionTaskHandle = osThreadNew(StartConnectionTask, NULL, &ConnectionTask_attributes);
 
   /* creation of MotionTask */
   MotionTaskHandle = osThreadNew(StartMotionTask, NULL, &MotionTask_attributes);
@@ -176,7 +176,7 @@ void StartDefaultTask(void *argument)
 * @retval None
 */
 /* USER CODE END Header_StartDisplayTask */
-void StartDisplayTask(void *argument)
+__weak void StartDisplayTask(void *argument)
 {
   /* USER CODE BEGIN StartDisplayTask */
     DisplayInit();
@@ -242,37 +242,22 @@ void StartDisplayTask(void *argument)
   /* USER CODE END StartDisplayTask */
 }
 
-/* USER CODE BEGIN Header_StartConnectivityTask */
-//extern uint8_t bufByte;
+/* USER CODE BEGIN Header_StartConnectionTask */
 /**
-* @brief Function implementing the ConnectivityTas thread.
+* @brief Function implementing the ConnectionTask thread.
 * @param argument: Not used
 * @retval None
 */
-/* USER CODE END Header_StartConnectivityTask */
-void StartConnectivityTask(void *argument)
+/* USER CODE END Header_StartConnectionTask */
+__weak void StartConnectionTask(void *argument)
 {
-  /* USER CODE BEGIN StartConnectivityTask */
-//    uint8_t bufByte[] = "\0";
-    uint8_t packageFrame[5];
-    HAL_UART_Receive_IT(&huart2, &bufByte, 1);
+  /* USER CODE BEGIN StartConnectionTask */
   /* Infinite loop */
   for(;;)
   {
-//      ControlFrameType controlFrame = PackageFetch();
-      ControlFrameType controlFrame = DecodeControlFrame();
-      switch(controlFrame.Mode){
-          case VelocityMode:
-              MotionSetLinearVelocity(&PancakeMotion,controlFrame.LinearVelocity);
-              MotionSetAngularVelocity(&PancakeMotion,controlFrame.AngularVelocity);
-              break;
-          default:
-              break;
-      }
-      HAL_UART_Receive_IT(&huart2, &bufByte, 1);
-      osDelay(30);
+    osDelay(1);
   }
-  /* USER CODE END StartConnectivityTask */
+  /* USER CODE END StartConnectionTask */
 }
 
 /* USER CODE BEGIN Header_StartMotionTask */
@@ -282,7 +267,7 @@ void StartConnectivityTask(void *argument)
 * @retval None
 */
 /* USER CODE END Header_StartMotionTask */
-void StartMotionTask(void *argument)
+__weak void StartMotionTask(void *argument)
 {
   /* USER CODE BEGIN StartMotionTask */
 //    NodeMotorType NodeMotor1,NodeMotor2;

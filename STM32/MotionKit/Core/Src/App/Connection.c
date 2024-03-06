@@ -3,14 +3,44 @@
 //
 
 #include "App/Connection.h"
-static float uint2float(int x_int, float x_min, float x_max, int bits){
-    float span = x_max - x_min;
-    float offset = x_min;
-    return ((float)x_int)*span/((float)((1<<bits)-1)) + offset;
-}
 
 uint8_t RawControlFrame[5];
 uint8_t bufByte = '\0';
+void StartConnectionTask(void *argument)
+{
+  /* USER CODE BEGIN StartConnectivityTask */
+//    uint8_t bufByte[] = "\0";
+    uint8_t packageFrame[5];
+    HAL_UART_Receive_IT(&huart2, &bufByte, 1);
+  /* Infinite loop */
+  for(;;)
+  {
+//      ControlFrameType controlFrame = PackageFetch();
+      ControlFrameType controlFrame = DecodeControlFrame();
+      switch(controlFrame.Mode){
+          case VelocityMode:
+              MotionSetLinearVelocity(&PancakeMotion,controlFrame.LinearVelocity);
+              MotionSetAngularVelocity(&PancakeMotion,controlFrame.AngularVelocity);
+              break;
+          default:
+              break;
+      }
+      HAL_UART_Receive_IT(&huart2, &bufByte, 1);
+      osDelay(30);
+  }
+  /* USER CODE END StartConnectivityTask */
+}
+
+
+
+
+
+
+
+
+
+
+
 ControlFrameType DecodeControlFrame(){
 //    uint8_t packageFrame[5];
 //    HAL_UART_Receive(&huart2,packageFrame ,5,HAL_MAX_DELAY);

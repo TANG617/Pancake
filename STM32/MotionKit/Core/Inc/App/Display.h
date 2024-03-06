@@ -8,6 +8,5 @@
 #include "Drv/LCD.h"
 //#include "LVGL_UI/ui.h"
 #include "Motion.h"
-
 void OverviewScreen();
 #endif //DISPLAY_H
