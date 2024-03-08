@@ -1,0 +1,8 @@
+prefix=/catkin_ws/install
+
+Name: DualSenseBridge
+Description: Description of DualSenseBridge
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

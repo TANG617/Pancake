@@ -8,8 +8,8 @@ static float uint2float(int x_int, float x_min, float x_max, int bits){
     float offset = x_min;
     return ((float)x_int)*span/((float)((1<<bits)-1)) + offset;
 }
-
-uint8_t RawControlFrame[5];
+uint8_t bufControlFrame[12] = { };
+uint8_t RawControlFrame[5] = { };
 uint8_t bufByte = '\0';
 ControlFrameType DecodeControlFrame(){
 //    uint8_t packageFrame[5];
@@ -45,20 +45,41 @@ ControlFrameType DecodeControlFrame(){
 //    return PackageDecode(&packageFrame);
 //}
 
-
+//uint8_t tempbuf[1] = {};
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 {
     if (huart->Instance == huart2.Instance)
     {
+//
+//        for (int i = 0; i < 12; ++i) {
+//           if( bufControlFrame[i] == '#'){
+//               RawControlFrame[0] = bufControlFrame[i+1];
+//               RawControlFrame[1] = bufControlFrame[i+2];
+//               RawControlFrame[2] = bufControlFrame[i+3];
+//               RawControlFrame[3] = bufControlFrame[i+4];
+//               RawControlFrame[4] = bufControlFrame[i+5];
+//               osDelay(100);
+//               HAL_UART_Receive_IT(&huart2, bufControlFrame, 12);
+//               break;
+//           }
+
+//            osDelay(100);
+            HAL_UART_Receive(&huart2, bufControlFrame, 12,HAL_MAX_DELAY);
+        }
+//
+//
 //        uint8_t bufByte[] = "\0";
 //        HAL_UART_Receive_IT(&huart2, bufByte, 1);
-        if(bufByte == '#'){
-            HAL_UART_Receive(&huart2,RawControlFrame ,5,HAL_MAX_DELAY);
-        }
+//        osDelay(100);
+//        if(bufByte == '#'){
+////            HAL_UART_Receive(&huart2,tempbuf ,1,0xff);
+//            HAL_UART_Receive(&huart2,RawControlFrame ,5,HAL_MAX_DELAY);
+////            HAL_UART_Receive(&huart2,RawControlFrame ,5,HAL_MAX_DELAY);
+//        }
 //        HAL_UART_Receive_IT(&huart2, packageFrame, 1);
-        bufByte = '\0';
-//        HAL_UART_Receive_IT(&huart2, &bufByte, 1);
-    }
+//        bufByte = '\0';
+//        HAL_UART_Receive_IT(&huart2, bufControlFrame, 12);
+//    }
 }
 //uint8_t* DSC_GET(int16_t *data)
 //{

@@ -54,7 +54,7 @@ typedef struct{
 }ControlFrameType;
 
 extern uint8_t RawControlFrame[5];
-extern uint8_t bufByte;
+extern uint8_t bufControlFrame[12];
 
 //ControlFrameType PackageDecode(uint8_t* packageFrame);
 //ControlFrameType PackageFetch();

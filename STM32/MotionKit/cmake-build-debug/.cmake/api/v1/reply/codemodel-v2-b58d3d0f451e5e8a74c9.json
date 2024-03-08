@@ -1,0 +1,122 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "Core/Lib/lvgl",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-Core.Lib.lvgl-Debug-09b7e68921b28bfd8321.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Core/Lib/lvgl",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MotionKit",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "lvgl",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "MotionKit.elf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MotionKit.elf-Debug-50a5903fd5a1e6408fdd.json",
+					"name" : "MotionKit.elf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "lvgl::@18925b9e4836d3af8097",
+					"jsonFile" : "target-lvgl-Debug-bee104ae69e98c592630.json",
+					"name" : "lvgl",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "lvgl_demos::@18925b9e4836d3af8097",
+					"jsonFile" : "target-lvgl_demos-Debug-5d6d0faa42034b2019e1.json",
+					"name" : "lvgl_demos",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "lvgl_examples::@18925b9e4836d3af8097",
+					"jsonFile" : "target-lvgl_examples-Debug-70cc7f8ca706fc111fb2.json",
+					"name" : "lvgl_examples",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug",
+		"source" : "/Users/timli/RoboticProjects/Pancake/STM32/MotionKit"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,1994 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="lvgl"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Core\;CMake Files\Core\Lib\;CMake Files\Core\Lib\lvgl\;CMake Files\Core\Lib\lvgl\env_support\;CMake Files\Core\Lib\lvgl\env_support\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/Core/Lib/lvgl"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/Core/Lib/lvgl/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/Core/Lib/lvgl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/Core/Lib/lvgl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/Core/Lib/lvgl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lvgl">
+				<Option output="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/lib/liblvgl.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/Core/Lib/lvgl"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLV_LVGL_H_INCLUDE_SIMPLE"/>
+					<Add option="-DLV_CONF_INCLUDE_SIMPLE"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xE"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/CMSIS/Include"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl"/>
+					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1"/>
+					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/arm-none-eabi"/>
+					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/backward"/>
+					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/include"/>
+					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/include-fixed"/>
+					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/Core/Lib/lvgl/Makefile&quot;  VERBOSE=1 lvgl"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/Core/Lib/lvgl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/Core/Lib/lvgl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/Core/Lib/lvgl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lvgl/fast">
+				<Option output="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/lib/liblvgl.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/Core/Lib/lvgl"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLV_LVGL_H_INCLUDE_SIMPLE"/>
+					<Add option="-DLV_CONF_INCLUDE_SIMPLE"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xE"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/CMSIS/Include"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl"/>
+					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1"/>
+					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/arm-none-eabi"/>
+					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/backward"/>
+					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/include"/>
+					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/include-fixed"/>
+					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/Core/Lib/lvgl/Makefile&quot;  VERBOSE=1 lvgl/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/Core/Lib/lvgl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/Core/Lib/lvgl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/Core/Lib/lvgl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lvgl_examples">
+				<Option output="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/Core/Lib/lvgl/liblvgl_examples.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/Core/Lib/lvgl"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xE"/>
+					<Add option="-DLV_LVGL_H_INCLUDE_SIMPLE"/>
+					<Add option="-DLV_CONF_INCLUDE_SIMPLE"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/CMSIS/Include"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl"/>
+					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1"/>
+					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/arm-none-eabi"/>
+					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/backward"/>
+					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/include"/>
+					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/include-fixed"/>
+					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/Core/Lib/lvgl/Makefile&quot;  VERBOSE=1 lvgl_examples"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/Core/Lib/lvgl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/Core/Lib/lvgl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/Core/Lib/lvgl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lvgl_examples/fast">
+				<Option output="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/Core/Lib/lvgl/liblvgl_examples.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/Core/Lib/lvgl"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xE"/>
+					<Add option="-DLV_LVGL_H_INCLUDE_SIMPLE"/>
+					<Add option="-DLV_CONF_INCLUDE_SIMPLE"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/CMSIS/Include"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl"/>
+					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1"/>
+					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/arm-none-eabi"/>
+					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/backward"/>
+					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/include"/>
+					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/include-fixed"/>
+					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/Core/Lib/lvgl/Makefile&quot;  VERBOSE=1 lvgl_examples/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/Core/Lib/lvgl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/Core/Lib/lvgl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/Core/Lib/lvgl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lvgl_demos">
+				<Option output="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/Core/Lib/lvgl/liblvgl_demos.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/Core/Lib/lvgl"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xE"/>
+					<Add option="-DLV_LVGL_H_INCLUDE_SIMPLE"/>
+					<Add option="-DLV_CONF_INCLUDE_SIMPLE"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/CMSIS/Include"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl"/>
+					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1"/>
+					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/arm-none-eabi"/>
+					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/backward"/>
+					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/include"/>
+					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/include-fixed"/>
+					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/Core/Lib/lvgl/Makefile&quot;  VERBOSE=1 lvgl_demos"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/Core/Lib/lvgl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/Core/Lib/lvgl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/Core/Lib/lvgl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lvgl_demos/fast">
+				<Option output="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/Core/Lib/lvgl/liblvgl_demos.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/Core/Lib/lvgl"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xE"/>
+					<Add option="-DLV_LVGL_H_INCLUDE_SIMPLE"/>
+					<Add option="-DLV_CONF_INCLUDE_SIMPLE"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/CMSIS/Include"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos"/>
+					<Add directory="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl"/>
+					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1"/>
+					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/arm-none-eabi"/>
+					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include/c++/13.2.1/backward"/>
+					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/include"/>
+					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/include-fixed"/>
+					<Add directory="/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/Core/Lib/lvgl/Makefile&quot;  VERBOSE=1 lvgl_demos/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/Core/Lib/lvgl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/Core/Lib/lvgl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/Core/Lib/lvgl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_argb.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/benchmark/lv_demo_benchmark.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/benchmark/lv_demo_benchmark.h">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/keypad_encoder/lv_demo_keypad_encoder.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/keypad_encoder/lv_demo_keypad_encoder.h">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_corner_large.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_list_play.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_list_play_large.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_loop.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_loop_large.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_next.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_next_large.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_pause.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_pause_large.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_play.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_play_large.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_prev.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_prev_large.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd_large.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_corner_left.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_corner_left_large.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_corner_right.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_corner_right_large.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_1.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_1_large.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_2.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_2_large.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_3.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_3_large.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_1.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_1_large.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_2.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_2_large.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_3.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_3_large.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_4.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_4_large.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_list_border.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_list_border_large.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_logo.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_slider_knob.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_slider_knob_large.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_wave_bottom.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_wave_bottom_large.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_wave_top.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_wave_top_large.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/lv_demo_music.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/lv_demo_music.h">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/lv_demo_music_list.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/lv_demo_music_list.h">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/lv_demo_music_main.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/lv_demo_music_main.h">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/stress/lv_demo_stress.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/stress/lv_demo_stress.h">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/widgets/assets/img_clothes.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/widgets/assets/img_demo_widgets_avatar.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/widgets/assets/img_lvgl_logo.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/widgets/lv_demo_widgets.c">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/widgets/lv_demo_widgets.h">
+			<Option target="lvgl_demos"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/anim/lv_example_anim_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/anim/lv_example_anim_2.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/anim/lv_example_anim_3.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/anim/lv_example_anim_timeline_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/assets/animimg001.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/assets/animimg002.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/assets/animimg003.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/assets/emoji/img_emoji_F617.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/assets/img_caret_down.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/assets/img_cogwheel_alpha16.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/assets/img_cogwheel_argb.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/assets/img_cogwheel_chroma_keyed.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/assets/img_cogwheel_indexed16.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/assets/img_cogwheel_rgb.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/assets/img_hand.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/assets/img_skew_strip.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/assets/img_star.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/assets/imgbtn_left.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/assets/imgbtn_mid.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/assets/imgbtn_right.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/event/lv_example_event_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/event/lv_example_event_2.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/event/lv_example_event_3.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/event/lv_example_event_4.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/get_started/lv_example_get_started_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/get_started/lv_example_get_started_2.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/get_started/lv_example_get_started_3.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_2.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_3.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_4.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_5.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_6.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_2.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_3.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_4.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_5.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_6.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/libs/bmp/lv_example_bmp_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg_2.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/libs/freetype/lv_example_freetype_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/libs/gif/img_bulb_gif.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/libs/gif/lv_example_gif_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/libs/png/img_wink_png.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/libs/png/lv_example_png_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/libs/qrcode/lv_example_qrcode_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/libs/rlottie/lv_example_rlottie_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/libs/rlottie/lv_example_rlottie_2.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/libs/rlottie/lv_example_rlottie_approve.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/libs/sjpg/lv_example_sjpg_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/others/fragment/lv_example_fragment_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/others/fragment/lv_example_fragment_2.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/others/gridnav/lv_example_gridnav_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/others/gridnav/lv_example_gridnav_2.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/others/gridnav/lv_example_gridnav_3.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/others/gridnav/lv_example_gridnav_4.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/others/ime/lv_example_ime_pinyin_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/others/ime/lv_example_ime_pinyin_2.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/others/imgfont/lv_example_imgfont_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/others/monkey/lv_example_monkey_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/others/monkey/lv_example_monkey_2.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/others/monkey/lv_example_monkey_3.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/others/msg/lv_example_msg_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/others/msg/lv_example_msg_2.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/others/msg/lv_example_msg_3.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/others/snapshot/lv_example_snapshot_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/porting/lv_port_disp_template.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/porting/lv_port_disp_template.h">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/porting/lv_port_fs_template.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/porting/lv_port_fs_template.h">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/porting/lv_port_indev_template.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/porting/lv_port_indev_template.h">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/scroll/lv_example_scroll_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/scroll/lv_example_scroll_2.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/scroll/lv_example_scroll_3.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/scroll/lv_example_scroll_4.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/scroll/lv_example_scroll_5.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/scroll/lv_example_scroll_6.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/styles/lv_example_style_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/styles/lv_example_style_10.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/styles/lv_example_style_11.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/styles/lv_example_style_12.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/styles/lv_example_style_13.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/styles/lv_example_style_14.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/styles/lv_example_style_15.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/styles/lv_example_style_2.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/styles/lv_example_style_3.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/styles/lv_example_style_4.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/styles/lv_example_style_5.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/styles/lv_example_style_6.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/styles/lv_example_style_7.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/styles/lv_example_style_8.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/styles/lv_example_style_9.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/animimg/lv_example_animimg_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/arc/lv_example_arc_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/arc/lv_example_arc_2.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_2.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_3.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_4.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_5.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_6.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/btn/lv_example_btn_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/btn/lv_example_btn_2.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/btn/lv_example_btn_3.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_2.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_3.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/calendar/lv_example_calendar_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/canvas/lv_example_canvas_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/canvas/lv_example_canvas_2.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_2.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_3.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_4.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_5.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_6.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_7.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_8.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_9.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/checkbox/lv_example_checkbox_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/checkbox/lv_example_checkbox_2.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/colorwheel/lv_example_colorwheel_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/dropdown/lv_example_dropdown_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/dropdown/lv_example_dropdown_2.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/dropdown/lv_example_dropdown_3.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/img/lv_example_img_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/img/lv_example_img_2.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/img/lv_example_img_3.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/img/lv_example_img_4.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/imgbtn/lv_example_imgbtn_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/keyboard/lv_example_keyboard_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/label/lv_example_label_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/label/lv_example_label_2.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/label/lv_example_label_3.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/label/lv_example_label_4.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/label/lv_example_label_5.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/led/lv_example_led_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/line/lv_example_line_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/list/lv_example_list_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/list/lv_example_list_2.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_2.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_3.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_4.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_5.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/meter/lv_example_meter_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/meter/lv_example_meter_2.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/meter/lv_example_meter_3.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/meter/lv_example_meter_4.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/msgbox/lv_example_msgbox_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/obj/lv_example_obj_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/obj/lv_example_obj_2.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/roller/lv_example_roller_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/roller/lv_example_roller_2.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/roller/lv_example_roller_3.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/slider/lv_example_slider_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/slider/lv_example_slider_2.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/slider/lv_example_slider_3.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/span/lv_example_span_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/spinbox/lv_example_spinbox_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/spinner/lv_example_spinner_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/switch/lv_example_switch_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/table/lv_example_table_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/table/lv_example_table_2.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/tabview/lv_example_tabview_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/tabview/lv_example_tabview_2.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/textarea/lv_example_textarea_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/textarea/lv_example_textarea_2.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/textarea/lv_example_textarea_3.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/tileview/lv_example_tileview_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/win/lv_example_win_1.c">
+			<Option target="lvgl_examples"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_disp.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_disp.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_event.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_event.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_group.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_group.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_indev.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_indev.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_indev_scroll.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_indev_scroll.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_obj.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_obj.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_obj_class.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_obj_class.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_obj_draw.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_obj_draw.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_obj_pos.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_obj_pos.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_obj_scroll.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_obj_scroll.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_obj_style.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_obj_style.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_obj_style_gen.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_obj_style_gen.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_obj_tree.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_obj_tree.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_refr.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_refr.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_theme.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_theme.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/arm2d/lv_gpu_arm2d.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/arm2d/lv_gpu_arm2d.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/lv_draw.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/lv_draw.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/lv_draw_arc.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/lv_draw_arc.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/lv_draw_img.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/lv_draw_img.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/lv_draw_label.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/lv_draw_label.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/lv_draw_layer.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/lv_draw_layer.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/lv_draw_line.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/lv_draw_line.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/lv_draw_mask.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/lv_draw_mask.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/lv_draw_rect.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/lv_draw_rect.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/lv_draw_transform.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/lv_draw_transform.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/lv_draw_triangle.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/lv_draw_triangle.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/lv_img_buf.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/lv_img_buf.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/lv_img_cache.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/lv_img_cache.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/lv_img_decoder.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/lv_img_decoder.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/nxp/pxp/lv_draw_pxp.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/nxp/vglite/lv_vglite_buf.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/nxp/vglite/lv_vglite_utils.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_arc.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_bg.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_composite.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_composite.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_img.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_img.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_label.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_layer.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_layer.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_line.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_mask.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_mask.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_rect.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_rect.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_utils.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_utils.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sw/lv_draw_sw.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sw/lv_draw_sw.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_arc.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_blend.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_blend.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_dither.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_dither.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_gradient.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_gradient.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_img.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_layer.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_letter.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_line.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_polygon.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_rect.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_transform.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/layouts/flex/lv_flex.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/layouts/flex/lv_flex.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/layouts/grid/lv_grid.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/layouts/grid/lv_grid.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/bmp/lv_bmp.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/bmp/lv_bmp.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/freetype/lv_freetype.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/freetype/lv_freetype.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_littlefs.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/gif/gifdec.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/gif/gifdec.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/gif/lv_gif.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/gif/lv_gif.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/png/lodepng.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/png/lodepng.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/png/lv_png.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/png/lv_png.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/qrcode/lv_qrcode.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/qrcode/lv_qrcode.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/qrcode/qrcodegen.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/qrcode/qrcodegen.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/rlottie/lv_rlottie.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/rlottie/lv_rlottie.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/sjpg/lv_sjpg.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/sjpg/lv_sjpg.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/sjpg/tjpgd.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/sjpg/tjpgd.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/tiny_ttf/lv_tiny_ttf.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/tiny_ttf/lv_tiny_ttf.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/lv_extra.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/lv_extra.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/others/fragment/lv_fragment.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/others/fragment/lv_fragment.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/others/fragment/lv_fragment_manager.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/others/gridnav/lv_gridnav.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/others/gridnav/lv_gridnav.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/others/ime/lv_ime_pinyin.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/others/ime/lv_ime_pinyin.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/others/imgfont/lv_imgfont.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/others/imgfont/lv_imgfont.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/others/monkey/lv_monkey.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/others/monkey/lv_monkey.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/others/msg/lv_msg.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/others/msg/lv_msg.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/others/snapshot/lv_snapshot.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/others/snapshot/lv_snapshot.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/themes/basic/lv_theme_basic.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/themes/basic/lv_theme_basic.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/themes/default/lv_theme_default.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/themes/default/lv_theme_default.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/themes/mono/lv_theme_mono.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/themes/mono/lv_theme_mono.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/animimg/lv_animimg.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/animimg/lv_animimg.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/calendar/lv_calendar.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/calendar/lv_calendar.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/chart/lv_chart.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/chart/lv_chart.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/keyboard/lv_keyboard.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/keyboard/lv_keyboard.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/led/lv_led.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/led/lv_led.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/list/lv_list.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/list/lv_list.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/menu/lv_menu.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/menu/lv_menu.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/meter/lv_meter.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/meter/lv_meter.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/msgbox/lv_msgbox.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/msgbox/lv_msgbox.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/span/lv_span.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/span/lv_span.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/spinbox/lv_spinbox.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/spinbox/lv_spinbox.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/spinner/lv_spinner.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/spinner/lv_spinner.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/tabview/lv_tabview.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/tabview/lv_tabview.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/tileview/lv_tileview.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/tileview/lv_tileview.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/win/lv_win.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/win/lv_win.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_fmt_txt.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_fmt_txt.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_loader.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_loader.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_10.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_12.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_12_subpx.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_14.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_16.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_18.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_20.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_22.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_24.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_26.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_28.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_28_compressed.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_30.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_32.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_34.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_36.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_38.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_40.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_42.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_44.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_46.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_48.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_8.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_simsun_16_cjk.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_unscii_16.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_unscii_8.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/hal/lv_hal_disp.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/hal/lv_hal_disp.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/hal/lv_hal_indev.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/hal/lv_hal_indev.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/hal/lv_hal_tick.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/hal/lv_hal_tick.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_anim.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_anim.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_anim_timeline.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_anim_timeline.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_area.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_area.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_async.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_async.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_bidi.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_bidi.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_color.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_color.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_fs.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_fs.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_gc.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_gc.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_ll.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_ll.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_log.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_log.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_lru.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_lru.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_math.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_math.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_mem.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_mem.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_printf.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_printf.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_style.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_style.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_style_gen.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_style_gen.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_templ.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_templ.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_timer.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_timer.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_tlsf.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_tlsf.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_txt.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_txt.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_txt_ap.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_txt_ap.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_utils.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_utils.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_arc.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_arc.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_bar.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_bar.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_btn.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_btn.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_btnmatrix.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_btnmatrix.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_canvas.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_canvas.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_checkbox.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_checkbox.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_dropdown.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_dropdown.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_img.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_img.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_label.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_label.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_line.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_line.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_objx_templ.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_objx_templ.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_roller.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_roller.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_slider.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_slider.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_switch.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_switch.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_table.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_table.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_textarea.c">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_textarea.h">
+			<Option target="lvgl"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Core\Lib\lvgl\"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/env_support/cmake/custom.cmake">
+			<Option virtualFolder="CMake Files\Core\Lib\lvgl\env_support\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

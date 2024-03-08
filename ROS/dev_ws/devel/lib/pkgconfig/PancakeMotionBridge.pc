@@ -1,0 +1,8 @@
+prefix=/catkin_ws/devel
+
+Name: PancakeMotionBridge
+Description: Description of PancakeMotionBridge
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
