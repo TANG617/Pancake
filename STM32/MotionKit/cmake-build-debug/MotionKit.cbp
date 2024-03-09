@@ -4492,12 +4492,6 @@
 		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/Display.c">
 			<Option target="MotionKit.elf"/>
 		</Unit>
-		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/IMU.c">
-			<Option target="MotionKit.elf"/>
-		</Unit>
-		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/IMU.h">
-			<Option target="MotionKit.elf"/>
-		</Unit>
 		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/Motion.c">
 			<Option target="MotionKit.elf"/>
 		</Unit>

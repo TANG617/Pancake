@@ -3,11 +3,6 @@
 //
 
 #include "Drv/NodeMotor.h"
-static float uint2float(int x_int, float x_min, float x_max, int bits){
-    float span = x_max - x_min;
-    float offset = x_min;
-    return ((float)x_int)*span/((float)((1<<bits)-1)) + offset;
-}
 
 static int float2uint(float x, float x_min, float x_max, int bits){
     float span = x_max - x_min;

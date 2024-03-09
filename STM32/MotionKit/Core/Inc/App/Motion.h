@@ -9,10 +9,9 @@
 #include "task.h"
 #include "main.h"
 #include "cmsis_os.h"
+#include "PancakeConfig.h"
 
-#define LMOTOR_ID (0x01)
-#define RMOTOR_ID (0x02)
-#define DIRECTION (1)
+
 
 
 
@@ -26,7 +25,7 @@ typedef struct{
     double AngularVelocity;
 }MotionType;
 
-//extern MotionType PancakeMotion;
+
 void MotionInit(MotionType *Motion,NodeMotorMode MotionMode);
 void MotionEnable(MotionType *Motion);
 void MotionDisable(MotionType *Motion);

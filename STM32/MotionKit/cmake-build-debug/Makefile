@@ -11397,30 +11397,6 @@ Core/Src/App/Display.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MotionKit.elf.dir/build.make CMakeFiles/MotionKit.elf.dir/Core/Src/App/Display.c.s
 .PHONY : Core/Src/App/Display.c.s
 
-Core/Src/App/IMU.obj: Core/Src/App/IMU.c.obj
-.PHONY : Core/Src/App/IMU.obj
-
-# target to build an object file
-Core/Src/App/IMU.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MotionKit.elf.dir/build.make CMakeFiles/MotionKit.elf.dir/Core/Src/App/IMU.c.obj
-.PHONY : Core/Src/App/IMU.c.obj
-
-Core/Src/App/IMU.i: Core/Src/App/IMU.c.i
-.PHONY : Core/Src/App/IMU.i
-
-# target to preprocess a source file
-Core/Src/App/IMU.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MotionKit.elf.dir/build.make CMakeFiles/MotionKit.elf.dir/Core/Src/App/IMU.c.i
-.PHONY : Core/Src/App/IMU.c.i
-
-Core/Src/App/IMU.s: Core/Src/App/IMU.c.s
-.PHONY : Core/Src/App/IMU.s
-
-# target to generate assembly for a file
-Core/Src/App/IMU.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MotionKit.elf.dir/build.make CMakeFiles/MotionKit.elf.dir/Core/Src/App/IMU.c.s
-.PHONY : Core/Src/App/IMU.c.s
-
 Core/Src/App/Motion.obj: Core/Src/App/Motion.c.obj
 .PHONY : Core/Src/App/Motion.obj
 
@@ -13923,9 +13899,6 @@ help:
 	@echo "... Core/Src/App/Display.obj"
 	@echo "... Core/Src/App/Display.i"
 	@echo "... Core/Src/App/Display.s"
-	@echo "... Core/Src/App/IMU.obj"
-	@echo "... Core/Src/App/IMU.i"
-	@echo "... Core/Src/App/IMU.s"
 	@echo "... Core/Src/App/Motion.obj"
 	@echo "... Core/Src/App/Motion.i"
 	@echo "... Core/Src/App/Motion.s"

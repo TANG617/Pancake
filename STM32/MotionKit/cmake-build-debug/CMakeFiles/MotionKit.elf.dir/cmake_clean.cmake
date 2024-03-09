@@ -931,8 +931,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/MotionKit.elf.dir/Core/Src/App/Connection.c.obj.d"
   "CMakeFiles/MotionKit.elf.dir/Core/Src/App/Display.c.obj"
   "CMakeFiles/MotionKit.elf.dir/Core/Src/App/Display.c.obj.d"
-  "CMakeFiles/MotionKit.elf.dir/Core/Src/App/IMU.c.obj"
-  "CMakeFiles/MotionKit.elf.dir/Core/Src/App/IMU.c.obj.d"
   "CMakeFiles/MotionKit.elf.dir/Core/Src/App/Motion.c.obj"
   "CMakeFiles/MotionKit.elf.dir/Core/Src/App/Motion.c.obj.d"
   "CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/IMU/mpu6050.c.obj"

@@ -6593,24 +6593,10 @@ CMakeFiles/MotionKit.elf.dir/Core/Src/App/Display.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/MotionKit.elf.dir/Core/Src/App/Display.c.s"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/Display.c -o CMakeFiles/MotionKit.elf.dir/Core/Src/App/Display.c.s
 
-CMakeFiles/MotionKit.elf.dir/Core/Src/App/IMU.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
-CMakeFiles/MotionKit.elf.dir/Core/Src/App/IMU.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/IMU.c
-CMakeFiles/MotionKit.elf.dir/Core/Src/App/IMU.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_467) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/App/IMU.c.obj"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Src/App/IMU.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Src/App/IMU.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Src/App/IMU.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/IMU.c
-
-CMakeFiles/MotionKit.elf.dir/Core/Src/App/IMU.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/MotionKit.elf.dir/Core/Src/App/IMU.c.i"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/IMU.c > CMakeFiles/MotionKit.elf.dir/Core/Src/App/IMU.c.i
-
-CMakeFiles/MotionKit.elf.dir/Core/Src/App/IMU.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/MotionKit.elf.dir/Core/Src/App/IMU.c.s"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/IMU.c -o CMakeFiles/MotionKit.elf.dir/Core/Src/App/IMU.c.s
-
 CMakeFiles/MotionKit.elf.dir/Core/Src/App/Motion.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Src/App/Motion.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/Motion.c
 CMakeFiles/MotionKit.elf.dir/Core/Src/App/Motion.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_468) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/App/Motion.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_467) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/App/Motion.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Src/App/Motion.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Src/App/Motion.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Src/App/Motion.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/Motion.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Src/App/Motion.c.i: cmake_force
@@ -6624,7 +6610,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Src/App/Motion.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/IMU/mpu6050.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/IMU/mpu6050.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/Drv/IMU/mpu6050.c
 CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/IMU/mpu6050.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_469) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/IMU/mpu6050.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_468) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/IMU/mpu6050.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/IMU/mpu6050.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/IMU/mpu6050.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/IMU/mpu6050.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/Drv/IMU/mpu6050.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/IMU/mpu6050.c.i: cmake_force
@@ -6638,7 +6624,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/IMU/mpu6050.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/LCD.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/LCD.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/Drv/LCD.c
 CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/LCD.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_470) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/LCD.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_469) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/LCD.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/LCD.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/LCD.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/LCD.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/Drv/LCD.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/LCD.c.i: cmake_force
@@ -6652,7 +6638,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/LCD.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/NodeMotor.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/NodeMotor.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/Drv/NodeMotor.c
 CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/NodeMotor.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_471) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/NodeMotor.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_470) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/NodeMotor.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/NodeMotor.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/NodeMotor.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/NodeMotor.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/Drv/NodeMotor.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/NodeMotor.c.i: cmake_force
@@ -6666,7 +6652,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/NodeMotor.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Src/can.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Src/can.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/can.c
 CMakeFiles/MotionKit.elf.dir/Core/Src/can.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_472) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/can.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_471) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/can.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Src/can.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Src/can.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Src/can.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/can.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Src/can.c.i: cmake_force
@@ -6680,7 +6666,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Src/can.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Src/dma.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Src/dma.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/dma.c
 CMakeFiles/MotionKit.elf.dir/Core/Src/dma.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_473) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_472) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/dma.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Src/dma.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Src/dma.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Src/dma.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/dma.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Src/dma.c.i: cmake_force
@@ -6694,7 +6680,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Src/dma.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Src/freertos.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Src/freertos.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/freertos.c
 CMakeFiles/MotionKit.elf.dir/Core/Src/freertos.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_474) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/freertos.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_473) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/freertos.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Src/freertos.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Src/freertos.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Src/freertos.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/freertos.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Src/freertos.c.i: cmake_force
@@ -6708,7 +6694,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Src/freertos.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Src/gpio.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/gpio.c
 CMakeFiles/MotionKit.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_475) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_474) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/gpio.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Src/gpio.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Src/gpio.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Src/gpio.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/gpio.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Src/gpio.c.i: cmake_force
@@ -6722,7 +6708,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Src/gpio.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Src/i2c.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Src/i2c.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/i2c.c
 CMakeFiles/MotionKit.elf.dir/Core/Src/i2c.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_476) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_475) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/i2c.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Src/i2c.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Src/i2c.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Src/i2c.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/i2c.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Src/i2c.c.i: cmake_force
@@ -6736,7 +6722,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Src/i2c.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Src/main.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Src/main.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/main.c
 CMakeFiles/MotionKit.elf.dir/Core/Src/main.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_477) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_476) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/main.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Src/main.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Src/main.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Src/main.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/main.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Src/main.c.i: cmake_force
@@ -6750,7 +6736,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Src/main.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Src/spi.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Src/spi.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/spi.c
 CMakeFiles/MotionKit.elf.dir/Core/Src/spi.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_478) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_477) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/spi.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Src/spi.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Src/spi.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Src/spi.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/spi.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Src/spi.c.i: cmake_force
@@ -6764,7 +6750,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Src/spi.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/stm32f1xx_hal_msp.c
 CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_479) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_478) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/stm32f1xx_hal_msp.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_hal_msp.c.i: cmake_force
@@ -6778,7 +6764,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_hal_msp.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/stm32f1xx_hal_timebase_tim.c
 CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_480) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_479) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/stm32f1xx_hal_timebase_tim.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.i: cmake_force
@@ -6792,7 +6778,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.s: cmake_forc
 CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_it.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_it.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/stm32f1xx_it.c
 CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_it.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_481) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_480) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_it.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_it.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_it.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_it.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/stm32f1xx_it.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_it.c.i: cmake_force
@@ -6806,7 +6792,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_it.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Src/syscalls.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/syscalls.c
 CMakeFiles/MotionKit.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_482) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_481) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/syscalls.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Src/syscalls.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Src/syscalls.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Src/syscalls.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/syscalls.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Src/syscalls.c.i: cmake_force
@@ -6820,7 +6806,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Src/syscalls.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Src/sysmem.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/sysmem.c
 CMakeFiles/MotionKit.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_483) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/sysmem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_482) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/sysmem.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Src/sysmem.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Src/sysmem.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Src/sysmem.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/sysmem.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Src/sysmem.c.i: cmake_force
@@ -6834,7 +6820,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Src/sysmem.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Src/system_stm32f1xx.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Src/system_stm32f1xx.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/system_stm32f1xx.c
 CMakeFiles/MotionKit.elf.dir/Core/Src/system_stm32f1xx.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_484) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/system_stm32f1xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_483) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/system_stm32f1xx.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Src/system_stm32f1xx.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Src/system_stm32f1xx.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Src/system_stm32f1xx.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/system_stm32f1xx.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Src/system_stm32f1xx.c.i: cmake_force
@@ -6848,7 +6834,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Src/system_stm32f1xx.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Src/usart.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Src/usart.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/usart.c
 CMakeFiles/MotionKit.elf.dir/Core/Src/usart.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_485) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/usart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_484) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/usart.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Src/usart.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Src/usart.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Src/usart.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/usart.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Src/usart.c.i: cmake_force
@@ -6861,7 +6847,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Src/usart.c.s: cmake_force
 
 CMakeFiles/MotionKit.elf.dir/Core/Startup/startup_stm32f103rctx.s.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Startup/startup_stm32f103rctx.s.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Startup/startup_stm32f103rctx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_486) "Building ASM object CMakeFiles/MotionKit.elf.dir/Core/Startup/startup_stm32f103rctx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_485) "Building ASM object CMakeFiles/MotionKit.elf.dir/Core/Startup/startup_stm32f103rctx.s.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/MotionKit.elf.dir/Core/Startup/startup_stm32f103rctx.s.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Startup/startup_stm32f103rctx.s
 
 CMakeFiles/MotionKit.elf.dir/Core/Startup/startup_stm32f103rctx.s.i: cmake_force
@@ -6875,7 +6861,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Startup/startup_stm32f103rctx.s.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_487) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_486) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj -MF CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c
 
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.i: cmake_force
@@ -6889,7 +6875,7 @@ CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.s:
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_488) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_487) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.obj -MF CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c
 
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.i: cmake_force
@@ -6903,7 +6889,7 @@ CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_489) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_488) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj -MF CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c
 
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.i: cmake_force
@@ -6917,7 +6903,7 @@ CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cort
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_490) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_489) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj -MF CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c
 
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.i: cmake_force
@@ -6931,7 +6917,7 @@ CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_491) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_490) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj -MF CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c
 
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.i: cmake_force
@@ -6945,7 +6931,7 @@ CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_492) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_491) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj -MF CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c
 
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.i: cmake_force
@@ -6959,7 +6945,7 @@ CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flas
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_493) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_492) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj -MF CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c
 
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.i: cmake_force
@@ -6973,7 +6959,7 @@ CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flas
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_494) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_493) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj -MF CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c
 
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.i: cmake_force
@@ -6987,7 +6973,7 @@ CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_495) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_494) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj -MF CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c
 
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.i: cmake_force
@@ -7001,7 +6987,7 @@ CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_496) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_495) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj -MF CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c
 
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.i: cmake_force
@@ -7015,7 +7001,7 @@ CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_497) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_496) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj -MF CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c
 
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.i: cmake_force
@@ -7029,7 +7015,7 @@ CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_498) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_497) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj -MF CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c
 
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.i: cmake_force
@@ -7043,7 +7029,7 @@ CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_499) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_498) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj -MF CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c
 
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.i: cmake_force
@@ -7057,7 +7043,7 @@ CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_500) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_499) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj -MF CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c
 
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.i: cmake_force
@@ -7071,7 +7057,7 @@ CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_501) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_500) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj -MF CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c
 
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.i: cmake_force
@@ -7085,7 +7071,7 @@ CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_502) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_501) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj -MF CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c
 
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.i: cmake_force
@@ -7099,7 +7085,7 @@ CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_503) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_502) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj -MF CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c
 
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.i: cmake_force
@@ -7113,7 +7099,7 @@ CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_504) "Building C object CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_503) "Building C object CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj -MF CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c
 
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.i: cmake_force
@@ -7127,7 +7113,7 @@ CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/croutine.c
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_505) "Building C object CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_504) "Building C object CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj -MF CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/croutine.c
 
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i: cmake_force
@@ -7141,7 +7127,7 @@ CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_506) "Building C object CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_505) "Building C object CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj -MF CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
 
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i: cmake_force
@@ -7155,7 +7141,7 @@ CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_group
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/list.c
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_507) "Building C object CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_506) "Building C object CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj -MF CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/list.c
 
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.i: cmake_force
@@ -7169,7 +7155,7 @@ CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.s: c
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_508) "Building C object CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_507) "Building C object CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj -MF CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c
 
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.i: cmake_force
@@ -7183,7 +7169,7 @@ CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GC
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_509) "Building C object CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_508) "Building C object CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj -MF CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
 
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i: cmake_force
@@ -7197,7 +7183,7 @@ CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/Me
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/queue.c
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_510) "Building C object CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_509) "Building C object CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj -MF CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/queue.c
 
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.i: cmake_force
@@ -7211,7 +7197,7 @@ CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.s: 
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_511) "Building C object CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_510) "Building C object CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj -MF CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
 
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i: cmake_force
@@ -7225,7 +7211,7 @@ CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buff
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/tasks.c
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_512) "Building C object CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_511) "Building C object CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj -MF CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/tasks.c
 
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i: cmake_force
@@ -7239,7 +7225,7 @@ CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.s: 
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/timers.c
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_513) "Building C object CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_512) "Building C object CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj -MF CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/timers.c
 
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.i: cmake_force
@@ -7718,7 +7704,6 @@ MotionKit_elf_OBJECTS = \
 "CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/unity/unity_support.c.obj" \
 "CMakeFiles/MotionKit.elf.dir/Core/Src/App/Connection.c.obj" \
 "CMakeFiles/MotionKit.elf.dir/Core/Src/App/Display.c.obj" \
-"CMakeFiles/MotionKit.elf.dir/Core/Src/App/IMU.c.obj" \
 "CMakeFiles/MotionKit.elf.dir/Core/Src/App/Motion.c.obj" \
 "CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/IMU/mpu6050.c.obj" \
 "CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/LCD.c.obj" \
@@ -8235,7 +8220,6 @@ MotionKit.elf: CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/unity/unity.c.ob
 MotionKit.elf: CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/unity/unity_support.c.obj
 MotionKit.elf: CMakeFiles/MotionKit.elf.dir/Core/Src/App/Connection.c.obj
 MotionKit.elf: CMakeFiles/MotionKit.elf.dir/Core/Src/App/Display.c.obj
-MotionKit.elf: CMakeFiles/MotionKit.elf.dir/Core/Src/App/IMU.c.obj
 MotionKit.elf: CMakeFiles/MotionKit.elf.dir/Core/Src/App/Motion.c.obj
 MotionKit.elf: CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/IMU/mpu6050.c.obj
 MotionKit.elf: CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/LCD.c.obj
@@ -8284,7 +8268,7 @@ MotionKit.elf: CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Sou
 MotionKit.elf: CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
 MotionKit.elf: CMakeFiles/MotionKit.elf.dir/build.make
 MotionKit.elf: CMakeFiles/MotionKit.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_514) "Linking C executable MotionKit.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_513) "Linking C executable MotionKit.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MotionKit.elf.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/MotionKit.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/MotionKit.bin"

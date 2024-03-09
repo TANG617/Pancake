@@ -296,10 +296,10 @@ CMakeFiles/MotionKit.elf.dir/Core/Src/App/Display.c.obj: \
  /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/main.h \
  /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h \
  /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h \
+ /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/PancakeConfig.h \
  /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/stdio.h \
  /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/sys/stdio.h \
  /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/App/LVGL_UI/ui.h \
  /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/App/LVGL_UI/ui_helpers.h \
  /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/App/LVGL_UI/ui.h \
- /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/App/LVGL_UI/ui_events.h \
- /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/PancakeConfig.h
+ /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/App/LVGL_UI/ui_events.h
