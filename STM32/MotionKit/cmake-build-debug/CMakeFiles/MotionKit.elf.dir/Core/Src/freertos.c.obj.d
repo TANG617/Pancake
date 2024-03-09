@@ -298,11 +298,11 @@ CMakeFiles/MotionKit.elf.dir/Core/Src/freertos.c.obj: \
  /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/main.h \
  /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/stdio.h \
  /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/arm-none-eabi/include/sys/stdio.h \
+ /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/App/LVGL_UI/ui.h \
+ /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/App/LVGL_UI/ui_helpers.h \
+ /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/App/LVGL_UI/ui.h \
+ /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/App/LVGL_UI/ui_events.h \
  /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/PancakeConfig.h \
  /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/App/Motion.h \
  /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/App/Connection.h \
- /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/usart.h \
- /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/LVGL_UI/ui.h \
- /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/LVGL_UI/ui_helpers.h \
- /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/LVGL_UI/ui.h \
- /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/LVGL_UI/ui_events.h
+ /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/usart.h

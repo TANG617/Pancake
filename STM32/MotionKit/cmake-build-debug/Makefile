@@ -213,6 +213,102 @@ lvgl_demos/fast:
 	$(MAKE) $(MAKESILENT) -f Core/Lib/lvgl/CMakeFiles/lvgl_demos.dir/build.make Core/Lib/lvgl/CMakeFiles/lvgl_demos.dir/build
 .PHONY : lvgl_demos/fast
 
+Core/Inc/App/LVGL_UI/components/ui_comp_hook.obj: Core/Inc/App/LVGL_UI/components/ui_comp_hook.c.obj
+.PHONY : Core/Inc/App/LVGL_UI/components/ui_comp_hook.obj
+
+# target to build an object file
+Core/Inc/App/LVGL_UI/components/ui_comp_hook.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MotionKit.elf.dir/build.make CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/components/ui_comp_hook.c.obj
+.PHONY : Core/Inc/App/LVGL_UI/components/ui_comp_hook.c.obj
+
+Core/Inc/App/LVGL_UI/components/ui_comp_hook.i: Core/Inc/App/LVGL_UI/components/ui_comp_hook.c.i
+.PHONY : Core/Inc/App/LVGL_UI/components/ui_comp_hook.i
+
+# target to preprocess a source file
+Core/Inc/App/LVGL_UI/components/ui_comp_hook.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MotionKit.elf.dir/build.make CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/components/ui_comp_hook.c.i
+.PHONY : Core/Inc/App/LVGL_UI/components/ui_comp_hook.c.i
+
+Core/Inc/App/LVGL_UI/components/ui_comp_hook.s: Core/Inc/App/LVGL_UI/components/ui_comp_hook.c.s
+.PHONY : Core/Inc/App/LVGL_UI/components/ui_comp_hook.s
+
+# target to generate assembly for a file
+Core/Inc/App/LVGL_UI/components/ui_comp_hook.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MotionKit.elf.dir/build.make CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/components/ui_comp_hook.c.s
+.PHONY : Core/Inc/App/LVGL_UI/components/ui_comp_hook.c.s
+
+Core/Inc/App/LVGL_UI/screens/ui_OverviewScreen.obj: Core/Inc/App/LVGL_UI/screens/ui_OverviewScreen.c.obj
+.PHONY : Core/Inc/App/LVGL_UI/screens/ui_OverviewScreen.obj
+
+# target to build an object file
+Core/Inc/App/LVGL_UI/screens/ui_OverviewScreen.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MotionKit.elf.dir/build.make CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/screens/ui_OverviewScreen.c.obj
+.PHONY : Core/Inc/App/LVGL_UI/screens/ui_OverviewScreen.c.obj
+
+Core/Inc/App/LVGL_UI/screens/ui_OverviewScreen.i: Core/Inc/App/LVGL_UI/screens/ui_OverviewScreen.c.i
+.PHONY : Core/Inc/App/LVGL_UI/screens/ui_OverviewScreen.i
+
+# target to preprocess a source file
+Core/Inc/App/LVGL_UI/screens/ui_OverviewScreen.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MotionKit.elf.dir/build.make CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/screens/ui_OverviewScreen.c.i
+.PHONY : Core/Inc/App/LVGL_UI/screens/ui_OverviewScreen.c.i
+
+Core/Inc/App/LVGL_UI/screens/ui_OverviewScreen.s: Core/Inc/App/LVGL_UI/screens/ui_OverviewScreen.c.s
+.PHONY : Core/Inc/App/LVGL_UI/screens/ui_OverviewScreen.s
+
+# target to generate assembly for a file
+Core/Inc/App/LVGL_UI/screens/ui_OverviewScreen.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MotionKit.elf.dir/build.make CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/screens/ui_OverviewScreen.c.s
+.PHONY : Core/Inc/App/LVGL_UI/screens/ui_OverviewScreen.c.s
+
+Core/Inc/App/LVGL_UI/ui.obj: Core/Inc/App/LVGL_UI/ui.c.obj
+.PHONY : Core/Inc/App/LVGL_UI/ui.obj
+
+# target to build an object file
+Core/Inc/App/LVGL_UI/ui.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MotionKit.elf.dir/build.make CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/ui.c.obj
+.PHONY : Core/Inc/App/LVGL_UI/ui.c.obj
+
+Core/Inc/App/LVGL_UI/ui.i: Core/Inc/App/LVGL_UI/ui.c.i
+.PHONY : Core/Inc/App/LVGL_UI/ui.i
+
+# target to preprocess a source file
+Core/Inc/App/LVGL_UI/ui.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MotionKit.elf.dir/build.make CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/ui.c.i
+.PHONY : Core/Inc/App/LVGL_UI/ui.c.i
+
+Core/Inc/App/LVGL_UI/ui.s: Core/Inc/App/LVGL_UI/ui.c.s
+.PHONY : Core/Inc/App/LVGL_UI/ui.s
+
+# target to generate assembly for a file
+Core/Inc/App/LVGL_UI/ui.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MotionKit.elf.dir/build.make CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/ui.c.s
+.PHONY : Core/Inc/App/LVGL_UI/ui.c.s
+
+Core/Inc/App/LVGL_UI/ui_helpers.obj: Core/Inc/App/LVGL_UI/ui_helpers.c.obj
+.PHONY : Core/Inc/App/LVGL_UI/ui_helpers.obj
+
+# target to build an object file
+Core/Inc/App/LVGL_UI/ui_helpers.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MotionKit.elf.dir/build.make CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/ui_helpers.c.obj
+.PHONY : Core/Inc/App/LVGL_UI/ui_helpers.c.obj
+
+Core/Inc/App/LVGL_UI/ui_helpers.i: Core/Inc/App/LVGL_UI/ui_helpers.c.i
+.PHONY : Core/Inc/App/LVGL_UI/ui_helpers.i
+
+# target to preprocess a source file
+Core/Inc/App/LVGL_UI/ui_helpers.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MotionKit.elf.dir/build.make CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/ui_helpers.c.i
+.PHONY : Core/Inc/App/LVGL_UI/ui_helpers.c.i
+
+Core/Inc/App/LVGL_UI/ui_helpers.s: Core/Inc/App/LVGL_UI/ui_helpers.c.s
+.PHONY : Core/Inc/App/LVGL_UI/ui_helpers.s
+
+# target to generate assembly for a file
+Core/Inc/App/LVGL_UI/ui_helpers.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MotionKit.elf.dir/build.make CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/ui_helpers.c.s
+.PHONY : Core/Inc/App/LVGL_UI/ui_helpers.c.s
+
 Core/Inc/Drv/Montserrat_60_NUM.obj: Core/Inc/Drv/Montserrat_60_NUM.c.obj
 .PHONY : Core/Inc/Drv/Montserrat_60_NUM.obj
 
@@ -11301,101 +11397,29 @@ Core/Src/App/Display.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MotionKit.elf.dir/build.make CMakeFiles/MotionKit.elf.dir/Core/Src/App/Display.c.s
 .PHONY : Core/Src/App/Display.c.s
 
-Core/Src/App/LVGL_UI/components/ui_comp_hook.obj: Core/Src/App/LVGL_UI/components/ui_comp_hook.c.obj
-.PHONY : Core/Src/App/LVGL_UI/components/ui_comp_hook.obj
+Core/Src/App/IMU.obj: Core/Src/App/IMU.c.obj
+.PHONY : Core/Src/App/IMU.obj
 
 # target to build an object file
-Core/Src/App/LVGL_UI/components/ui_comp_hook.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MotionKit.elf.dir/build.make CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/components/ui_comp_hook.c.obj
-.PHONY : Core/Src/App/LVGL_UI/components/ui_comp_hook.c.obj
+Core/Src/App/IMU.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MotionKit.elf.dir/build.make CMakeFiles/MotionKit.elf.dir/Core/Src/App/IMU.c.obj
+.PHONY : Core/Src/App/IMU.c.obj
 
-Core/Src/App/LVGL_UI/components/ui_comp_hook.i: Core/Src/App/LVGL_UI/components/ui_comp_hook.c.i
-.PHONY : Core/Src/App/LVGL_UI/components/ui_comp_hook.i
-
-# target to preprocess a source file
-Core/Src/App/LVGL_UI/components/ui_comp_hook.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MotionKit.elf.dir/build.make CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/components/ui_comp_hook.c.i
-.PHONY : Core/Src/App/LVGL_UI/components/ui_comp_hook.c.i
-
-Core/Src/App/LVGL_UI/components/ui_comp_hook.s: Core/Src/App/LVGL_UI/components/ui_comp_hook.c.s
-.PHONY : Core/Src/App/LVGL_UI/components/ui_comp_hook.s
-
-# target to generate assembly for a file
-Core/Src/App/LVGL_UI/components/ui_comp_hook.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MotionKit.elf.dir/build.make CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/components/ui_comp_hook.c.s
-.PHONY : Core/Src/App/LVGL_UI/components/ui_comp_hook.c.s
-
-Core/Src/App/LVGL_UI/screens/ui_OverviewScreen.obj: Core/Src/App/LVGL_UI/screens/ui_OverviewScreen.c.obj
-.PHONY : Core/Src/App/LVGL_UI/screens/ui_OverviewScreen.obj
-
-# target to build an object file
-Core/Src/App/LVGL_UI/screens/ui_OverviewScreen.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MotionKit.elf.dir/build.make CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/screens/ui_OverviewScreen.c.obj
-.PHONY : Core/Src/App/LVGL_UI/screens/ui_OverviewScreen.c.obj
-
-Core/Src/App/LVGL_UI/screens/ui_OverviewScreen.i: Core/Src/App/LVGL_UI/screens/ui_OverviewScreen.c.i
-.PHONY : Core/Src/App/LVGL_UI/screens/ui_OverviewScreen.i
+Core/Src/App/IMU.i: Core/Src/App/IMU.c.i
+.PHONY : Core/Src/App/IMU.i
 
 # target to preprocess a source file
-Core/Src/App/LVGL_UI/screens/ui_OverviewScreen.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MotionKit.elf.dir/build.make CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/screens/ui_OverviewScreen.c.i
-.PHONY : Core/Src/App/LVGL_UI/screens/ui_OverviewScreen.c.i
+Core/Src/App/IMU.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MotionKit.elf.dir/build.make CMakeFiles/MotionKit.elf.dir/Core/Src/App/IMU.c.i
+.PHONY : Core/Src/App/IMU.c.i
 
-Core/Src/App/LVGL_UI/screens/ui_OverviewScreen.s: Core/Src/App/LVGL_UI/screens/ui_OverviewScreen.c.s
-.PHONY : Core/Src/App/LVGL_UI/screens/ui_OverviewScreen.s
-
-# target to generate assembly for a file
-Core/Src/App/LVGL_UI/screens/ui_OverviewScreen.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MotionKit.elf.dir/build.make CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/screens/ui_OverviewScreen.c.s
-.PHONY : Core/Src/App/LVGL_UI/screens/ui_OverviewScreen.c.s
-
-Core/Src/App/LVGL_UI/ui.obj: Core/Src/App/LVGL_UI/ui.c.obj
-.PHONY : Core/Src/App/LVGL_UI/ui.obj
-
-# target to build an object file
-Core/Src/App/LVGL_UI/ui.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MotionKit.elf.dir/build.make CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/ui.c.obj
-.PHONY : Core/Src/App/LVGL_UI/ui.c.obj
-
-Core/Src/App/LVGL_UI/ui.i: Core/Src/App/LVGL_UI/ui.c.i
-.PHONY : Core/Src/App/LVGL_UI/ui.i
-
-# target to preprocess a source file
-Core/Src/App/LVGL_UI/ui.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MotionKit.elf.dir/build.make CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/ui.c.i
-.PHONY : Core/Src/App/LVGL_UI/ui.c.i
-
-Core/Src/App/LVGL_UI/ui.s: Core/Src/App/LVGL_UI/ui.c.s
-.PHONY : Core/Src/App/LVGL_UI/ui.s
+Core/Src/App/IMU.s: Core/Src/App/IMU.c.s
+.PHONY : Core/Src/App/IMU.s
 
 # target to generate assembly for a file
-Core/Src/App/LVGL_UI/ui.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MotionKit.elf.dir/build.make CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/ui.c.s
-.PHONY : Core/Src/App/LVGL_UI/ui.c.s
-
-Core/Src/App/LVGL_UI/ui_helpers.obj: Core/Src/App/LVGL_UI/ui_helpers.c.obj
-.PHONY : Core/Src/App/LVGL_UI/ui_helpers.obj
-
-# target to build an object file
-Core/Src/App/LVGL_UI/ui_helpers.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MotionKit.elf.dir/build.make CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/ui_helpers.c.obj
-.PHONY : Core/Src/App/LVGL_UI/ui_helpers.c.obj
-
-Core/Src/App/LVGL_UI/ui_helpers.i: Core/Src/App/LVGL_UI/ui_helpers.c.i
-.PHONY : Core/Src/App/LVGL_UI/ui_helpers.i
-
-# target to preprocess a source file
-Core/Src/App/LVGL_UI/ui_helpers.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MotionKit.elf.dir/build.make CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/ui_helpers.c.i
-.PHONY : Core/Src/App/LVGL_UI/ui_helpers.c.i
-
-Core/Src/App/LVGL_UI/ui_helpers.s: Core/Src/App/LVGL_UI/ui_helpers.c.s
-.PHONY : Core/Src/App/LVGL_UI/ui_helpers.s
-
-# target to generate assembly for a file
-Core/Src/App/LVGL_UI/ui_helpers.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MotionKit.elf.dir/build.make CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/ui_helpers.c.s
-.PHONY : Core/Src/App/LVGL_UI/ui_helpers.c.s
+Core/Src/App/IMU.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MotionKit.elf.dir/build.make CMakeFiles/MotionKit.elf.dir/Core/Src/App/IMU.c.s
+.PHONY : Core/Src/App/IMU.c.s
 
 Core/Src/App/Motion.obj: Core/Src/App/Motion.c.obj
 .PHONY : Core/Src/App/Motion.obj
@@ -12501,6 +12525,18 @@ help:
 	@echo "... lvgl"
 	@echo "... lvgl_demos"
 	@echo "... lvgl_examples"
+	@echo "... Core/Inc/App/LVGL_UI/components/ui_comp_hook.obj"
+	@echo "... Core/Inc/App/LVGL_UI/components/ui_comp_hook.i"
+	@echo "... Core/Inc/App/LVGL_UI/components/ui_comp_hook.s"
+	@echo "... Core/Inc/App/LVGL_UI/screens/ui_OverviewScreen.obj"
+	@echo "... Core/Inc/App/LVGL_UI/screens/ui_OverviewScreen.i"
+	@echo "... Core/Inc/App/LVGL_UI/screens/ui_OverviewScreen.s"
+	@echo "... Core/Inc/App/LVGL_UI/ui.obj"
+	@echo "... Core/Inc/App/LVGL_UI/ui.i"
+	@echo "... Core/Inc/App/LVGL_UI/ui.s"
+	@echo "... Core/Inc/App/LVGL_UI/ui_helpers.obj"
+	@echo "... Core/Inc/App/LVGL_UI/ui_helpers.i"
+	@echo "... Core/Inc/App/LVGL_UI/ui_helpers.s"
 	@echo "... Core/Inc/Drv/Montserrat_60_NUM.obj"
 	@echo "... Core/Inc/Drv/Montserrat_60_NUM.i"
 	@echo "... Core/Inc/Drv/Montserrat_60_NUM.s"
@@ -13887,18 +13923,9 @@ help:
 	@echo "... Core/Src/App/Display.obj"
 	@echo "... Core/Src/App/Display.i"
 	@echo "... Core/Src/App/Display.s"
-	@echo "... Core/Src/App/LVGL_UI/components/ui_comp_hook.obj"
-	@echo "... Core/Src/App/LVGL_UI/components/ui_comp_hook.i"
-	@echo "... Core/Src/App/LVGL_UI/components/ui_comp_hook.s"
-	@echo "... Core/Src/App/LVGL_UI/screens/ui_OverviewScreen.obj"
-	@echo "... Core/Src/App/LVGL_UI/screens/ui_OverviewScreen.i"
-	@echo "... Core/Src/App/LVGL_UI/screens/ui_OverviewScreen.s"
-	@echo "... Core/Src/App/LVGL_UI/ui.obj"
-	@echo "... Core/Src/App/LVGL_UI/ui.i"
-	@echo "... Core/Src/App/LVGL_UI/ui.s"
-	@echo "... Core/Src/App/LVGL_UI/ui_helpers.obj"
-	@echo "... Core/Src/App/LVGL_UI/ui_helpers.i"
-	@echo "... Core/Src/App/LVGL_UI/ui_helpers.s"
+	@echo "... Core/Src/App/IMU.obj"
+	@echo "... Core/Src/App/IMU.i"
+	@echo "... Core/Src/App/IMU.s"
 	@echo "... Core/Src/App/Motion.obj"
 	@echo "... Core/Src/App/Motion.i"
 	@echo "... Core/Src/App/Motion.s"

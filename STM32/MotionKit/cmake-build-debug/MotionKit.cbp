@@ -373,6 +373,36 @@
 		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/App/Display.h">
 			<Option target="MotionKit.elf"/>
 		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/App/LVGL_UI/.DS_Store">
+			<Option target="MotionKit.elf"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/App/LVGL_UI/CMakeLists.txt">
+			<Option target="MotionKit.elf"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/App/LVGL_UI/components/ui_comp_hook.c">
+			<Option target="MotionKit.elf"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/App/LVGL_UI/filelist.txt">
+			<Option target="MotionKit.elf"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/App/LVGL_UI/screens/ui_OverviewScreen.c">
+			<Option target="MotionKit.elf"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/App/LVGL_UI/ui.c">
+			<Option target="MotionKit.elf"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/App/LVGL_UI/ui.h">
+			<Option target="MotionKit.elf"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/App/LVGL_UI/ui_events.h">
+			<Option target="MotionKit.elf"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/App/LVGL_UI/ui_helpers.c">
+			<Option target="MotionKit.elf"/>
+		</Unit>
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/App/LVGL_UI/ui_helpers.h">
+			<Option target="MotionKit.elf"/>
+		</Unit>
 		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/App/Motion.h">
 			<Option target="MotionKit.elf"/>
 		</Unit>
@@ -4462,40 +4492,13 @@
 		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/Display.c">
 			<Option target="MotionKit.elf"/>
 		</Unit>
-		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/LVGL_UI/.DS_Store">
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/IMU.c">
 			<Option target="MotionKit.elf"/>
 		</Unit>
-		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/LVGL_UI/CMakeLists.txt">
-			<Option target="MotionKit.elf"/>
-		</Unit>
-		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/LVGL_UI/components/ui_comp_hook.c">
-			<Option target="MotionKit.elf"/>
-		</Unit>
-		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/LVGL_UI/filelist.txt">
-			<Option target="MotionKit.elf"/>
-		</Unit>
-		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/LVGL_UI/screens/ui_OverviewScreen.c">
-			<Option target="MotionKit.elf"/>
-		</Unit>
-		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/LVGL_UI/ui.c">
-			<Option target="MotionKit.elf"/>
-		</Unit>
-		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/LVGL_UI/ui.h">
-			<Option target="MotionKit.elf"/>
-		</Unit>
-		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/LVGL_UI/ui_events.h">
-			<Option target="MotionKit.elf"/>
-		</Unit>
-		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/LVGL_UI/ui_helpers.c">
-			<Option target="MotionKit.elf"/>
-		</Unit>
-		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/LVGL_UI/ui_helpers.h">
+		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/IMU.h">
 			<Option target="MotionKit.elf"/>
 		</Unit>
 		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/Motion.c">
-			<Option target="MotionKit.elf"/>
-		</Unit>
-		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/app_global.h">
 			<Option target="MotionKit.elf"/>
 		</Unit>
 		<Unit filename="/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/Backup/can.c.bak">

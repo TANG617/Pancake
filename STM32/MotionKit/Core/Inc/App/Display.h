@@ -8,6 +8,8 @@
 #include "Drv/LCD.h"
 //#include "LVGL_UI/ui.h"
 #include "Motion.h"
-
+#include "stdio.h"
+#include "LVGL_UI/ui.h"
+#include "PancakeConfig.h"
 void OverviewScreen();
 #endif //DISPLAY_H

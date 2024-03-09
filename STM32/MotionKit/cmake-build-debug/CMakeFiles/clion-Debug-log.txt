@@ -9,6 +9,6 @@ CMake Deprecation Warning:
 
 
 -- Minimal optimization, debug info included
--- Configuring done (0.1s)
+-- Configuring done (0.2s)
 -- Generating done (0.1s)
 -- Build files have been written to: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug

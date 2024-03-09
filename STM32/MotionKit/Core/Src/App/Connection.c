@@ -3,6 +3,9 @@
 //
 
 #include "App/Connection.h"
+
+extern MotionType PancakeMotion;
+
 static float uint2float(int x_int, float x_min, float x_max, int bits){
     float span = x_max - x_min;
     float offset = x_min;
@@ -129,3 +132,43 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 //    // _DSC->Data[dsc_keys++] = value;
 //    data[dsc_keys++] = value;
 //}
+
+
+void StartConnectionTask(void *argument)
+{
+    /* USER CODE BEGIN StartConnectivityTask */
+//    uint8_t bufByte[] = "\0";
+//    uint8_t packageFrame[5];
+    HAL_UART_Receive_IT(&huart2, bufControlFrame, 1);
+    /* Infinite loop */
+    for(;;)
+    {
+//      ControlFrameType controlFrame = PackageFetch();
+        for (int i = 0; i < 12; ++i) {
+            if (bufControlFrame[i] == '#') {
+                RawControlFrame[0] = bufControlFrame[i + 1];
+                RawControlFrame[1] = bufControlFrame[i + 2];
+                RawControlFrame[2] = bufControlFrame[i + 3];
+                RawControlFrame[3] = bufControlFrame[i + 4];
+                RawControlFrame[4] = bufControlFrame[i + 5];
+                break;
+            }
+        }
+        ControlFrameType controlFrame = DecodeControlFrame();
+        switch(controlFrame.Mode){
+            case VelocityMode:
+                MotionSetLinearVelocity(&PancakeMotion,controlFrame.LinearVelocity);
+                MotionSetAngularVelocity(&PancakeMotion,controlFrame.AngularVelocity);
+                break;
+            default:
+                break;
+        }
+
+//      HAL_UART_Receive_IT(&huart2, bufControlFrame, 12);
+        osDelay(30);
+        HAL_UART_Receive_IT(&huart2, bufControlFrame, 1);
+//      HAL_UART_Receive_IT(&huart2, &bufByte, 1);
+
+    }
+    /* USER CODE END StartConnectivityTask */
+}

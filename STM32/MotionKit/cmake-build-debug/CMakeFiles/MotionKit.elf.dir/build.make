@@ -69,10 +69,66 @@ include CMakeFiles/MotionKit.elf.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/MotionKit.elf.dir/flags.make
 
+CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/components/ui_comp_hook.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
+CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/components/ui_comp_hook.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/App/LVGL_UI/components/ui_comp_hook.c
+CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/components/ui_comp_hook.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/components/ui_comp_hook.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/components/ui_comp_hook.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/components/ui_comp_hook.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/components/ui_comp_hook.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/App/LVGL_UI/components/ui_comp_hook.c
+
+CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/components/ui_comp_hook.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/components/ui_comp_hook.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/App/LVGL_UI/components/ui_comp_hook.c > CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/components/ui_comp_hook.c.i
+
+CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/components/ui_comp_hook.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/components/ui_comp_hook.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/App/LVGL_UI/components/ui_comp_hook.c -o CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/components/ui_comp_hook.c.s
+
+CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/screens/ui_OverviewScreen.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
+CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/screens/ui_OverviewScreen.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/App/LVGL_UI/screens/ui_OverviewScreen.c
+CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/screens/ui_OverviewScreen.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/screens/ui_OverviewScreen.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/screens/ui_OverviewScreen.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/screens/ui_OverviewScreen.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/screens/ui_OverviewScreen.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/App/LVGL_UI/screens/ui_OverviewScreen.c
+
+CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/screens/ui_OverviewScreen.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/screens/ui_OverviewScreen.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/App/LVGL_UI/screens/ui_OverviewScreen.c > CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/screens/ui_OverviewScreen.c.i
+
+CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/screens/ui_OverviewScreen.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/screens/ui_OverviewScreen.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/App/LVGL_UI/screens/ui_OverviewScreen.c -o CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/screens/ui_OverviewScreen.c.s
+
+CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/ui.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
+CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/ui.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/App/LVGL_UI/ui.c
+CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/ui.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/ui.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/ui.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/ui.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/ui.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/App/LVGL_UI/ui.c
+
+CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/ui.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/ui.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/App/LVGL_UI/ui.c > CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/ui.c.i
+
+CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/ui.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/ui.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/App/LVGL_UI/ui.c -o CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/ui.c.s
+
+CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/ui_helpers.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
+CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/ui_helpers.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/App/LVGL_UI/ui_helpers.c
+CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/ui_helpers.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/ui_helpers.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/ui_helpers.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/ui_helpers.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/ui_helpers.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/App/LVGL_UI/ui_helpers.c
+
+CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/ui_helpers.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/ui_helpers.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/App/LVGL_UI/ui_helpers.c > CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/ui_helpers.c.i
+
+CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/ui_helpers.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/ui_helpers.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/App/LVGL_UI/ui_helpers.c -o CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/ui_helpers.c.s
+
 CMakeFiles/MotionKit.elf.dir/Core/Inc/Drv/Montserrat_60_NUM.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Inc/Drv/Montserrat_60_NUM.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/Drv/Montserrat_60_NUM.c
 CMakeFiles/MotionKit.elf.dir/Core/Inc/Drv/Montserrat_60_NUM.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Inc/Drv/Montserrat_60_NUM.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Inc/Drv/Montserrat_60_NUM.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Inc/Drv/Montserrat_60_NUM.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Inc/Drv/Montserrat_60_NUM.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Inc/Drv/Montserrat_60_NUM.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/Drv/Montserrat_60_NUM.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Inc/Drv/Montserrat_60_NUM.c.i: cmake_force
@@ -86,7 +142,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Inc/Drv/Montserrat_60_NUM.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.i: cmake_force
@@ -100,7 +156,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_argb.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_argb.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_argb.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_argb.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_argb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_argb.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_argb.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_argb.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_argb.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_argb.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_argb.c.i: cmake_force
@@ -114,7 +170,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_chroma_keyed.c.i: cmake_force
@@ -128,7 +184,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_indexed16.c.i: cmake_force
@@ -142,7 +198,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb.c.i: cmake_force
@@ -156,7 +212,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_rgb565a8.c.i: cmake_force
@@ -170,7 +226,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_12_compr_az.c.c.i: cmake_force
@@ -184,7 +240,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/lv_font_bechma
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_16_compr_az.c.c.i: cmake_force
@@ -198,7 +254,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/lv_font_bechma
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/lv_font_bechmark_montserrat_28_compr_az.c.c.i: cmake_force
@@ -212,7 +268,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/lv_font_bechma
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/lv_demo_benchmark.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/lv_demo_benchmark.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/benchmark/lv_demo_benchmark.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/lv_demo_benchmark.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/lv_demo_benchmark.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/lv_demo_benchmark.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/lv_demo_benchmark.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/lv_demo_benchmark.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/lv_demo_benchmark.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/benchmark/lv_demo_benchmark.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/lv_demo_benchmark.c.i: cmake_force
@@ -226,7 +282,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/lv_demo_benchmark.c.s
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/keypad_encoder/lv_demo_keypad_encoder.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/keypad_encoder/lv_demo_keypad_encoder.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/keypad_encoder/lv_demo_keypad_encoder.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/keypad_encoder/lv_demo_keypad_encoder.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/keypad_encoder/lv_demo_keypad_encoder.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/keypad_encoder/lv_demo_keypad_encoder.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/keypad_encoder/lv_demo_keypad_encoder.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/keypad_encoder/lv_demo_keypad_encoder.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/keypad_encoder/lv_demo_keypad_encoder.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/keypad_encoder/lv_demo_keypad_encoder.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/keypad_encoder/lv_demo_keypad_encoder.c.i: cmake_force
@@ -240,7 +296,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/keypad_encoder/lv_demo_keypad_e
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_corner_large.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_corner_large.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_corner_large.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_corner_large.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_corner_large.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_corner_large.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_corner_large.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_corner_large.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_corner_large.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_corner_large.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_corner_large.c.i: cmake_force
@@ -254,7 +310,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause.c.i: cmake_force
@@ -268,7 +324,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.i: cmake_force
@@ -282,7 +338,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_list_play.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_list_play.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_list_play.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_list_play.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_list_play.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_list_play.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_list_play.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_list_play.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_list_play.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_list_play.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_list_play.c.i: cmake_force
@@ -296,7 +352,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_list_play_large.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_list_play_large.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_list_play_large.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_list_play_large.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_list_play_large.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_list_play_large.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_list_play_large.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_list_play_large.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_list_play_large.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_list_play_large.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_list_play_large.c.i: cmake_force
@@ -310,7 +366,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_loop.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_loop.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_loop.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_loop.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_loop.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_loop.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_loop.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_loop.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_loop.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_loop.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_loop.c.i: cmake_force
@@ -324,7 +380,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_loop_large.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_loop_large.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_loop_large.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_loop_large.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_loop_large.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_loop_large.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_loop_large.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_loop_large.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_loop_large.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_loop_large.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_loop_large.c.i: cmake_force
@@ -338,7 +394,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_next.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_next.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_next.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_next.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_next.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_next.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_next.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_next.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_next.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_next.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_next.c.i: cmake_force
@@ -352,7 +408,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_next_large.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_next_large.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_next_large.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_next_large.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_next_large.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_next_large.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_next_large.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_next_large.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_next_large.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_next_large.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_next_large.c.i: cmake_force
@@ -366,7 +422,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_pause.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_pause.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_pause.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_pause.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_pause.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_pause.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_pause.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_pause.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_pause.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_pause.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_pause.c.i: cmake_force
@@ -380,7 +436,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_pause_large.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_pause_large.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_pause_large.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_pause_large.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_pause_large.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_pause_large.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_pause_large.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_pause_large.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_pause_large.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_pause_large.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_pause_large.c.i: cmake_force
@@ -394,7 +450,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_play.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_play.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_play.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_play.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_play.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_play.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_play.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_play.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_play.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_play.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_play.c.i: cmake_force
@@ -408,7 +464,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_play_large.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_play_large.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_play_large.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_play_large.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_play_large.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_play_large.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_play_large.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_play_large.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_play_large.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_play_large.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_play_large.c.i: cmake_force
@@ -422,7 +478,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_prev.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_prev.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_prev.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_prev.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_prev.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_prev.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_prev.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_prev.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_prev.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_prev.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_prev.c.i: cmake_force
@@ -436,7 +492,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_prev_large.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_prev_large.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_prev_large.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_prev_large.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_prev_large.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_prev_large.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_prev_large.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_prev_large.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_prev_large.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_prev_large.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_prev_large.c.i: cmake_force
@@ -450,7 +506,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd.c.i: cmake_force
@@ -464,7 +520,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd_large.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd_large.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd_large.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd_large.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd_large.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd_large.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd_large.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd_large.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd_large.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd_large.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd_large.c.i: cmake_force
@@ -478,7 +534,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_corner_left.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_corner_left.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_corner_left.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_corner_left.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_corner_left.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_corner_left.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_corner_left.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_corner_left.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_corner_left.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_corner_left.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_corner_left.c.i: cmake_force
@@ -492,7 +548,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_corner_left_large.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_corner_left_large.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_corner_left_large.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_corner_left_large.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_corner_left_large.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_corner_left_large.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_corner_left_large.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_corner_left_large.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_corner_left_large.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_corner_left_large.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_corner_left_large.c.i: cmake_force
@@ -506,7 +562,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_corner_right.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_corner_right.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_corner_right.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_corner_right.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_corner_right.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_corner_right.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_corner_right.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_corner_right.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_corner_right.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_corner_right.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_corner_right.c.i: cmake_force
@@ -520,7 +576,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_corner_right_large.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_corner_right_large.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_corner_right_large.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_corner_right_large.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_corner_right_large.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_corner_right_large.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_corner_right_large.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_corner_right_large.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_corner_right_large.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_corner_right_large.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_corner_right_large.c.i: cmake_force
@@ -534,7 +590,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_1.c.i: cmake_force
@@ -548,7 +604,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_1_large.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_1_large.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_1_large.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_1_large.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_1_large.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_1_large.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_1_large.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_1_large.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_1_large.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_1_large.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_1_large.c.i: cmake_force
@@ -562,7 +618,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_2.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_2.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_2.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_2.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_2.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_2.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_2.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_2.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_2.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_2.c.i: cmake_force
@@ -576,7 +632,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_2_large.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_2_large.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_2_large.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_2_large.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_2_large.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_2_large.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_2_large.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_2_large.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_2_large.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_2_large.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_2_large.c.i: cmake_force
@@ -590,7 +646,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_3.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_3.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_3.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_3.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_3.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_3.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_3.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_3.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_3.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_3.c.i: cmake_force
@@ -604,7 +660,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_3_large.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_3_large.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_3_large.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_3_large.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_3_large.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_3_large.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_3_large.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_3_large.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_3_large.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_3_large.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_cover_3_large.c.i: cmake_force
@@ -618,7 +674,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_1.c.i: cmake_force
@@ -632,7 +688,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_1_large.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_1_large.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_1_large.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_1_large.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_1_large.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_1_large.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_1_large.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_1_large.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_1_large.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_1_large.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_1_large.c.i: cmake_force
@@ -646,7 +702,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_2.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_2.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_2.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_2.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_2.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_2.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_2.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_2.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_2.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_2.c.i: cmake_force
@@ -660,7 +716,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_2_large.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_2_large.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_2_large.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_2_large.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_2_large.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_2_large.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_2_large.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_2_large.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_2_large.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_2_large.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_2_large.c.i: cmake_force
@@ -674,7 +730,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_3.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_3.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_3.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_3.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_3.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_3.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_3.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_3.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_3.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_3.c.i: cmake_force
@@ -688,7 +744,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_3_large.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_3_large.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_3_large.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_3_large.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_3_large.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_3_large.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_3_large.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_3_large.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_3_large.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_3_large.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_3_large.c.i: cmake_force
@@ -702,7 +758,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_4.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_4.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_4.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_4.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_4.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_4.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_4.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_4.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_4.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_4.c.i: cmake_force
@@ -716,7 +772,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_4_large.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_4_large.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_4_large.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_4_large.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_4_large.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_4_large.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_4_large.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_4_large.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_4_large.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_4_large.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_icon_4_large.c.i: cmake_force
@@ -730,7 +786,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_list_border.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_list_border.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_list_border.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_list_border.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_list_border.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_list_border.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_list_border.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_list_border.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_list_border.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_list_border.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_list_border.c.i: cmake_force
@@ -744,7 +800,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_list_border_large.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_list_border_large.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_list_border_large.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_list_border_large.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_list_border_large.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_list_border_large.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_list_border_large.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_list_border_large.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_list_border_large.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_list_border_large.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_list_border_large.c.i: cmake_force
@@ -758,7 +814,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_logo.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_logo.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_logo.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_logo.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_logo.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_logo.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_logo.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_logo.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_logo.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_logo.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_logo.c.i: cmake_force
@@ -772,7 +828,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_slider_knob.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_slider_knob.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_slider_knob.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_slider_knob.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_slider_knob.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_slider_knob.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_slider_knob.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_slider_knob.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_slider_knob.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_slider_knob.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_slider_knob.c.i: cmake_force
@@ -786,7 +842,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_slider_knob_large.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_slider_knob_large.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_slider_knob_large.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_slider_knob_large.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_slider_knob_large.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_slider_knob_large.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_slider_knob_large.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_slider_knob_large.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_slider_knob_large.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_slider_knob_large.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_slider_knob_large.c.i: cmake_force
@@ -800,7 +856,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_wave_bottom.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_wave_bottom.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_wave_bottom.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_wave_bottom.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_wave_bottom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_wave_bottom.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_wave_bottom.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_wave_bottom.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_wave_bottom.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_wave_bottom.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_wave_bottom.c.i: cmake_force
@@ -814,7 +870,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_wave_bottom_large.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_wave_bottom_large.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_wave_bottom_large.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_wave_bottom_large.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_wave_bottom_large.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_wave_bottom_large.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_wave_bottom_large.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_wave_bottom_large.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_wave_bottom_large.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_wave_bottom_large.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_wave_bottom_large.c.i: cmake_force
@@ -828,7 +884,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_wave_top.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_wave_top.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_wave_top.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_wave_top.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_wave_top.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_wave_top.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_wave_top.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_wave_top.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_wave_top.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_wave_top.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_wave_top.c.i: cmake_force
@@ -842,7 +898,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_wave_top_large.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_wave_top_large.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_wave_top_large.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_wave_top_large.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_wave_top_large.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_wave_top_large.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_wave_top_large.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_wave_top_large.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_wave_top_large.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_wave_top_large.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_wave_top_large.c.i: cmake_force
@@ -856,7 +912,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/assets/img_lv_demo_music_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/lv_demo_music.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/lv_demo_music.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/lv_demo_music.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/lv_demo_music.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/lv_demo_music.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/lv_demo_music.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/lv_demo_music.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/lv_demo_music.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/lv_demo_music.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/lv_demo_music.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/lv_demo_music.c.i: cmake_force
@@ -870,7 +926,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/lv_demo_music.c.s: cmake_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/lv_demo_music_list.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/lv_demo_music_list.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/lv_demo_music_list.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/lv_demo_music_list.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/lv_demo_music_list.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/lv_demo_music_list.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/lv_demo_music_list.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/lv_demo_music_list.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/lv_demo_music_list.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/lv_demo_music_list.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/lv_demo_music_list.c.i: cmake_force
@@ -884,7 +940,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/lv_demo_music_list.c.s: c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/lv_demo_music_main.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/lv_demo_music_main.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/lv_demo_music_main.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/lv_demo_music_main.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/lv_demo_music_main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/lv_demo_music_main.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/lv_demo_music_main.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/lv_demo_music_main.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/lv_demo_music_main.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/music/lv_demo_music_main.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/lv_demo_music_main.c.i: cmake_force
@@ -898,7 +954,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/music/lv_demo_music_main.c.s: c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/stress/lv_demo_stress.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/stress/lv_demo_stress.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/stress/lv_demo_stress.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/stress/lv_demo_stress.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/stress/lv_demo_stress.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/stress/lv_demo_stress.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/stress/lv_demo_stress.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/stress/lv_demo_stress.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/stress/lv_demo_stress.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/stress/lv_demo_stress.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/stress/lv_demo_stress.c.i: cmake_force
@@ -912,7 +968,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/stress/lv_demo_stress.c.s: cmak
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/widgets/assets/img_clothes.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/widgets/assets/img_clothes.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/widgets/assets/img_clothes.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/widgets/assets/img_clothes.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/widgets/assets/img_clothes.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/widgets/assets/img_clothes.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/widgets/assets/img_clothes.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/widgets/assets/img_clothes.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/widgets/assets/img_clothes.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/widgets/assets/img_clothes.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/widgets/assets/img_clothes.c.i: cmake_force
@@ -926,7 +982,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/widgets/assets/img_clothes.c.s:
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/widgets/assets/img_demo_widgets_avatar.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/widgets/assets/img_demo_widgets_avatar.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/widgets/assets/img_demo_widgets_avatar.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/widgets/assets/img_demo_widgets_avatar.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/widgets/assets/img_demo_widgets_avatar.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/widgets/assets/img_demo_widgets_avatar.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/widgets/assets/img_demo_widgets_avatar.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/widgets/assets/img_demo_widgets_avatar.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/widgets/assets/img_demo_widgets_avatar.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/widgets/assets/img_demo_widgets_avatar.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/widgets/assets/img_demo_widgets_avatar.c.i: cmake_force
@@ -940,7 +996,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/widgets/assets/img_demo_widgets
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/widgets/assets/img_lvgl_logo.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/widgets/assets/img_lvgl_logo.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/widgets/assets/img_lvgl_logo.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/widgets/assets/img_lvgl_logo.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/widgets/assets/img_lvgl_logo.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/widgets/assets/img_lvgl_logo.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/widgets/assets/img_lvgl_logo.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/widgets/assets/img_lvgl_logo.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/widgets/assets/img_lvgl_logo.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/widgets/assets/img_lvgl_logo.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/widgets/assets/img_lvgl_logo.c.i: cmake_force
@@ -954,7 +1010,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/widgets/assets/img_lvgl_logo.c.
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/widgets/lv_demo_widgets.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/widgets/lv_demo_widgets.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/widgets/lv_demo_widgets.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/widgets/lv_demo_widgets.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/widgets/lv_demo_widgets.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/widgets/lv_demo_widgets.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/widgets/lv_demo_widgets.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/widgets/lv_demo_widgets.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/widgets/lv_demo_widgets.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/demos/widgets/lv_demo_widgets.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/widgets/lv_demo_widgets.c.i: cmake_force
@@ -968,7 +1024,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/widgets/lv_demo_widgets.c.s: cm
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/env_support/rt-thread/lv_rt_thread_port.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/env_support/rt-thread/lv_rt_thread_port.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/env_support/rt-thread/lv_rt_thread_port.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/env_support/rt-thread/lv_rt_thread_port.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/env_support/rt-thread/lv_rt_thread_port.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/env_support/rt-thread/lv_rt_thread_port.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/env_support/rt-thread/lv_rt_thread_port.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/env_support/rt-thread/lv_rt_thread_port.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/env_support/rt-thread/lv_rt_thread_port.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/env_support/rt-thread/lv_rt_thread_port.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/env_support/rt-thread/lv_rt_thread_port.c.i: cmake_force
@@ -982,7 +1038,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/env_support/rt-thread/lv_rt_thread_po
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/env_support/rt-thread/squareline/lv_ui_entry.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/env_support/rt-thread/squareline/lv_ui_entry.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/env_support/rt-thread/squareline/lv_ui_entry.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/env_support/rt-thread/squareline/lv_ui_entry.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/env_support/rt-thread/squareline/lv_ui_entry.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/env_support/rt-thread/squareline/lv_ui_entry.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/env_support/rt-thread/squareline/lv_ui_entry.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/env_support/rt-thread/squareline/lv_ui_entry.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/env_support/rt-thread/squareline/lv_ui_entry.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/env_support/rt-thread/squareline/lv_ui_entry.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/env_support/rt-thread/squareline/lv_ui_entry.c.i: cmake_force
@@ -996,7 +1052,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/env_support/rt-thread/squareline/lv_u
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/anim/lv_example_anim_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/anim/lv_example_anim_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/anim/lv_example_anim_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/anim/lv_example_anim_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/anim/lv_example_anim_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/anim/lv_example_anim_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/anim/lv_example_anim_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/anim/lv_example_anim_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/anim/lv_example_anim_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/anim/lv_example_anim_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/anim/lv_example_anim_1.c.i: cmake_force
@@ -1010,7 +1066,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/anim/lv_example_anim_1.c.s: 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/anim/lv_example_anim_2.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/anim/lv_example_anim_2.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/anim/lv_example_anim_2.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/anim/lv_example_anim_2.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/anim/lv_example_anim_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/anim/lv_example_anim_2.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/anim/lv_example_anim_2.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/anim/lv_example_anim_2.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/anim/lv_example_anim_2.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/anim/lv_example_anim_2.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/anim/lv_example_anim_2.c.i: cmake_force
@@ -1024,7 +1080,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/anim/lv_example_anim_2.c.s: 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/anim/lv_example_anim_3.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/anim/lv_example_anim_3.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/anim/lv_example_anim_3.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/anim/lv_example_anim_3.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/anim/lv_example_anim_3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/anim/lv_example_anim_3.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/anim/lv_example_anim_3.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/anim/lv_example_anim_3.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/anim/lv_example_anim_3.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/anim/lv_example_anim_3.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/anim/lv_example_anim_3.c.i: cmake_force
@@ -1038,7 +1094,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/anim/lv_example_anim_3.c.s: 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/anim/lv_example_anim_timeline_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/anim/lv_example_anim_timeline_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/anim/lv_example_anim_timeline_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/anim/lv_example_anim_timeline_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/anim/lv_example_anim_timeline_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/anim/lv_example_anim_timeline_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/anim/lv_example_anim_timeline_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/anim/lv_example_anim_timeline_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/anim/lv_example_anim_timeline_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/anim/lv_example_anim_timeline_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/anim/lv_example_anim_timeline_1.c.i: cmake_force
@@ -1052,7 +1108,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/anim/lv_example_anim_timelin
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/animimg001.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/animimg001.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/assets/animimg001.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/animimg001.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/animimg001.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/animimg001.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/animimg001.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/animimg001.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/animimg001.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/assets/animimg001.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/animimg001.c.i: cmake_force
@@ -1066,7 +1122,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/animimg001.c.s: cmake
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/animimg002.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/animimg002.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/assets/animimg002.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/animimg002.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/animimg002.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/animimg002.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/animimg002.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/animimg002.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/animimg002.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/assets/animimg002.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/animimg002.c.i: cmake_force
@@ -1080,7 +1136,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/animimg002.c.s: cmake
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/animimg003.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/animimg003.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/assets/animimg003.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/animimg003.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/animimg003.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/animimg003.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/animimg003.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/animimg003.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/animimg003.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/assets/animimg003.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/animimg003.c.i: cmake_force
@@ -1094,7 +1150,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/animimg003.c.s: cmake
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/emoji/img_emoji_F617.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/emoji/img_emoji_F617.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/assets/emoji/img_emoji_F617.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/emoji/img_emoji_F617.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/emoji/img_emoji_F617.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/emoji/img_emoji_F617.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/emoji/img_emoji_F617.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/emoji/img_emoji_F617.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/emoji/img_emoji_F617.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/assets/emoji/img_emoji_F617.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/emoji/img_emoji_F617.c.i: cmake_force
@@ -1108,7 +1164,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/emoji/img_emoji_F617.
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_caret_down.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_caret_down.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/assets/img_caret_down.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_caret_down.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_caret_down.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_caret_down.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_caret_down.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_caret_down.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_caret_down.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/assets/img_caret_down.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_caret_down.c.i: cmake_force
@@ -1122,7 +1178,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_caret_down.c.s: c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_cogwheel_alpha16.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_cogwheel_alpha16.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/assets/img_cogwheel_alpha16.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_cogwheel_alpha16.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_cogwheel_alpha16.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_cogwheel_alpha16.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_cogwheel_alpha16.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_cogwheel_alpha16.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_cogwheel_alpha16.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/assets/img_cogwheel_alpha16.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_cogwheel_alpha16.c.i: cmake_force
@@ -1136,7 +1192,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_cogwheel_alpha16.
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_cogwheel_argb.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_cogwheel_argb.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/assets/img_cogwheel_argb.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_cogwheel_argb.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_cogwheel_argb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_cogwheel_argb.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_cogwheel_argb.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_cogwheel_argb.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_cogwheel_argb.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/assets/img_cogwheel_argb.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_cogwheel_argb.c.i: cmake_force
@@ -1150,7 +1206,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_cogwheel_argb.c.s
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_cogwheel_chroma_keyed.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_cogwheel_chroma_keyed.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/assets/img_cogwheel_chroma_keyed.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_cogwheel_chroma_keyed.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_cogwheel_chroma_keyed.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_cogwheel_chroma_keyed.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_cogwheel_chroma_keyed.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_cogwheel_chroma_keyed.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_cogwheel_chroma_keyed.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/assets/img_cogwheel_chroma_keyed.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_cogwheel_chroma_keyed.c.i: cmake_force
@@ -1164,7 +1220,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_cogwheel_chroma_k
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_cogwheel_indexed16.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_cogwheel_indexed16.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/assets/img_cogwheel_indexed16.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_cogwheel_indexed16.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_cogwheel_indexed16.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_cogwheel_indexed16.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_cogwheel_indexed16.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_cogwheel_indexed16.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_cogwheel_indexed16.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/assets/img_cogwheel_indexed16.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_cogwheel_indexed16.c.i: cmake_force
@@ -1178,7 +1234,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_cogwheel_indexed1
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_cogwheel_rgb.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_cogwheel_rgb.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/assets/img_cogwheel_rgb.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_cogwheel_rgb.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_cogwheel_rgb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_cogwheel_rgb.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_cogwheel_rgb.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_cogwheel_rgb.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_cogwheel_rgb.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/assets/img_cogwheel_rgb.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_cogwheel_rgb.c.i: cmake_force
@@ -1192,7 +1248,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_cogwheel_rgb.c.s:
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_hand.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_hand.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/assets/img_hand.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_hand.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_hand.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_hand.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_hand.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_hand.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_hand.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/assets/img_hand.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_hand.c.i: cmake_force
@@ -1206,7 +1262,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_hand.c.s: cmake_f
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_skew_strip.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_skew_strip.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/assets/img_skew_strip.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_skew_strip.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_skew_strip.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_skew_strip.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_skew_strip.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_skew_strip.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_skew_strip.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/assets/img_skew_strip.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_skew_strip.c.i: cmake_force
@@ -1220,7 +1276,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_skew_strip.c.s: c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_star.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_star.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/assets/img_star.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_star.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_star.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_star.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_star.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_star.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_star.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/assets/img_star.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_star.c.i: cmake_force
@@ -1234,7 +1290,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/img_star.c.s: cmake_f
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/imgbtn_left.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/imgbtn_left.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/assets/imgbtn_left.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/imgbtn_left.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/imgbtn_left.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/imgbtn_left.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/imgbtn_left.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/imgbtn_left.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/imgbtn_left.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/assets/imgbtn_left.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/imgbtn_left.c.i: cmake_force
@@ -1248,7 +1304,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/imgbtn_left.c.s: cmak
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/imgbtn_mid.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/imgbtn_mid.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/assets/imgbtn_mid.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/imgbtn_mid.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/imgbtn_mid.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/imgbtn_mid.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/imgbtn_mid.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/imgbtn_mid.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/imgbtn_mid.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/assets/imgbtn_mid.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/imgbtn_mid.c.i: cmake_force
@@ -1262,7 +1318,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/imgbtn_mid.c.s: cmake
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/imgbtn_right.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/imgbtn_right.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/assets/imgbtn_right.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/imgbtn_right.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/imgbtn_right.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/imgbtn_right.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/imgbtn_right.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/imgbtn_right.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/imgbtn_right.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/assets/imgbtn_right.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/imgbtn_right.c.i: cmake_force
@@ -1276,7 +1332,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/assets/imgbtn_right.c.s: cma
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/event/lv_example_event_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/event/lv_example_event_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/event/lv_example_event_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/event/lv_example_event_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/event/lv_example_event_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/event/lv_example_event_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/event/lv_example_event_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/event/lv_example_event_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/event/lv_example_event_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/event/lv_example_event_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/event/lv_example_event_1.c.i: cmake_force
@@ -1290,7 +1346,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/event/lv_example_event_1.c.s
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/event/lv_example_event_2.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/event/lv_example_event_2.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/event/lv_example_event_2.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/event/lv_example_event_2.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/event/lv_example_event_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/event/lv_example_event_2.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/event/lv_example_event_2.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/event/lv_example_event_2.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/event/lv_example_event_2.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/event/lv_example_event_2.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/event/lv_example_event_2.c.i: cmake_force
@@ -1304,7 +1360,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/event/lv_example_event_2.c.s
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/event/lv_example_event_3.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/event/lv_example_event_3.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/event/lv_example_event_3.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/event/lv_example_event_3.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/event/lv_example_event_3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/event/lv_example_event_3.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/event/lv_example_event_3.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/event/lv_example_event_3.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/event/lv_example_event_3.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/event/lv_example_event_3.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/event/lv_example_event_3.c.i: cmake_force
@@ -1318,7 +1374,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/event/lv_example_event_3.c.s
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/event/lv_example_event_4.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/event/lv_example_event_4.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/event/lv_example_event_4.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/event/lv_example_event_4.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/event/lv_example_event_4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/event/lv_example_event_4.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/event/lv_example_event_4.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/event/lv_example_event_4.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/event/lv_example_event_4.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/event/lv_example_event_4.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/event/lv_example_event_4.c.i: cmake_force
@@ -1332,7 +1388,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/event/lv_example_event_4.c.s
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/get_started/lv_example_get_started_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/get_started/lv_example_get_started_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/get_started/lv_example_get_started_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/get_started/lv_example_get_started_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/get_started/lv_example_get_started_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/get_started/lv_example_get_started_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/get_started/lv_example_get_started_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/get_started/lv_example_get_started_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/get_started/lv_example_get_started_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/get_started/lv_example_get_started_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/get_started/lv_example_get_started_1.c.i: cmake_force
@@ -1346,7 +1402,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/get_started/lv_example_get_s
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/get_started/lv_example_get_started_2.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/get_started/lv_example_get_started_2.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/get_started/lv_example_get_started_2.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/get_started/lv_example_get_started_2.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/get_started/lv_example_get_started_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/get_started/lv_example_get_started_2.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/get_started/lv_example_get_started_2.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/get_started/lv_example_get_started_2.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/get_started/lv_example_get_started_2.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/get_started/lv_example_get_started_2.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/get_started/lv_example_get_started_2.c.i: cmake_force
@@ -1360,7 +1416,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/get_started/lv_example_get_s
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/get_started/lv_example_get_started_3.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/get_started/lv_example_get_started_3.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/get_started/lv_example_get_started_3.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/get_started/lv_example_get_started_3.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/get_started/lv_example_get_started_3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/get_started/lv_example_get_started_3.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/get_started/lv_example_get_started_3.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/get_started/lv_example_get_started_3.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/get_started/lv_example_get_started_3.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/get_started/lv_example_get_started_3.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/get_started/lv_example_get_started_3.c.i: cmake_force
@@ -1374,7 +1430,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/get_started/lv_example_get_s
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_1.c.i: cmake_force
@@ -1388,7 +1444,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_2.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_2.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_2.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_2.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_2.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_2.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_2.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_2.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_2.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_2.c.i: cmake_force
@@ -1402,7 +1458,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_3.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_3.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_3.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_3.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_3.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_3.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_3.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_3.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_3.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_3.c.i: cmake_force
@@ -1416,7 +1472,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_4.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_4.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_4.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_4.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_4.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_4.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_4.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_4.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_4.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_4.c.i: cmake_force
@@ -1430,7 +1486,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_5.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_5.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_5.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_5.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_5.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_5.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_5.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_5.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_5.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_5.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_5.c.i: cmake_force
@@ -1444,7 +1500,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_6.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_6.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_6.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_6.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_6.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_6.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_6.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_6.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_6.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_6.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex_6.c.i: cmake_force
@@ -1458,7 +1514,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/flex/lv_example_flex
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_1.c.i: cmake_force
@@ -1472,7 +1528,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_2.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_2.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_2.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_2.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_2.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_2.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_2.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_2.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_2.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_2.c.i: cmake_force
@@ -1486,7 +1542,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_3.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_3.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_3.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_3.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_3.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_3.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_3.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_3.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_3.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_3.c.i: cmake_force
@@ -1500,7 +1556,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_4.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_4.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_4.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_4.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_4.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_4.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_4.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_4.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_4.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_4.c.i: cmake_force
@@ -1514,7 +1570,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_5.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_5.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_5.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_5.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_5.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_5.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_5.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_5.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_5.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_5.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_5.c.i: cmake_force
@@ -1528,7 +1584,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_6.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_6.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_6.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_6.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_6.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_6.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_6.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_6.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_6.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_6.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid_6.c.i: cmake_force
@@ -1542,7 +1598,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/layouts/grid/lv_example_grid
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/bmp/lv_example_bmp_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/bmp/lv_example_bmp_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/libs/bmp/lv_example_bmp_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/bmp/lv_example_bmp_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/bmp/lv_example_bmp_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/bmp/lv_example_bmp_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/bmp/lv_example_bmp_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/bmp/lv_example_bmp_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/bmp/lv_example_bmp_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/libs/bmp/lv_example_bmp_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/bmp/lv_example_bmp_1.c.i: cmake_force
@@ -1556,7 +1612,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/bmp/lv_example_bmp_1.c.
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg_1.c.i: cmake_force
@@ -1570,7 +1626,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/ffmpeg/lv_example_ffmpe
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg_2.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg_2.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg_2.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg_2.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg_2.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg_2.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg_2.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg_2.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg_2.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/ffmpeg/lv_example_ffmpeg_2.c.i: cmake_force
@@ -1584,7 +1640,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/ffmpeg/lv_example_ffmpe
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/freetype/lv_example_freetype_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/freetype/lv_example_freetype_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/libs/freetype/lv_example_freetype_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/freetype/lv_example_freetype_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/freetype/lv_example_freetype_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/freetype/lv_example_freetype_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/freetype/lv_example_freetype_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/freetype/lv_example_freetype_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/freetype/lv_example_freetype_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/libs/freetype/lv_example_freetype_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/freetype/lv_example_freetype_1.c.i: cmake_force
@@ -1598,7 +1654,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/freetype/lv_example_fre
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/gif/img_bulb_gif.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/gif/img_bulb_gif.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/libs/gif/img_bulb_gif.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/gif/img_bulb_gif.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/gif/img_bulb_gif.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/gif/img_bulb_gif.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/gif/img_bulb_gif.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/gif/img_bulb_gif.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/gif/img_bulb_gif.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/libs/gif/img_bulb_gif.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/gif/img_bulb_gif.c.i: cmake_force
@@ -1612,7 +1668,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/gif/img_bulb_gif.c.s: c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/gif/lv_example_gif_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/gif/lv_example_gif_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/libs/gif/lv_example_gif_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/gif/lv_example_gif_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/gif/lv_example_gif_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/gif/lv_example_gif_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/gif/lv_example_gif_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/gif/lv_example_gif_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/gif/lv_example_gif_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/libs/gif/lv_example_gif_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/gif/lv_example_gif_1.c.i: cmake_force
@@ -1626,7 +1682,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/gif/lv_example_gif_1.c.
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/png/img_wink_png.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/png/img_wink_png.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/libs/png/img_wink_png.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/png/img_wink_png.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/png/img_wink_png.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/png/img_wink_png.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/png/img_wink_png.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/png/img_wink_png.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/png/img_wink_png.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/libs/png/img_wink_png.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/png/img_wink_png.c.i: cmake_force
@@ -1640,7 +1696,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/png/img_wink_png.c.s: c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/png/lv_example_png_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/png/lv_example_png_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/libs/png/lv_example_png_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/png/lv_example_png_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/png/lv_example_png_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/png/lv_example_png_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/png/lv_example_png_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/png/lv_example_png_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/png/lv_example_png_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/libs/png/lv_example_png_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/png/lv_example_png_1.c.i: cmake_force
@@ -1654,7 +1710,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/png/lv_example_png_1.c.
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/qrcode/lv_example_qrcode_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/qrcode/lv_example_qrcode_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/libs/qrcode/lv_example_qrcode_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/qrcode/lv_example_qrcode_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/qrcode/lv_example_qrcode_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/qrcode/lv_example_qrcode_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/qrcode/lv_example_qrcode_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/qrcode/lv_example_qrcode_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/qrcode/lv_example_qrcode_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/libs/qrcode/lv_example_qrcode_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/qrcode/lv_example_qrcode_1.c.i: cmake_force
@@ -1668,7 +1724,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/qrcode/lv_example_qrcod
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/rlottie/lv_example_rlottie_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/rlottie/lv_example_rlottie_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/libs/rlottie/lv_example_rlottie_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/rlottie/lv_example_rlottie_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/rlottie/lv_example_rlottie_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/rlottie/lv_example_rlottie_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/rlottie/lv_example_rlottie_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/rlottie/lv_example_rlottie_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/rlottie/lv_example_rlottie_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/libs/rlottie/lv_example_rlottie_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/rlottie/lv_example_rlottie_1.c.i: cmake_force
@@ -1682,7 +1738,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/rlottie/lv_example_rlot
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/rlottie/lv_example_rlottie_2.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/rlottie/lv_example_rlottie_2.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/libs/rlottie/lv_example_rlottie_2.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/rlottie/lv_example_rlottie_2.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/rlottie/lv_example_rlottie_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/rlottie/lv_example_rlottie_2.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/rlottie/lv_example_rlottie_2.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/rlottie/lv_example_rlottie_2.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/rlottie/lv_example_rlottie_2.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/libs/rlottie/lv_example_rlottie_2.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/rlottie/lv_example_rlottie_2.c.i: cmake_force
@@ -1696,7 +1752,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/rlottie/lv_example_rlot
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/rlottie/lv_example_rlottie_approve.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/rlottie/lv_example_rlottie_approve.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/libs/rlottie/lv_example_rlottie_approve.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/rlottie/lv_example_rlottie_approve.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/rlottie/lv_example_rlottie_approve.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/rlottie/lv_example_rlottie_approve.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/rlottie/lv_example_rlottie_approve.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/rlottie/lv_example_rlottie_approve.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/rlottie/lv_example_rlottie_approve.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/libs/rlottie/lv_example_rlottie_approve.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/rlottie/lv_example_rlottie_approve.c.i: cmake_force
@@ -1710,7 +1766,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/rlottie/lv_example_rlot
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/sjpg/lv_example_sjpg_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/sjpg/lv_example_sjpg_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/libs/sjpg/lv_example_sjpg_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/sjpg/lv_example_sjpg_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/sjpg/lv_example_sjpg_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/sjpg/lv_example_sjpg_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/sjpg/lv_example_sjpg_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/sjpg/lv_example_sjpg_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/sjpg/lv_example_sjpg_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/libs/sjpg/lv_example_sjpg_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/sjpg/lv_example_sjpg_1.c.i: cmake_force
@@ -1724,7 +1780,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/libs/sjpg/lv_example_sjpg_1.
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/fragment/lv_example_fragment_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/fragment/lv_example_fragment_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/others/fragment/lv_example_fragment_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/fragment/lv_example_fragment_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/fragment/lv_example_fragment_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/fragment/lv_example_fragment_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/fragment/lv_example_fragment_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/fragment/lv_example_fragment_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/fragment/lv_example_fragment_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/others/fragment/lv_example_fragment_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/fragment/lv_example_fragment_1.c.i: cmake_force
@@ -1738,7 +1794,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/fragment/lv_example_f
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/fragment/lv_example_fragment_2.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/fragment/lv_example_fragment_2.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/others/fragment/lv_example_fragment_2.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/fragment/lv_example_fragment_2.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/fragment/lv_example_fragment_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/fragment/lv_example_fragment_2.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/fragment/lv_example_fragment_2.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/fragment/lv_example_fragment_2.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/fragment/lv_example_fragment_2.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/others/fragment/lv_example_fragment_2.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/fragment/lv_example_fragment_2.c.i: cmake_force
@@ -1752,7 +1808,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/fragment/lv_example_f
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/gridnav/lv_example_gridnav_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/gridnav/lv_example_gridnav_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/others/gridnav/lv_example_gridnav_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/gridnav/lv_example_gridnav_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/gridnav/lv_example_gridnav_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/gridnav/lv_example_gridnav_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/gridnav/lv_example_gridnav_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/gridnav/lv_example_gridnav_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/gridnav/lv_example_gridnav_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/others/gridnav/lv_example_gridnav_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/gridnav/lv_example_gridnav_1.c.i: cmake_force
@@ -1766,7 +1822,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/gridnav/lv_example_gr
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/gridnav/lv_example_gridnav_2.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/gridnav/lv_example_gridnav_2.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/others/gridnav/lv_example_gridnav_2.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/gridnav/lv_example_gridnav_2.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/gridnav/lv_example_gridnav_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/gridnav/lv_example_gridnav_2.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/gridnav/lv_example_gridnav_2.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/gridnav/lv_example_gridnav_2.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/gridnav/lv_example_gridnav_2.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/others/gridnav/lv_example_gridnav_2.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/gridnav/lv_example_gridnav_2.c.i: cmake_force
@@ -1780,7 +1836,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/gridnav/lv_example_gr
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/gridnav/lv_example_gridnav_3.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/gridnav/lv_example_gridnav_3.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/others/gridnav/lv_example_gridnav_3.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/gridnav/lv_example_gridnav_3.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/gridnav/lv_example_gridnav_3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/gridnav/lv_example_gridnav_3.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/gridnav/lv_example_gridnav_3.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/gridnav/lv_example_gridnav_3.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/gridnav/lv_example_gridnav_3.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/others/gridnav/lv_example_gridnav_3.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/gridnav/lv_example_gridnav_3.c.i: cmake_force
@@ -1794,7 +1850,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/gridnav/lv_example_gr
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/gridnav/lv_example_gridnav_4.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/gridnav/lv_example_gridnav_4.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/others/gridnav/lv_example_gridnav_4.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/gridnav/lv_example_gridnav_4.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/gridnav/lv_example_gridnav_4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/gridnav/lv_example_gridnav_4.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/gridnav/lv_example_gridnav_4.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/gridnav/lv_example_gridnav_4.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/gridnav/lv_example_gridnav_4.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/others/gridnav/lv_example_gridnav_4.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/gridnav/lv_example_gridnav_4.c.i: cmake_force
@@ -1808,7 +1864,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/gridnav/lv_example_gr
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/ime/lv_example_ime_pinyin_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/ime/lv_example_ime_pinyin_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/others/ime/lv_example_ime_pinyin_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/ime/lv_example_ime_pinyin_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/ime/lv_example_ime_pinyin_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/ime/lv_example_ime_pinyin_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/ime/lv_example_ime_pinyin_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/ime/lv_example_ime_pinyin_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/ime/lv_example_ime_pinyin_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/others/ime/lv_example_ime_pinyin_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/ime/lv_example_ime_pinyin_1.c.i: cmake_force
@@ -1822,7 +1878,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/ime/lv_example_ime_pi
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/ime/lv_example_ime_pinyin_2.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/ime/lv_example_ime_pinyin_2.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/others/ime/lv_example_ime_pinyin_2.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/ime/lv_example_ime_pinyin_2.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/ime/lv_example_ime_pinyin_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/ime/lv_example_ime_pinyin_2.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/ime/lv_example_ime_pinyin_2.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/ime/lv_example_ime_pinyin_2.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/ime/lv_example_ime_pinyin_2.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/others/ime/lv_example_ime_pinyin_2.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/ime/lv_example_ime_pinyin_2.c.i: cmake_force
@@ -1836,7 +1892,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/ime/lv_example_ime_pi
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/imgfont/lv_example_imgfont_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/imgfont/lv_example_imgfont_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/others/imgfont/lv_example_imgfont_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/imgfont/lv_example_imgfont_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/imgfont/lv_example_imgfont_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/imgfont/lv_example_imgfont_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/imgfont/lv_example_imgfont_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/imgfont/lv_example_imgfont_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/imgfont/lv_example_imgfont_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/others/imgfont/lv_example_imgfont_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/imgfont/lv_example_imgfont_1.c.i: cmake_force
@@ -1850,7 +1906,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/imgfont/lv_example_im
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/monkey/lv_example_monkey_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/monkey/lv_example_monkey_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/others/monkey/lv_example_monkey_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/monkey/lv_example_monkey_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/monkey/lv_example_monkey_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/monkey/lv_example_monkey_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/monkey/lv_example_monkey_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/monkey/lv_example_monkey_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/monkey/lv_example_monkey_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/others/monkey/lv_example_monkey_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/monkey/lv_example_monkey_1.c.i: cmake_force
@@ -1864,7 +1920,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/monkey/lv_example_mon
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/monkey/lv_example_monkey_2.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/monkey/lv_example_monkey_2.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/others/monkey/lv_example_monkey_2.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/monkey/lv_example_monkey_2.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/monkey/lv_example_monkey_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/monkey/lv_example_monkey_2.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/monkey/lv_example_monkey_2.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/monkey/lv_example_monkey_2.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/monkey/lv_example_monkey_2.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/others/monkey/lv_example_monkey_2.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/monkey/lv_example_monkey_2.c.i: cmake_force
@@ -1878,7 +1934,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/monkey/lv_example_mon
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/monkey/lv_example_monkey_3.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/monkey/lv_example_monkey_3.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/others/monkey/lv_example_monkey_3.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/monkey/lv_example_monkey_3.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/monkey/lv_example_monkey_3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/monkey/lv_example_monkey_3.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/monkey/lv_example_monkey_3.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/monkey/lv_example_monkey_3.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/monkey/lv_example_monkey_3.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/others/monkey/lv_example_monkey_3.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/monkey/lv_example_monkey_3.c.i: cmake_force
@@ -1892,7 +1948,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/monkey/lv_example_mon
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/msg/lv_example_msg_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/msg/lv_example_msg_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/others/msg/lv_example_msg_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/msg/lv_example_msg_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/msg/lv_example_msg_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/msg/lv_example_msg_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/msg/lv_example_msg_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/msg/lv_example_msg_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/msg/lv_example_msg_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/others/msg/lv_example_msg_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/msg/lv_example_msg_1.c.i: cmake_force
@@ -1906,7 +1962,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/msg/lv_example_msg_1.
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/msg/lv_example_msg_2.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/msg/lv_example_msg_2.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/others/msg/lv_example_msg_2.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/msg/lv_example_msg_2.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/msg/lv_example_msg_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/msg/lv_example_msg_2.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/msg/lv_example_msg_2.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/msg/lv_example_msg_2.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/msg/lv_example_msg_2.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/others/msg/lv_example_msg_2.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/msg/lv_example_msg_2.c.i: cmake_force
@@ -1920,7 +1976,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/msg/lv_example_msg_2.
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/msg/lv_example_msg_3.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/msg/lv_example_msg_3.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/others/msg/lv_example_msg_3.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/msg/lv_example_msg_3.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/msg/lv_example_msg_3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/msg/lv_example_msg_3.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/msg/lv_example_msg_3.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/msg/lv_example_msg_3.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/msg/lv_example_msg_3.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/others/msg/lv_example_msg_3.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/msg/lv_example_msg_3.c.i: cmake_force
@@ -1934,7 +1990,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/msg/lv_example_msg_3.
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/snapshot/lv_example_snapshot_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/snapshot/lv_example_snapshot_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/others/snapshot/lv_example_snapshot_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/snapshot/lv_example_snapshot_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/snapshot/lv_example_snapshot_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/snapshot/lv_example_snapshot_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/snapshot/lv_example_snapshot_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/snapshot/lv_example_snapshot_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/snapshot/lv_example_snapshot_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/others/snapshot/lv_example_snapshot_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/snapshot/lv_example_snapshot_1.c.i: cmake_force
@@ -1948,7 +2004,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/others/snapshot/lv_example_s
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/porting/lv_port_disp_template.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/porting/lv_port_disp_template.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/porting/lv_port_disp_template.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/porting/lv_port_disp_template.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/porting/lv_port_disp_template.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/porting/lv_port_disp_template.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/porting/lv_port_disp_template.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/porting/lv_port_disp_template.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/porting/lv_port_disp_template.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/porting/lv_port_disp_template.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/porting/lv_port_disp_template.c.i: cmake_force
@@ -1962,7 +2018,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/porting/lv_port_disp_templat
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/porting/lv_port_fs_template.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/porting/lv_port_fs_template.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/porting/lv_port_fs_template.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/porting/lv_port_fs_template.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/porting/lv_port_fs_template.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/porting/lv_port_fs_template.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/porting/lv_port_fs_template.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/porting/lv_port_fs_template.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/porting/lv_port_fs_template.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/porting/lv_port_fs_template.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/porting/lv_port_fs_template.c.i: cmake_force
@@ -1976,7 +2032,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/porting/lv_port_fs_template.
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/porting/lv_port_indev_template.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/porting/lv_port_indev_template.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/porting/lv_port_indev_template.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/porting/lv_port_indev_template.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/porting/lv_port_indev_template.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/porting/lv_port_indev_template.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/porting/lv_port_indev_template.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/porting/lv_port_indev_template.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/porting/lv_port_indev_template.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/porting/lv_port_indev_template.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/porting/lv_port_indev_template.c.i: cmake_force
@@ -1990,7 +2046,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/porting/lv_port_indev_templa
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/scroll/lv_example_scroll_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/scroll/lv_example_scroll_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_1.c.i: cmake_force
@@ -2004,7 +2060,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_2.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_2.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/scroll/lv_example_scroll_2.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_2.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_2.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_2.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_2.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_2.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/scroll/lv_example_scroll_2.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_2.c.i: cmake_force
@@ -2018,7 +2074,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_2.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_3.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_3.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/scroll/lv_example_scroll_3.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_3.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_3.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_3.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_3.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_3.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/scroll/lv_example_scroll_3.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_3.c.i: cmake_force
@@ -2032,7 +2088,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_3.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_4.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_4.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/scroll/lv_example_scroll_4.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_4.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_4.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_4.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_4.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_4.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/scroll/lv_example_scroll_4.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_4.c.i: cmake_force
@@ -2046,7 +2102,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_4.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_5.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_5.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/scroll/lv_example_scroll_5.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_5.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_5.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_5.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_5.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_5.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_5.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/scroll/lv_example_scroll_5.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_5.c.i: cmake_force
@@ -2060,7 +2116,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_5.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_6.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_6.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/scroll/lv_example_scroll_6.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_6.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_6.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_6.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_6.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_6.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_6.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/scroll/lv_example_scroll_6.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_6.c.i: cmake_force
@@ -2074,7 +2130,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/scroll/lv_example_scroll_6.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/styles/lv_example_style_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/styles/lv_example_style_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_1.c.i: cmake_force
@@ -2088,7 +2144,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_1.c.
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_10.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_10.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/styles/lv_example_style_10.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_10.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_10.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_10.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_10.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_10.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_10.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/styles/lv_example_style_10.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_10.c.i: cmake_force
@@ -2102,7 +2158,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_10.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_11.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_11.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/styles/lv_example_style_11.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_11.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_11.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_11.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_11.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_11.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_11.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/styles/lv_example_style_11.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_11.c.i: cmake_force
@@ -2116,7 +2172,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_11.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_12.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_12.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/styles/lv_example_style_12.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_12.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_12.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_12.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_12.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_12.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_12.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/styles/lv_example_style_12.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_12.c.i: cmake_force
@@ -2130,7 +2186,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_12.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_13.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_13.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/styles/lv_example_style_13.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_13.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_13.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_13.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_13.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_13.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_13.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/styles/lv_example_style_13.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_13.c.i: cmake_force
@@ -2144,7 +2200,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_13.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_14.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_14.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/styles/lv_example_style_14.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_14.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_14.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_14.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_14.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_14.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_14.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/styles/lv_example_style_14.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_14.c.i: cmake_force
@@ -2158,7 +2214,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_14.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_15.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_15.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/styles/lv_example_style_15.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_15.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_15.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_15.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_15.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_15.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_15.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/styles/lv_example_style_15.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_15.c.i: cmake_force
@@ -2172,7 +2228,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_15.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_2.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_2.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/styles/lv_example_style_2.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_2.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_2.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_2.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_2.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_2.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/styles/lv_example_style_2.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_2.c.i: cmake_force
@@ -2186,7 +2242,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_2.c.
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_3.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_3.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/styles/lv_example_style_3.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_3.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_3.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_3.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_3.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_3.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/styles/lv_example_style_3.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_3.c.i: cmake_force
@@ -2200,7 +2256,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_3.c.
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_4.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_4.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/styles/lv_example_style_4.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_4.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_4.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_4.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_4.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_4.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/styles/lv_example_style_4.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_4.c.i: cmake_force
@@ -2214,7 +2270,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_4.c.
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_5.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_5.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/styles/lv_example_style_5.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_5.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_5.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_5.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_5.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_5.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_5.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/styles/lv_example_style_5.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_5.c.i: cmake_force
@@ -2228,7 +2284,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_5.c.
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_6.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_6.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/styles/lv_example_style_6.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_6.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_6.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_6.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_6.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_6.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_6.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/styles/lv_example_style_6.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_6.c.i: cmake_force
@@ -2242,7 +2298,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_6.c.
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_7.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_7.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/styles/lv_example_style_7.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_7.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_7.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_7.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_7.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_7.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_7.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/styles/lv_example_style_7.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_7.c.i: cmake_force
@@ -2256,7 +2312,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_7.c.
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_8.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_8.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/styles/lv_example_style_8.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_8.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_8.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_8.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_8.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_8.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_8.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/styles/lv_example_style_8.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_8.c.i: cmake_force
@@ -2270,7 +2326,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_8.c.
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_9.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_9.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/styles/lv_example_style_9.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_9.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_9.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_9.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_9.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_9.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_9.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/styles/lv_example_style_9.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_9.c.i: cmake_force
@@ -2284,7 +2340,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/styles/lv_example_style_9.c.
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/animimg/lv_example_animimg_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/animimg/lv_example_animimg_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/animimg/lv_example_animimg_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/animimg/lv_example_animimg_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/animimg/lv_example_animimg_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/animimg/lv_example_animimg_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/animimg/lv_example_animimg_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/animimg/lv_example_animimg_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/animimg/lv_example_animimg_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/animimg/lv_example_animimg_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/animimg/lv_example_animimg_1.c.i: cmake_force
@@ -2298,7 +2354,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/animimg/lv_example_a
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/arc/lv_example_arc_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/arc/lv_example_arc_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/arc/lv_example_arc_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/arc/lv_example_arc_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/arc/lv_example_arc_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/arc/lv_example_arc_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/arc/lv_example_arc_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/arc/lv_example_arc_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/arc/lv_example_arc_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/arc/lv_example_arc_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/arc/lv_example_arc_1.c.i: cmake_force
@@ -2312,7 +2368,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/arc/lv_example_arc_1
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/arc/lv_example_arc_2.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/arc/lv_example_arc_2.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/arc/lv_example_arc_2.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/arc/lv_example_arc_2.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/arc/lv_example_arc_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/arc/lv_example_arc_2.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/arc/lv_example_arc_2.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/arc/lv_example_arc_2.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/arc/lv_example_arc_2.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/arc/lv_example_arc_2.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/arc/lv_example_arc_2.c.i: cmake_force
@@ -2326,7 +2382,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/arc/lv_example_arc_2
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_1.c.i: cmake_force
@@ -2340,7 +2396,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_1
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_2.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_2.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_2.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_2.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_2.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_2.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_2.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_2.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_2.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_2.c.i: cmake_force
@@ -2354,7 +2410,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_2
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_3.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_3.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_3.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_3.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_3.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_3.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_3.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_3.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_3.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_3.c.i: cmake_force
@@ -2368,7 +2424,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_3
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_4.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_4.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_4.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_4.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_4.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_4.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_4.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_4.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_4.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_4.c.i: cmake_force
@@ -2382,7 +2438,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_4
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_5.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_5.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_5.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_5.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_5.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_5.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_5.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_5.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_5.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_5.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_5.c.i: cmake_force
@@ -2396,7 +2452,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_5
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_6.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_6.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_6.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_6.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_6.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_6.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_6.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_6.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_6.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_6.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_6.c.i: cmake_force
@@ -2410,7 +2466,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/bar/lv_example_bar_6
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btn/lv_example_btn_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btn/lv_example_btn_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/btn/lv_example_btn_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btn/lv_example_btn_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btn/lv_example_btn_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btn/lv_example_btn_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btn/lv_example_btn_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btn/lv_example_btn_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btn/lv_example_btn_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/btn/lv_example_btn_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btn/lv_example_btn_1.c.i: cmake_force
@@ -2424,7 +2480,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btn/lv_example_btn_1
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btn/lv_example_btn_2.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btn/lv_example_btn_2.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/btn/lv_example_btn_2.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btn/lv_example_btn_2.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btn/lv_example_btn_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btn/lv_example_btn_2.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btn/lv_example_btn_2.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btn/lv_example_btn_2.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btn/lv_example_btn_2.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/btn/lv_example_btn_2.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btn/lv_example_btn_2.c.i: cmake_force
@@ -2438,7 +2494,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btn/lv_example_btn_2
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btn/lv_example_btn_3.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btn/lv_example_btn_3.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/btn/lv_example_btn_3.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btn/lv_example_btn_3.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btn/lv_example_btn_3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btn/lv_example_btn_3.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btn/lv_example_btn_3.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btn/lv_example_btn_3.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btn/lv_example_btn_3.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/btn/lv_example_btn_3.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btn/lv_example_btn_3.c.i: cmake_force
@@ -2452,7 +2508,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btn/lv_example_btn_3
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_1.c.i: cmake_force
@@ -2466,7 +2522,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btnmatrix/lv_example
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_2.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_2.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_2.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_2.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_2.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_2.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_2.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_2.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_2.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_2.c.i: cmake_force
@@ -2480,7 +2536,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btnmatrix/lv_example
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_3.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_3.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_3.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_3.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_3.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_3.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_3.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_3.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_3.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btnmatrix/lv_example_btnmatrix_3.c.i: cmake_force
@@ -2494,7 +2550,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/btnmatrix/lv_example
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/calendar/lv_example_calendar_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/calendar/lv_example_calendar_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/calendar/lv_example_calendar_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/calendar/lv_example_calendar_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/calendar/lv_example_calendar_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/calendar/lv_example_calendar_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/calendar/lv_example_calendar_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/calendar/lv_example_calendar_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/calendar/lv_example_calendar_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/calendar/lv_example_calendar_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/calendar/lv_example_calendar_1.c.i: cmake_force
@@ -2508,7 +2564,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/calendar/lv_example_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/canvas/lv_example_canvas_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/canvas/lv_example_canvas_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/canvas/lv_example_canvas_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/canvas/lv_example_canvas_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/canvas/lv_example_canvas_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/canvas/lv_example_canvas_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/canvas/lv_example_canvas_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/canvas/lv_example_canvas_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/canvas/lv_example_canvas_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/canvas/lv_example_canvas_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/canvas/lv_example_canvas_1.c.i: cmake_force
@@ -2522,7 +2578,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/canvas/lv_example_ca
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/canvas/lv_example_canvas_2.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/canvas/lv_example_canvas_2.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/canvas/lv_example_canvas_2.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/canvas/lv_example_canvas_2.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/canvas/lv_example_canvas_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/canvas/lv_example_canvas_2.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/canvas/lv_example_canvas_2.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/canvas/lv_example_canvas_2.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/canvas/lv_example_canvas_2.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/canvas/lv_example_canvas_2.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/canvas/lv_example_canvas_2.c.i: cmake_force
@@ -2536,7 +2592,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/canvas/lv_example_ca
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_1.c.i: cmake_force
@@ -2550,7 +2606,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_cha
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_2.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_2.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_2.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_2.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_2.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_2.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_2.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_2.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_2.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_2.c.i: cmake_force
@@ -2564,7 +2620,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_cha
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_3.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_3.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_3.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_3.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_3.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_3.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_3.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_3.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_3.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_3.c.i: cmake_force
@@ -2578,7 +2634,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_cha
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_4.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_4.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_4.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_4.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_4.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_4.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_4.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_4.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_4.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_4.c.i: cmake_force
@@ -2592,7 +2648,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_cha
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_5.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_5.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_5.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_5.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_5.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_5.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_5.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_5.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_5.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_5.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_5.c.i: cmake_force
@@ -2606,7 +2662,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_cha
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_6.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_6.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_6.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_6.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_6.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_6.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_6.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_6.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_6.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_6.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_6.c.i: cmake_force
@@ -2620,7 +2676,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_cha
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_7.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_7.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_7.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_7.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_7.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_7.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_7.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_7.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_7.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_7.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_7.c.i: cmake_force
@@ -2634,7 +2690,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_cha
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_8.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_8.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_8.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_8.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_8.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_8.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_8.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_8.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_8.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_8.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_8.c.i: cmake_force
@@ -2648,7 +2704,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_cha
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_9.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_9.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_9.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_9.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_9.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_9.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_9.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_9.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_9.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_9.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_chart_9.c.i: cmake_force
@@ -2662,7 +2718,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/chart/lv_example_cha
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/checkbox/lv_example_checkbox_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/checkbox/lv_example_checkbox_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/checkbox/lv_example_checkbox_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/checkbox/lv_example_checkbox_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/checkbox/lv_example_checkbox_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/checkbox/lv_example_checkbox_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/checkbox/lv_example_checkbox_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/checkbox/lv_example_checkbox_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/checkbox/lv_example_checkbox_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/checkbox/lv_example_checkbox_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/checkbox/lv_example_checkbox_1.c.i: cmake_force
@@ -2676,7 +2732,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/checkbox/lv_example_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/checkbox/lv_example_checkbox_2.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/checkbox/lv_example_checkbox_2.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/checkbox/lv_example_checkbox_2.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/checkbox/lv_example_checkbox_2.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/checkbox/lv_example_checkbox_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/checkbox/lv_example_checkbox_2.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/checkbox/lv_example_checkbox_2.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/checkbox/lv_example_checkbox_2.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/checkbox/lv_example_checkbox_2.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/checkbox/lv_example_checkbox_2.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/checkbox/lv_example_checkbox_2.c.i: cmake_force
@@ -2690,7 +2746,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/checkbox/lv_example_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/colorwheel/lv_example_colorwheel_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/colorwheel/lv_example_colorwheel_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/colorwheel/lv_example_colorwheel_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/colorwheel/lv_example_colorwheel_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/colorwheel/lv_example_colorwheel_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/colorwheel/lv_example_colorwheel_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/colorwheel/lv_example_colorwheel_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/colorwheel/lv_example_colorwheel_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/colorwheel/lv_example_colorwheel_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/colorwheel/lv_example_colorwheel_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/colorwheel/lv_example_colorwheel_1.c.i: cmake_force
@@ -2704,7 +2760,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/colorwheel/lv_exampl
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/dropdown/lv_example_dropdown_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/dropdown/lv_example_dropdown_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/dropdown/lv_example_dropdown_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/dropdown/lv_example_dropdown_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/dropdown/lv_example_dropdown_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/dropdown/lv_example_dropdown_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/dropdown/lv_example_dropdown_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/dropdown/lv_example_dropdown_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/dropdown/lv_example_dropdown_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/dropdown/lv_example_dropdown_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/dropdown/lv_example_dropdown_1.c.i: cmake_force
@@ -2718,7 +2774,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/dropdown/lv_example_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/dropdown/lv_example_dropdown_2.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/dropdown/lv_example_dropdown_2.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/dropdown/lv_example_dropdown_2.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/dropdown/lv_example_dropdown_2.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/dropdown/lv_example_dropdown_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/dropdown/lv_example_dropdown_2.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/dropdown/lv_example_dropdown_2.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/dropdown/lv_example_dropdown_2.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/dropdown/lv_example_dropdown_2.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/dropdown/lv_example_dropdown_2.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/dropdown/lv_example_dropdown_2.c.i: cmake_force
@@ -2732,7 +2788,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/dropdown/lv_example_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/dropdown/lv_example_dropdown_3.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/dropdown/lv_example_dropdown_3.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/dropdown/lv_example_dropdown_3.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/dropdown/lv_example_dropdown_3.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/dropdown/lv_example_dropdown_3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/dropdown/lv_example_dropdown_3.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/dropdown/lv_example_dropdown_3.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/dropdown/lv_example_dropdown_3.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/dropdown/lv_example_dropdown_3.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/dropdown/lv_example_dropdown_3.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/dropdown/lv_example_dropdown_3.c.i: cmake_force
@@ -2746,7 +2802,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/dropdown/lv_example_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/img/lv_example_img_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/img/lv_example_img_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/img/lv_example_img_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/img/lv_example_img_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/img/lv_example_img_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/img/lv_example_img_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/img/lv_example_img_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/img/lv_example_img_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/img/lv_example_img_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/img/lv_example_img_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/img/lv_example_img_1.c.i: cmake_force
@@ -2760,7 +2816,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/img/lv_example_img_1
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/img/lv_example_img_2.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/img/lv_example_img_2.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/img/lv_example_img_2.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/img/lv_example_img_2.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/img/lv_example_img_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/img/lv_example_img_2.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/img/lv_example_img_2.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/img/lv_example_img_2.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/img/lv_example_img_2.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/img/lv_example_img_2.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/img/lv_example_img_2.c.i: cmake_force
@@ -2774,7 +2830,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/img/lv_example_img_2
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/img/lv_example_img_3.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/img/lv_example_img_3.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/img/lv_example_img_3.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/img/lv_example_img_3.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/img/lv_example_img_3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/img/lv_example_img_3.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/img/lv_example_img_3.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/img/lv_example_img_3.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/img/lv_example_img_3.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/img/lv_example_img_3.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/img/lv_example_img_3.c.i: cmake_force
@@ -2788,7 +2844,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/img/lv_example_img_3
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/img/lv_example_img_4.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/img/lv_example_img_4.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/img/lv_example_img_4.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/img/lv_example_img_4.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/img/lv_example_img_4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/img/lv_example_img_4.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/img/lv_example_img_4.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/img/lv_example_img_4.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/img/lv_example_img_4.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/img/lv_example_img_4.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/img/lv_example_img_4.c.i: cmake_force
@@ -2802,7 +2858,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/img/lv_example_img_4
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/imgbtn/lv_example_imgbtn_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/imgbtn/lv_example_imgbtn_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/imgbtn/lv_example_imgbtn_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/imgbtn/lv_example_imgbtn_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/imgbtn/lv_example_imgbtn_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/imgbtn/lv_example_imgbtn_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/imgbtn/lv_example_imgbtn_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/imgbtn/lv_example_imgbtn_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/imgbtn/lv_example_imgbtn_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/imgbtn/lv_example_imgbtn_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/imgbtn/lv_example_imgbtn_1.c.i: cmake_force
@@ -2816,7 +2872,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/imgbtn/lv_example_im
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/keyboard/lv_example_keyboard_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/keyboard/lv_example_keyboard_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/keyboard/lv_example_keyboard_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/keyboard/lv_example_keyboard_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/keyboard/lv_example_keyboard_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/keyboard/lv_example_keyboard_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/keyboard/lv_example_keyboard_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/keyboard/lv_example_keyboard_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/keyboard/lv_example_keyboard_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/keyboard/lv_example_keyboard_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/keyboard/lv_example_keyboard_1.c.i: cmake_force
@@ -2830,7 +2886,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/keyboard/lv_example_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/label/lv_example_label_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/label/lv_example_label_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/label/lv_example_label_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/label/lv_example_label_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/label/lv_example_label_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/label/lv_example_label_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/label/lv_example_label_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/label/lv_example_label_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/label/lv_example_label_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/label/lv_example_label_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/label/lv_example_label_1.c.i: cmake_force
@@ -2844,7 +2900,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/label/lv_example_lab
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/label/lv_example_label_2.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/label/lv_example_label_2.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/label/lv_example_label_2.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/label/lv_example_label_2.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/label/lv_example_label_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/label/lv_example_label_2.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/label/lv_example_label_2.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/label/lv_example_label_2.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/label/lv_example_label_2.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/label/lv_example_label_2.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/label/lv_example_label_2.c.i: cmake_force
@@ -2858,7 +2914,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/label/lv_example_lab
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/label/lv_example_label_3.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/label/lv_example_label_3.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/label/lv_example_label_3.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/label/lv_example_label_3.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/label/lv_example_label_3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/label/lv_example_label_3.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/label/lv_example_label_3.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/label/lv_example_label_3.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/label/lv_example_label_3.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/label/lv_example_label_3.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/label/lv_example_label_3.c.i: cmake_force
@@ -2872,7 +2928,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/label/lv_example_lab
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/label/lv_example_label_4.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/label/lv_example_label_4.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/label/lv_example_label_4.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/label/lv_example_label_4.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/label/lv_example_label_4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/label/lv_example_label_4.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/label/lv_example_label_4.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/label/lv_example_label_4.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/label/lv_example_label_4.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/label/lv_example_label_4.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/label/lv_example_label_4.c.i: cmake_force
@@ -2886,7 +2942,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/label/lv_example_lab
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/label/lv_example_label_5.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/label/lv_example_label_5.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/label/lv_example_label_5.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/label/lv_example_label_5.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/label/lv_example_label_5.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/label/lv_example_label_5.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/label/lv_example_label_5.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/label/lv_example_label_5.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/label/lv_example_label_5.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/label/lv_example_label_5.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/label/lv_example_label_5.c.i: cmake_force
@@ -2900,7 +2956,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/label/lv_example_lab
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/led/lv_example_led_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/led/lv_example_led_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/led/lv_example_led_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/led/lv_example_led_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/led/lv_example_led_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/led/lv_example_led_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/led/lv_example_led_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/led/lv_example_led_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/led/lv_example_led_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/led/lv_example_led_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/led/lv_example_led_1.c.i: cmake_force
@@ -2914,7 +2970,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/led/lv_example_led_1
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/line/lv_example_line_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/line/lv_example_line_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/line/lv_example_line_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/line/lv_example_line_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/line/lv_example_line_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/line/lv_example_line_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/line/lv_example_line_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/line/lv_example_line_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/line/lv_example_line_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/line/lv_example_line_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/line/lv_example_line_1.c.i: cmake_force
@@ -2928,7 +2984,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/line/lv_example_line
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/list/lv_example_list_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/list/lv_example_list_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/list/lv_example_list_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/list/lv_example_list_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/list/lv_example_list_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/list/lv_example_list_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/list/lv_example_list_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/list/lv_example_list_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/list/lv_example_list_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/list/lv_example_list_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/list/lv_example_list_1.c.i: cmake_force
@@ -2942,7 +2998,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/list/lv_example_list
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/list/lv_example_list_2.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/list/lv_example_list_2.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/list/lv_example_list_2.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/list/lv_example_list_2.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/list/lv_example_list_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/list/lv_example_list_2.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/list/lv_example_list_2.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/list/lv_example_list_2.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/list/lv_example_list_2.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/list/lv_example_list_2.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/list/lv_example_list_2.c.i: cmake_force
@@ -2956,7 +3012,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/list/lv_example_list
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_1.c.i: cmake_force
@@ -2970,7 +3026,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_2.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_2.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_2.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_2.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_2.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_2.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_2.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_2.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_2.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_2.c.i: cmake_force
@@ -2984,7 +3040,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_3.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_3.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_3.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_3.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_3.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_3.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_3.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_3.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_3.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_3.c.i: cmake_force
@@ -2998,7 +3054,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_4.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_4.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_4.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_4.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_4.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_4.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_4.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_4.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_4.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_4.c.i: cmake_force
@@ -3012,7 +3068,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_5.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_5.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_5.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_5.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_5.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_5.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_5.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_5.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_5.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_5.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu_5.c.i: cmake_force
@@ -3026,7 +3082,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/menu/lv_example_menu
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/meter/lv_example_meter_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/meter/lv_example_meter_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/meter/lv_example_meter_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/meter/lv_example_meter_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/meter/lv_example_meter_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/meter/lv_example_meter_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/meter/lv_example_meter_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/meter/lv_example_meter_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/meter/lv_example_meter_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/meter/lv_example_meter_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/meter/lv_example_meter_1.c.i: cmake_force
@@ -3040,7 +3096,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/meter/lv_example_met
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/meter/lv_example_meter_2.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/meter/lv_example_meter_2.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/meter/lv_example_meter_2.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/meter/lv_example_meter_2.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/meter/lv_example_meter_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/meter/lv_example_meter_2.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/meter/lv_example_meter_2.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/meter/lv_example_meter_2.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/meter/lv_example_meter_2.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/meter/lv_example_meter_2.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/meter/lv_example_meter_2.c.i: cmake_force
@@ -3054,7 +3110,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/meter/lv_example_met
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/meter/lv_example_meter_3.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/meter/lv_example_meter_3.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/meter/lv_example_meter_3.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/meter/lv_example_meter_3.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/meter/lv_example_meter_3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/meter/lv_example_meter_3.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/meter/lv_example_meter_3.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/meter/lv_example_meter_3.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/meter/lv_example_meter_3.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/meter/lv_example_meter_3.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/meter/lv_example_meter_3.c.i: cmake_force
@@ -3068,7 +3124,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/meter/lv_example_met
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/meter/lv_example_meter_4.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/meter/lv_example_meter_4.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/meter/lv_example_meter_4.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/meter/lv_example_meter_4.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/meter/lv_example_meter_4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/meter/lv_example_meter_4.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/meter/lv_example_meter_4.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/meter/lv_example_meter_4.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/meter/lv_example_meter_4.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/meter/lv_example_meter_4.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/meter/lv_example_meter_4.c.i: cmake_force
@@ -3082,7 +3138,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/meter/lv_example_met
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/msgbox/lv_example_msgbox_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/msgbox/lv_example_msgbox_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/msgbox/lv_example_msgbox_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/msgbox/lv_example_msgbox_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/msgbox/lv_example_msgbox_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/msgbox/lv_example_msgbox_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/msgbox/lv_example_msgbox_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/msgbox/lv_example_msgbox_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/msgbox/lv_example_msgbox_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/msgbox/lv_example_msgbox_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/msgbox/lv_example_msgbox_1.c.i: cmake_force
@@ -3096,7 +3152,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/msgbox/lv_example_ms
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/obj/lv_example_obj_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/obj/lv_example_obj_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/obj/lv_example_obj_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/obj/lv_example_obj_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/obj/lv_example_obj_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_221) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/obj/lv_example_obj_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/obj/lv_example_obj_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/obj/lv_example_obj_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/obj/lv_example_obj_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/obj/lv_example_obj_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/obj/lv_example_obj_1.c.i: cmake_force
@@ -3110,7 +3166,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/obj/lv_example_obj_1
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/obj/lv_example_obj_2.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/obj/lv_example_obj_2.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/obj/lv_example_obj_2.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/obj/lv_example_obj_2.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/obj/lv_example_obj_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_222) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/obj/lv_example_obj_2.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/obj/lv_example_obj_2.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/obj/lv_example_obj_2.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/obj/lv_example_obj_2.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/obj/lv_example_obj_2.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/obj/lv_example_obj_2.c.i: cmake_force
@@ -3124,7 +3180,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/obj/lv_example_obj_2
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/roller/lv_example_roller_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/roller/lv_example_roller_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/roller/lv_example_roller_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/roller/lv_example_roller_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/roller/lv_example_roller_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_223) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/roller/lv_example_roller_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/roller/lv_example_roller_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/roller/lv_example_roller_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/roller/lv_example_roller_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/roller/lv_example_roller_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/roller/lv_example_roller_1.c.i: cmake_force
@@ -3138,7 +3194,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/roller/lv_example_ro
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/roller/lv_example_roller_2.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/roller/lv_example_roller_2.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/roller/lv_example_roller_2.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/roller/lv_example_roller_2.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/roller/lv_example_roller_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_224) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/roller/lv_example_roller_2.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/roller/lv_example_roller_2.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/roller/lv_example_roller_2.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/roller/lv_example_roller_2.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/roller/lv_example_roller_2.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/roller/lv_example_roller_2.c.i: cmake_force
@@ -3152,7 +3208,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/roller/lv_example_ro
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/roller/lv_example_roller_3.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/roller/lv_example_roller_3.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/roller/lv_example_roller_3.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/roller/lv_example_roller_3.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_221) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/roller/lv_example_roller_3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_225) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/roller/lv_example_roller_3.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/roller/lv_example_roller_3.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/roller/lv_example_roller_3.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/roller/lv_example_roller_3.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/roller/lv_example_roller_3.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/roller/lv_example_roller_3.c.i: cmake_force
@@ -3166,7 +3222,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/roller/lv_example_ro
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/slider/lv_example_slider_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/slider/lv_example_slider_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/slider/lv_example_slider_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/slider/lv_example_slider_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_222) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/slider/lv_example_slider_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_226) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/slider/lv_example_slider_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/slider/lv_example_slider_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/slider/lv_example_slider_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/slider/lv_example_slider_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/slider/lv_example_slider_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/slider/lv_example_slider_1.c.i: cmake_force
@@ -3180,7 +3236,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/slider/lv_example_sl
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/slider/lv_example_slider_2.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/slider/lv_example_slider_2.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/slider/lv_example_slider_2.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/slider/lv_example_slider_2.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_223) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/slider/lv_example_slider_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_227) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/slider/lv_example_slider_2.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/slider/lv_example_slider_2.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/slider/lv_example_slider_2.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/slider/lv_example_slider_2.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/slider/lv_example_slider_2.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/slider/lv_example_slider_2.c.i: cmake_force
@@ -3194,7 +3250,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/slider/lv_example_sl
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/slider/lv_example_slider_3.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/slider/lv_example_slider_3.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/slider/lv_example_slider_3.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/slider/lv_example_slider_3.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_224) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/slider/lv_example_slider_3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_228) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/slider/lv_example_slider_3.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/slider/lv_example_slider_3.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/slider/lv_example_slider_3.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/slider/lv_example_slider_3.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/slider/lv_example_slider_3.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/slider/lv_example_slider_3.c.i: cmake_force
@@ -3208,7 +3264,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/slider/lv_example_sl
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/span/lv_example_span_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/span/lv_example_span_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/span/lv_example_span_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/span/lv_example_span_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_225) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/span/lv_example_span_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_229) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/span/lv_example_span_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/span/lv_example_span_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/span/lv_example_span_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/span/lv_example_span_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/span/lv_example_span_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/span/lv_example_span_1.c.i: cmake_force
@@ -3222,7 +3278,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/span/lv_example_span
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/spinbox/lv_example_spinbox_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/spinbox/lv_example_spinbox_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/spinbox/lv_example_spinbox_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/spinbox/lv_example_spinbox_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_226) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/spinbox/lv_example_spinbox_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_230) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/spinbox/lv_example_spinbox_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/spinbox/lv_example_spinbox_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/spinbox/lv_example_spinbox_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/spinbox/lv_example_spinbox_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/spinbox/lv_example_spinbox_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/spinbox/lv_example_spinbox_1.c.i: cmake_force
@@ -3236,7 +3292,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/spinbox/lv_example_s
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/spinner/lv_example_spinner_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/spinner/lv_example_spinner_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/spinner/lv_example_spinner_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/spinner/lv_example_spinner_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_227) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/spinner/lv_example_spinner_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_231) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/spinner/lv_example_spinner_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/spinner/lv_example_spinner_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/spinner/lv_example_spinner_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/spinner/lv_example_spinner_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/spinner/lv_example_spinner_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/spinner/lv_example_spinner_1.c.i: cmake_force
@@ -3250,7 +3306,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/spinner/lv_example_s
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/switch/lv_example_switch_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/switch/lv_example_switch_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/switch/lv_example_switch_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/switch/lv_example_switch_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_228) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/switch/lv_example_switch_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_232) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/switch/lv_example_switch_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/switch/lv_example_switch_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/switch/lv_example_switch_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/switch/lv_example_switch_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/switch/lv_example_switch_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/switch/lv_example_switch_1.c.i: cmake_force
@@ -3264,7 +3320,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/switch/lv_example_sw
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/table/lv_example_table_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/table/lv_example_table_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/table/lv_example_table_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/table/lv_example_table_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_229) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/table/lv_example_table_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_233) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/table/lv_example_table_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/table/lv_example_table_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/table/lv_example_table_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/table/lv_example_table_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/table/lv_example_table_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/table/lv_example_table_1.c.i: cmake_force
@@ -3278,7 +3334,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/table/lv_example_tab
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/table/lv_example_table_2.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/table/lv_example_table_2.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/table/lv_example_table_2.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/table/lv_example_table_2.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_230) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/table/lv_example_table_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_234) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/table/lv_example_table_2.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/table/lv_example_table_2.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/table/lv_example_table_2.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/table/lv_example_table_2.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/table/lv_example_table_2.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/table/lv_example_table_2.c.i: cmake_force
@@ -3292,7 +3348,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/table/lv_example_tab
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/tabview/lv_example_tabview_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/tabview/lv_example_tabview_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/tabview/lv_example_tabview_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/tabview/lv_example_tabview_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_231) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/tabview/lv_example_tabview_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_235) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/tabview/lv_example_tabview_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/tabview/lv_example_tabview_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/tabview/lv_example_tabview_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/tabview/lv_example_tabview_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/tabview/lv_example_tabview_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/tabview/lv_example_tabview_1.c.i: cmake_force
@@ -3306,7 +3362,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/tabview/lv_example_t
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/tabview/lv_example_tabview_2.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/tabview/lv_example_tabview_2.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/tabview/lv_example_tabview_2.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/tabview/lv_example_tabview_2.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_232) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/tabview/lv_example_tabview_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_236) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/tabview/lv_example_tabview_2.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/tabview/lv_example_tabview_2.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/tabview/lv_example_tabview_2.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/tabview/lv_example_tabview_2.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/tabview/lv_example_tabview_2.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/tabview/lv_example_tabview_2.c.i: cmake_force
@@ -3320,7 +3376,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/tabview/lv_example_t
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/textarea/lv_example_textarea_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/textarea/lv_example_textarea_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/textarea/lv_example_textarea_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/textarea/lv_example_textarea_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_233) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/textarea/lv_example_textarea_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_237) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/textarea/lv_example_textarea_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/textarea/lv_example_textarea_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/textarea/lv_example_textarea_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/textarea/lv_example_textarea_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/textarea/lv_example_textarea_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/textarea/lv_example_textarea_1.c.i: cmake_force
@@ -3334,7 +3390,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/textarea/lv_example_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/textarea/lv_example_textarea_2.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/textarea/lv_example_textarea_2.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/textarea/lv_example_textarea_2.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/textarea/lv_example_textarea_2.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_234) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/textarea/lv_example_textarea_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_238) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/textarea/lv_example_textarea_2.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/textarea/lv_example_textarea_2.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/textarea/lv_example_textarea_2.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/textarea/lv_example_textarea_2.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/textarea/lv_example_textarea_2.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/textarea/lv_example_textarea_2.c.i: cmake_force
@@ -3348,7 +3404,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/textarea/lv_example_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/textarea/lv_example_textarea_3.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/textarea/lv_example_textarea_3.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/textarea/lv_example_textarea_3.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/textarea/lv_example_textarea_3.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_235) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/textarea/lv_example_textarea_3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_239) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/textarea/lv_example_textarea_3.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/textarea/lv_example_textarea_3.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/textarea/lv_example_textarea_3.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/textarea/lv_example_textarea_3.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/textarea/lv_example_textarea_3.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/textarea/lv_example_textarea_3.c.i: cmake_force
@@ -3362,7 +3418,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/textarea/lv_example_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/tileview/lv_example_tileview_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/tileview/lv_example_tileview_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/tileview/lv_example_tileview_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/tileview/lv_example_tileview_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_236) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/tileview/lv_example_tileview_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_240) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/tileview/lv_example_tileview_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/tileview/lv_example_tileview_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/tileview/lv_example_tileview_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/tileview/lv_example_tileview_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/tileview/lv_example_tileview_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/tileview/lv_example_tileview_1.c.i: cmake_force
@@ -3376,7 +3432,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/tileview/lv_example_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/win/lv_example_win_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/win/lv_example_win_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/win/lv_example_win_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/win/lv_example_win_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_237) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/win/lv_example_win_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_241) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/win/lv_example_win_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/win/lv_example_win_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/win/lv_example_win_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/win/lv_example_win_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/examples/widgets/win/lv_example_win_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/win/lv_example_win_1.c.i: cmake_force
@@ -3390,7 +3446,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/examples/widgets/win/lv_example_win_1
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_disp.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_disp.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_disp.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_disp.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_238) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_disp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_242) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_disp.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_disp.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_disp.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_disp.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_disp.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_disp.c.i: cmake_force
@@ -3404,7 +3460,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_disp.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_event.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_event.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_event.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_event.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_239) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_event.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_243) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_event.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_event.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_event.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_event.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_event.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_event.c.i: cmake_force
@@ -3418,7 +3474,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_event.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_group.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_group.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_group.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_group.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_240) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_group.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_244) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_group.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_group.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_group.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_group.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_group.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_group.c.i: cmake_force
@@ -3432,7 +3488,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_group.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_indev.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_indev.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_indev.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_indev.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_241) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_indev.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_245) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_indev.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_indev.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_indev.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_indev.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_indev.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_indev.c.i: cmake_force
@@ -3446,7 +3502,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_indev.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_indev_scroll.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_indev_scroll.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_indev_scroll.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_indev_scroll.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_242) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_indev_scroll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_246) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_indev_scroll.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_indev_scroll.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_indev_scroll.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_indev_scroll.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_indev_scroll.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_indev_scroll.c.i: cmake_force
@@ -3460,7 +3516,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_indev_scroll.c.s: cmake_f
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_obj.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_243) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_247) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_obj.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj.c.i: cmake_force
@@ -3474,7 +3530,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_class.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_class.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_obj_class.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_class.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_244) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_class.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_248) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_class.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_class.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_class.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_class.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_obj_class.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_class.c.i: cmake_force
@@ -3488,7 +3544,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_class.c.s: cmake_forc
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_draw.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_draw.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_obj_draw.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_draw.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_245) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_draw.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_249) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_draw.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_draw.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_draw.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_draw.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_obj_draw.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_draw.c.i: cmake_force
@@ -3502,7 +3558,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_draw.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_pos.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_pos.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_obj_pos.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_pos.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_246) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_pos.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_250) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_pos.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_pos.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_pos.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_pos.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_obj_pos.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_pos.c.i: cmake_force
@@ -3516,7 +3572,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_pos.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_scroll.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_scroll.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_obj_scroll.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_scroll.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_247) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_scroll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_251) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_scroll.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_scroll.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_scroll.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_scroll.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_obj_scroll.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_scroll.c.i: cmake_force
@@ -3530,7 +3586,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_scroll.c.s: cmake_for
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_style.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_style.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_obj_style.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_style.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_248) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_style.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_252) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_style.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_style.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_style.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_style.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_obj_style.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_style.c.i: cmake_force
@@ -3544,7 +3600,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_style.c.s: cmake_forc
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_style_gen.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_style_gen.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_obj_style_gen.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_style_gen.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_249) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_style_gen.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_253) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_style_gen.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_style_gen.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_style_gen.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_style_gen.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_obj_style_gen.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_style_gen.c.i: cmake_force
@@ -3558,7 +3614,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_style_gen.c.s: cmake_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_tree.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_tree.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_obj_tree.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_tree.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_250) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_tree.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_254) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_tree.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_tree.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_tree.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_tree.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_obj_tree.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_tree.c.i: cmake_force
@@ -3572,7 +3628,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_obj_tree.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_refr.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_refr.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_refr.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_refr.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_251) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_refr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_255) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_refr.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_refr.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_refr.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_refr.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_refr.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_refr.c.i: cmake_force
@@ -3586,7 +3642,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_refr.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_theme.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_theme.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_theme.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_theme.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_252) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_theme.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_256) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_theme.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_theme.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_theme.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_theme.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/core/lv_theme.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_theme.c.i: cmake_force
@@ -3600,7 +3656,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/core/lv_theme.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/arm2d/lv_gpu_arm2d.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/arm2d/lv_gpu_arm2d.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/arm2d/lv_gpu_arm2d.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/arm2d/lv_gpu_arm2d.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_253) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/arm2d/lv_gpu_arm2d.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_257) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/arm2d/lv_gpu_arm2d.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/arm2d/lv_gpu_arm2d.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/arm2d/lv_gpu_arm2d.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/arm2d/lv_gpu_arm2d.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/arm2d/lv_gpu_arm2d.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/arm2d/lv_gpu_arm2d.c.i: cmake_force
@@ -3614,7 +3670,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/arm2d/lv_gpu_arm2d.c.s: cmak
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/lv_draw.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_254) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_258) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/lv_draw.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw.c.i: cmake_force
@@ -3628,7 +3684,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_arc.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_arc.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/lv_draw_arc.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_arc.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_255) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_arc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_259) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_arc.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_arc.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_arc.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_arc.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/lv_draw_arc.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_arc.c.i: cmake_force
@@ -3642,7 +3698,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_arc.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_img.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_img.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/lv_draw_img.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_img.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_256) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_img.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_260) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_img.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_img.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_img.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_img.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/lv_draw_img.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_img.c.i: cmake_force
@@ -3656,7 +3712,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_img.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_label.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_label.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/lv_draw_label.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_label.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_257) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_label.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_261) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_label.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_label.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_label.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_label.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/lv_draw_label.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_label.c.i: cmake_force
@@ -3670,7 +3726,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_label.c.s: cmake_for
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_layer.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_layer.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/lv_draw_layer.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_layer.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_258) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_layer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_262) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_layer.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_layer.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_layer.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_layer.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/lv_draw_layer.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_layer.c.i: cmake_force
@@ -3684,7 +3740,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_layer.c.s: cmake_for
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_line.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_line.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/lv_draw_line.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_line.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_259) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_line.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_263) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_line.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_line.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_line.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_line.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/lv_draw_line.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_line.c.i: cmake_force
@@ -3698,7 +3754,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_line.c.s: cmake_forc
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_mask.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_mask.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/lv_draw_mask.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_mask.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_260) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_mask.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_264) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_mask.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_mask.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_mask.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_mask.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/lv_draw_mask.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_mask.c.i: cmake_force
@@ -3712,7 +3768,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_mask.c.s: cmake_forc
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_rect.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_rect.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/lv_draw_rect.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_rect.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_261) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_rect.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_265) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_rect.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_rect.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_rect.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_rect.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/lv_draw_rect.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_rect.c.i: cmake_force
@@ -3726,7 +3782,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_rect.c.s: cmake_forc
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_transform.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_transform.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/lv_draw_transform.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_transform.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_262) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_transform.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_266) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_transform.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_transform.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_transform.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_transform.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/lv_draw_transform.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_transform.c.i: cmake_force
@@ -3740,7 +3796,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_transform.c.s: cmake
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_triangle.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_triangle.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/lv_draw_triangle.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_triangle.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_263) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_triangle.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_267) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_triangle.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_triangle.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_triangle.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_triangle.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/lv_draw_triangle.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_triangle.c.i: cmake_force
@@ -3754,7 +3810,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_draw_triangle.c.s: cmake_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_img_buf.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_img_buf.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/lv_img_buf.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_img_buf.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_264) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_img_buf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_268) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_img_buf.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_img_buf.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_img_buf.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_img_buf.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/lv_img_buf.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_img_buf.c.i: cmake_force
@@ -3768,7 +3824,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_img_buf.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_img_cache.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_img_cache.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/lv_img_cache.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_img_cache.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_265) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_img_cache.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_269) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_img_cache.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_img_cache.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_img_cache.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_img_cache.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/lv_img_cache.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_img_cache.c.i: cmake_force
@@ -3782,7 +3838,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_img_cache.c.s: cmake_forc
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_img_decoder.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_img_decoder.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/lv_img_decoder.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_img_decoder.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_266) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_img_decoder.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_270) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_img_decoder.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_img_decoder.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_img_decoder.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_img_decoder.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/lv_img_decoder.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_img_decoder.c.i: cmake_force
@@ -3796,7 +3852,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/lv_img_decoder.c.s: cmake_fo
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_267) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_271) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.i: cmake_force
@@ -3810,7 +3866,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.s: cma
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_268) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_272) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c.i: cmake_force
@@ -3824,7 +3880,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c.
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_269) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_273) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.i: cmake_force
@@ -3838,7 +3894,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.s: 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_270) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_274) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.i: cmake_force
@@ -3852,7 +3908,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_271) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_275) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.i: cmake_force
@@ -3866,7 +3922,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_272) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_276) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.i: cmake_force
@@ -3880,7 +3936,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_ar
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_273) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_277) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c.i: cmake_force
@@ -3894,7 +3950,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_bl
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_274) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_278) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.i: cmake_force
@@ -3908,7 +3964,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_li
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_275) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_279) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c.i: cmake_force
@@ -3922,7 +3978,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_draw_vglite_re
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_276) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_280) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.i: cmake_force
@@ -3936,7 +3992,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.s
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_277) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_281) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.i: cmake_force
@@ -3950,7 +4006,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_278) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_282) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c.i: cmake_force
@@ -3964,7 +4020,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/renesas/lv_gpu_d2_draw_label
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_279) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_283) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c.i: cmake_force
@@ -3978,7 +4034,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c.s:
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_280) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_284) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl.c.i: cmake_force
@@ -3992,7 +4048,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl.c.s: cmake_f
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_arc.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_281) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_285) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_arc.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.i: cmake_force
@@ -4006,7 +4062,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.s: cma
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_bg.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_282) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_286) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_bg.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.i: cmake_force
@@ -4020,7 +4076,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.s: cmak
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_composite.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_283) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_287) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_composite.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.i: cmake_force
@@ -4034,7 +4090,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_img.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_img.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_img.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_img.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_284) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_img.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_288) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_img.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_img.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_img.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_img.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_img.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_img.c.i: cmake_force
@@ -4048,7 +4104,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_img.c.s: cma
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_label.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_label.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_label.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_label.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_285) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_label.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_289) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_label.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_label.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_label.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_label.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_label.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_label.c.i: cmake_force
@@ -4062,7 +4118,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_label.c.s: c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_layer.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_layer.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_layer.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_layer.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_286) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_layer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_290) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_layer.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_layer.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_layer.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_layer.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_layer.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_layer.c.i: cmake_force
@@ -4076,7 +4132,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_layer.c.s: c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_line.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_line.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_line.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_line.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_287) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_line.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_291) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_line.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_line.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_line.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_line.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_line.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_line.c.i: cmake_force
@@ -4090,7 +4146,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_line.c.s: cm
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_mask.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_288) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_292) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_mask.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.i: cmake_force
@@ -4104,7 +4160,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.s: cm
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_289) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_293) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.i: cmake_force
@@ -4118,7 +4174,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.s:
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_rect.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_290) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_294) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_rect.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.i: cmake_force
@@ -4132,7 +4188,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.s: cm
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_291) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_295) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.i: cmake_force
@@ -4146,7 +4202,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_292) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_296) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.i: cmake_force
@@ -4160,7 +4216,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_texture_cach
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_utils.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_293) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_297) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_utils.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.i: cmake_force
@@ -4174,7 +4230,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.s: c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_294) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_298) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.i: cmake_force
@@ -4188,7 +4244,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sw/lv_draw_sw.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_295) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_299) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sw/lv_draw_sw.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw.c.i: cmake_force
@@ -4202,7 +4258,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw.c.s: cmake_for
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_arc.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_arc.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_arc.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_arc.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_296) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_arc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_300) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_arc.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_arc.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_arc.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_arc.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_arc.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_arc.c.i: cmake_force
@@ -4216,7 +4272,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_arc.c.s: cmake
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_blend.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_blend.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_blend.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_blend.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_297) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_blend.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_301) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_blend.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_blend.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_blend.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_blend.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_blend.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_blend.c.i: cmake_force
@@ -4230,7 +4286,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_blend.c.s: cma
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_dither.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_dither.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_dither.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_dither.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_298) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_dither.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_302) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_dither.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_dither.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_dither.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_dither.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_dither.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_dither.c.i: cmake_force
@@ -4244,7 +4300,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_dither.c.s: cm
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_gradient.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_gradient.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_gradient.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_gradient.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_299) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_gradient.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_303) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_gradient.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_gradient.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_gradient.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_gradient.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_gradient.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_gradient.c.i: cmake_force
@@ -4258,7 +4314,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_gradient.c.s: 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_img.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_img.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_img.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_img.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_300) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_img.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_304) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_img.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_img.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_img.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_img.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_img.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_img.c.i: cmake_force
@@ -4272,7 +4328,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_img.c.s: cmake
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_layer.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_layer.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_layer.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_layer.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_301) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_layer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_305) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_layer.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_layer.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_layer.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_layer.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_layer.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_layer.c.i: cmake_force
@@ -4286,7 +4342,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_layer.c.s: cma
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_letter.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_letter.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_letter.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_letter.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_302) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_letter.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_306) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_letter.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_letter.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_letter.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_letter.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_letter.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_letter.c.i: cmake_force
@@ -4300,7 +4356,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_letter.c.s: cm
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_line.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_line.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_line.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_line.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_303) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_line.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_307) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_line.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_line.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_line.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_line.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_line.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_line.c.i: cmake_force
@@ -4314,7 +4370,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_line.c.s: cmak
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_polygon.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_polygon.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_polygon.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_polygon.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_304) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_polygon.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_308) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_polygon.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_polygon.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_polygon.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_polygon.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_polygon.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_polygon.c.i: cmake_force
@@ -4328,7 +4384,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_polygon.c.s: c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_rect.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_rect.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_rect.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_rect.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_305) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_rect.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_309) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_rect.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_rect.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_rect.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_rect.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_rect.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_rect.c.i: cmake_force
@@ -4342,7 +4398,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_rect.c.s: cmak
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_transform.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_transform.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_transform.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_transform.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_306) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_transform.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_310) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_transform.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_transform.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_transform.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_transform.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_transform.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_transform.c.i: cmake_force
@@ -4356,7 +4412,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/sw/lv_draw_sw_transform.c.s:
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_307) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_311) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.i: cmake_force
@@ -4370,7 +4426,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_d
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/layouts/flex/lv_flex.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/layouts/flex/lv_flex.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/layouts/flex/lv_flex.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/layouts/flex/lv_flex.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_308) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/layouts/flex/lv_flex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_312) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/layouts/flex/lv_flex.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/layouts/flex/lv_flex.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/layouts/flex/lv_flex.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/layouts/flex/lv_flex.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/layouts/flex/lv_flex.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/layouts/flex/lv_flex.c.i: cmake_force
@@ -4384,7 +4440,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/layouts/flex/lv_flex.c.s: c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/layouts/grid/lv_grid.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/layouts/grid/lv_grid.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/layouts/grid/lv_grid.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/layouts/grid/lv_grid.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_309) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/layouts/grid/lv_grid.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_313) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/layouts/grid/lv_grid.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/layouts/grid/lv_grid.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/layouts/grid/lv_grid.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/layouts/grid/lv_grid.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/layouts/grid/lv_grid.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/layouts/grid/lv_grid.c.i: cmake_force
@@ -4398,7 +4454,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/layouts/grid/lv_grid.c.s: c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/bmp/lv_bmp.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/bmp/lv_bmp.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/bmp/lv_bmp.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/bmp/lv_bmp.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_310) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/bmp/lv_bmp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_314) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/bmp/lv_bmp.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/bmp/lv_bmp.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/bmp/lv_bmp.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/bmp/lv_bmp.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/bmp/lv_bmp.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/bmp/lv_bmp.c.i: cmake_force
@@ -4412,7 +4468,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/bmp/lv_bmp.c.s: cmake_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_311) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_315) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.i: cmake_force
@@ -4426,7 +4482,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.s: 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/freetype/lv_freetype.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/freetype/lv_freetype.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/freetype/lv_freetype.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/freetype/lv_freetype.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_312) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/freetype/lv_freetype.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_316) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/freetype/lv_freetype.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/freetype/lv_freetype.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/freetype/lv_freetype.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/freetype/lv_freetype.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/freetype/lv_freetype.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/freetype/lv_freetype.c.i: cmake_force
@@ -4440,7 +4496,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/freetype/lv_freetype.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_313) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_317) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.i: cmake_force
@@ -4454,7 +4510,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.s:
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_littlefs.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_littlefs.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_littlefs.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_littlefs.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_314) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_littlefs.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_318) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_littlefs.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_littlefs.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_littlefs.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_littlefs.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_littlefs.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_littlefs.c.i: cmake_force
@@ -4468,7 +4524,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_littlefs.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_315) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_319) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.i: cmake_force
@@ -4482,7 +4538,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.s:
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_316) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_320) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.i: cmake_force
@@ -4496,7 +4552,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.s:
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_317) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_321) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.i: cmake_force
@@ -4510,7 +4566,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.s:
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/gif/gifdec.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/gif/gifdec.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/gif/gifdec.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/gif/gifdec.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_318) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/gif/gifdec.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_322) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/gif/gifdec.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/gif/gifdec.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/gif/gifdec.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/gif/gifdec.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/gif/gifdec.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/gif/gifdec.c.i: cmake_force
@@ -4524,7 +4580,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/gif/gifdec.c.s: cmake_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/gif/lv_gif.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/gif/lv_gif.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/gif/lv_gif.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/gif/lv_gif.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_319) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/gif/lv_gif.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_323) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/gif/lv_gif.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/gif/lv_gif.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/gif/lv_gif.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/gif/lv_gif.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/gif/lv_gif.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/gif/lv_gif.c.i: cmake_force
@@ -4538,7 +4594,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/gif/lv_gif.c.s: cmake_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/png/lodepng.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/png/lodepng.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/png/lodepng.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/png/lodepng.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_320) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/png/lodepng.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_324) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/png/lodepng.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/png/lodepng.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/png/lodepng.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/png/lodepng.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/png/lodepng.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/png/lodepng.c.i: cmake_force
@@ -4552,7 +4608,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/png/lodepng.c.s: cmake
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/png/lv_png.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/png/lv_png.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/png/lv_png.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/png/lv_png.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_321) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/png/lv_png.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_325) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/png/lv_png.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/png/lv_png.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/png/lv_png.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/png/lv_png.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/png/lv_png.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/png/lv_png.c.i: cmake_force
@@ -4566,7 +4622,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/png/lv_png.c.s: cmake_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/qrcode/lv_qrcode.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/qrcode/lv_qrcode.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/qrcode/lv_qrcode.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/qrcode/lv_qrcode.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_322) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/qrcode/lv_qrcode.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_326) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/qrcode/lv_qrcode.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/qrcode/lv_qrcode.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/qrcode/lv_qrcode.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/qrcode/lv_qrcode.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/qrcode/lv_qrcode.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/qrcode/lv_qrcode.c.i: cmake_force
@@ -4580,7 +4636,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/qrcode/lv_qrcode.c.s: 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/qrcode/qrcodegen.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/qrcode/qrcodegen.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/qrcode/qrcodegen.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/qrcode/qrcodegen.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_323) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/qrcode/qrcodegen.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_327) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/qrcode/qrcodegen.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/qrcode/qrcodegen.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/qrcode/qrcodegen.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/qrcode/qrcodegen.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/qrcode/qrcodegen.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/qrcode/qrcodegen.c.i: cmake_force
@@ -4594,7 +4650,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/qrcode/qrcodegen.c.s: 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/rlottie/lv_rlottie.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/rlottie/lv_rlottie.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/rlottie/lv_rlottie.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/rlottie/lv_rlottie.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_324) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/rlottie/lv_rlottie.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_328) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/rlottie/lv_rlottie.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/rlottie/lv_rlottie.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/rlottie/lv_rlottie.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/rlottie/lv_rlottie.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/rlottie/lv_rlottie.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/rlottie/lv_rlottie.c.i: cmake_force
@@ -4608,7 +4664,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/rlottie/lv_rlottie.c.s
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/sjpg/lv_sjpg.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/sjpg/lv_sjpg.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/sjpg/lv_sjpg.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/sjpg/lv_sjpg.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_325) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/sjpg/lv_sjpg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_329) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/sjpg/lv_sjpg.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/sjpg/lv_sjpg.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/sjpg/lv_sjpg.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/sjpg/lv_sjpg.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/sjpg/lv_sjpg.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/sjpg/lv_sjpg.c.i: cmake_force
@@ -4622,7 +4678,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/sjpg/lv_sjpg.c.s: cmak
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/sjpg/tjpgd.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/sjpg/tjpgd.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/sjpg/tjpgd.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/sjpg/tjpgd.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_326) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/sjpg/tjpgd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_330) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/sjpg/tjpgd.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/sjpg/tjpgd.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/sjpg/tjpgd.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/sjpg/tjpgd.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/sjpg/tjpgd.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/sjpg/tjpgd.c.i: cmake_force
@@ -4636,7 +4692,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/sjpg/tjpgd.c.s: cmake_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/tiny_ttf/lv_tiny_ttf.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_327) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_331) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/libs/tiny_ttf/lv_tiny_ttf.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/tiny_ttf/lv_tiny_ttf.c.i: cmake_force
@@ -4650,7 +4706,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/libs/tiny_ttf/lv_tiny_ttf.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/lv_extra.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/lv_extra.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/lv_extra.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/lv_extra.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_328) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/lv_extra.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_332) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/lv_extra.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/lv_extra.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/lv_extra.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/lv_extra.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/lv_extra.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/lv_extra.c.i: cmake_force
@@ -4664,7 +4720,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/lv_extra.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/fragment/lv_fragment.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/fragment/lv_fragment.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/others/fragment/lv_fragment.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/fragment/lv_fragment.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_329) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/fragment/lv_fragment.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_333) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/fragment/lv_fragment.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/fragment/lv_fragment.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/fragment/lv_fragment.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/fragment/lv_fragment.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/others/fragment/lv_fragment.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/fragment/lv_fragment.c.i: cmake_force
@@ -4678,7 +4734,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/fragment/lv_fragment
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/fragment/lv_fragment_manager.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/fragment/lv_fragment_manager.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/others/fragment/lv_fragment_manager.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/fragment/lv_fragment_manager.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_330) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/fragment/lv_fragment_manager.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_334) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/fragment/lv_fragment_manager.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/fragment/lv_fragment_manager.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/fragment/lv_fragment_manager.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/fragment/lv_fragment_manager.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/others/fragment/lv_fragment_manager.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/fragment/lv_fragment_manager.c.i: cmake_force
@@ -4692,7 +4748,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/fragment/lv_fragment
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/gridnav/lv_gridnav.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/gridnav/lv_gridnav.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/others/gridnav/lv_gridnav.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/gridnav/lv_gridnav.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_331) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/gridnav/lv_gridnav.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_335) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/gridnav/lv_gridnav.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/gridnav/lv_gridnav.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/gridnav/lv_gridnav.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/gridnav/lv_gridnav.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/others/gridnav/lv_gridnav.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/gridnav/lv_gridnav.c.i: cmake_force
@@ -4706,7 +4762,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/gridnav/lv_gridnav.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/ime/lv_ime_pinyin.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/ime/lv_ime_pinyin.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/others/ime/lv_ime_pinyin.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/ime/lv_ime_pinyin.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_332) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/ime/lv_ime_pinyin.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_336) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/ime/lv_ime_pinyin.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/ime/lv_ime_pinyin.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/ime/lv_ime_pinyin.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/ime/lv_ime_pinyin.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/others/ime/lv_ime_pinyin.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/ime/lv_ime_pinyin.c.i: cmake_force
@@ -4720,7 +4776,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/ime/lv_ime_pinyin.c.
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/imgfont/lv_imgfont.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/imgfont/lv_imgfont.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/others/imgfont/lv_imgfont.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/imgfont/lv_imgfont.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_333) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/imgfont/lv_imgfont.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_337) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/imgfont/lv_imgfont.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/imgfont/lv_imgfont.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/imgfont/lv_imgfont.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/imgfont/lv_imgfont.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/others/imgfont/lv_imgfont.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/imgfont/lv_imgfont.c.i: cmake_force
@@ -4734,7 +4790,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/imgfont/lv_imgfont.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/monkey/lv_monkey.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/monkey/lv_monkey.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/others/monkey/lv_monkey.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/monkey/lv_monkey.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_334) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/monkey/lv_monkey.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_338) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/monkey/lv_monkey.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/monkey/lv_monkey.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/monkey/lv_monkey.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/monkey/lv_monkey.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/others/monkey/lv_monkey.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/monkey/lv_monkey.c.i: cmake_force
@@ -4748,7 +4804,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/monkey/lv_monkey.c.s
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/msg/lv_msg.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/msg/lv_msg.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/others/msg/lv_msg.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/msg/lv_msg.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_335) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/msg/lv_msg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_339) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/msg/lv_msg.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/msg/lv_msg.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/msg/lv_msg.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/msg/lv_msg.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/others/msg/lv_msg.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/msg/lv_msg.c.i: cmake_force
@@ -4762,7 +4818,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/msg/lv_msg.c.s: cmak
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/snapshot/lv_snapshot.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/snapshot/lv_snapshot.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/others/snapshot/lv_snapshot.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/snapshot/lv_snapshot.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_336) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/snapshot/lv_snapshot.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_340) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/snapshot/lv_snapshot.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/snapshot/lv_snapshot.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/snapshot/lv_snapshot.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/snapshot/lv_snapshot.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/others/snapshot/lv_snapshot.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/snapshot/lv_snapshot.c.i: cmake_force
@@ -4776,7 +4832,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/others/snapshot/lv_snapshot
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/themes/basic/lv_theme_basic.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/themes/basic/lv_theme_basic.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/themes/basic/lv_theme_basic.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/themes/basic/lv_theme_basic.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_337) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/themes/basic/lv_theme_basic.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_341) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/themes/basic/lv_theme_basic.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/themes/basic/lv_theme_basic.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/themes/basic/lv_theme_basic.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/themes/basic/lv_theme_basic.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/themes/basic/lv_theme_basic.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/themes/basic/lv_theme_basic.c.i: cmake_force
@@ -4790,7 +4846,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/themes/basic/lv_theme_basic
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/themes/default/lv_theme_default.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/themes/default/lv_theme_default.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/themes/default/lv_theme_default.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/themes/default/lv_theme_default.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_338) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/themes/default/lv_theme_default.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_342) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/themes/default/lv_theme_default.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/themes/default/lv_theme_default.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/themes/default/lv_theme_default.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/themes/default/lv_theme_default.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/themes/default/lv_theme_default.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/themes/default/lv_theme_default.c.i: cmake_force
@@ -4804,7 +4860,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/themes/default/lv_theme_def
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/themes/mono/lv_theme_mono.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/themes/mono/lv_theme_mono.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/themes/mono/lv_theme_mono.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/themes/mono/lv_theme_mono.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_339) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/themes/mono/lv_theme_mono.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_343) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/themes/mono/lv_theme_mono.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/themes/mono/lv_theme_mono.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/themes/mono/lv_theme_mono.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/themes/mono/lv_theme_mono.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/themes/mono/lv_theme_mono.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/themes/mono/lv_theme_mono.c.i: cmake_force
@@ -4818,7 +4874,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/themes/mono/lv_theme_mono.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/animimg/lv_animimg.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/animimg/lv_animimg.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/animimg/lv_animimg.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/animimg/lv_animimg.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_340) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/animimg/lv_animimg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_344) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/animimg/lv_animimg.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/animimg/lv_animimg.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/animimg/lv_animimg.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/animimg/lv_animimg.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/animimg/lv_animimg.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/animimg/lv_animimg.c.i: cmake_force
@@ -4832,7 +4888,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/animimg/lv_animimg.
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/calendar/lv_calendar.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/calendar/lv_calendar.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/calendar/lv_calendar.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/calendar/lv_calendar.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_341) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/calendar/lv_calendar.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_345) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/calendar/lv_calendar.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/calendar/lv_calendar.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/calendar/lv_calendar.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/calendar/lv_calendar.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/calendar/lv_calendar.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/calendar/lv_calendar.c.i: cmake_force
@@ -4846,7 +4902,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/calendar/lv_calenda
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_342) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_346) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.i: cmake_force
@@ -4860,7 +4916,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/calendar/lv_calenda
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_343) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_347) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.i: cmake_force
@@ -4874,7 +4930,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/calendar/lv_calenda
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/chart/lv_chart.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/chart/lv_chart.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/chart/lv_chart.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/chart/lv_chart.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_344) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/chart/lv_chart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_348) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/chart/lv_chart.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/chart/lv_chart.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/chart/lv_chart.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/chart/lv_chart.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/chart/lv_chart.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/chart/lv_chart.c.i: cmake_force
@@ -4888,7 +4944,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/chart/lv_chart.c.s:
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_345) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_349) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.i: cmake_force
@@ -4902,7 +4958,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/colorwheel/lv_color
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_346) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_350) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.i: cmake_force
@@ -4916,7 +4972,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/keyboard/lv_keyboard.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_347) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_351) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/keyboard/lv_keyboard.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.i: cmake_force
@@ -4930,7 +4986,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/keyboard/lv_keyboar
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/led/lv_led.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/led/lv_led.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/led/lv_led.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/led/lv_led.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_348) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/led/lv_led.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_352) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/led/lv_led.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/led/lv_led.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/led/lv_led.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/led/lv_led.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/led/lv_led.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/led/lv_led.c.i: cmake_force
@@ -4944,7 +5000,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/led/lv_led.c.s: cma
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/list/lv_list.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/list/lv_list.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/list/lv_list.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/list/lv_list.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_349) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/list/lv_list.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_353) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/list/lv_list.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/list/lv_list.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/list/lv_list.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/list/lv_list.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/list/lv_list.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/list/lv_list.c.i: cmake_force
@@ -4958,7 +5014,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/list/lv_list.c.s: c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/menu/lv_menu.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/menu/lv_menu.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/menu/lv_menu.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/menu/lv_menu.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_350) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/menu/lv_menu.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_354) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/menu/lv_menu.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/menu/lv_menu.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/menu/lv_menu.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/menu/lv_menu.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/menu/lv_menu.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/menu/lv_menu.c.i: cmake_force
@@ -4972,7 +5028,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/menu/lv_menu.c.s: c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/meter/lv_meter.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/meter/lv_meter.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/meter/lv_meter.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/meter/lv_meter.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_351) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/meter/lv_meter.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_355) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/meter/lv_meter.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/meter/lv_meter.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/meter/lv_meter.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/meter/lv_meter.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/meter/lv_meter.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/meter/lv_meter.c.i: cmake_force
@@ -4986,7 +5042,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/meter/lv_meter.c.s:
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/msgbox/lv_msgbox.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_352) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_356) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/msgbox/lv_msgbox.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.i: cmake_force
@@ -5000,7 +5056,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/span/lv_span.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/span/lv_span.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/span/lv_span.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/span/lv_span.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_353) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/span/lv_span.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_357) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/span/lv_span.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/span/lv_span.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/span/lv_span.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/span/lv_span.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/span/lv_span.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/span/lv_span.c.i: cmake_force
@@ -5014,7 +5070,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/span/lv_span.c.s: c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/spinbox/lv_spinbox.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_354) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_358) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/spinbox/lv_spinbox.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.i: cmake_force
@@ -5028,7 +5084,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/spinbox/lv_spinbox.
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/spinner/lv_spinner.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/spinner/lv_spinner.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/spinner/lv_spinner.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/spinner/lv_spinner.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_355) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/spinner/lv_spinner.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_359) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/spinner/lv_spinner.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/spinner/lv_spinner.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/spinner/lv_spinner.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/spinner/lv_spinner.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/spinner/lv_spinner.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/spinner/lv_spinner.c.i: cmake_force
@@ -5042,7 +5098,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/spinner/lv_spinner.
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/tabview/lv_tabview.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/tabview/lv_tabview.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/tabview/lv_tabview.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/tabview/lv_tabview.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_356) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/tabview/lv_tabview.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_360) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/tabview/lv_tabview.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/tabview/lv_tabview.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/tabview/lv_tabview.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/tabview/lv_tabview.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/tabview/lv_tabview.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/tabview/lv_tabview.c.i: cmake_force
@@ -5056,7 +5112,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/tabview/lv_tabview.
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/tileview/lv_tileview.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/tileview/lv_tileview.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/tileview/lv_tileview.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/tileview/lv_tileview.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_357) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/tileview/lv_tileview.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_361) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/tileview/lv_tileview.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/tileview/lv_tileview.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/tileview/lv_tileview.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/tileview/lv_tileview.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/tileview/lv_tileview.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/tileview/lv_tileview.c.i: cmake_force
@@ -5070,7 +5126,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/tileview/lv_tilevie
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/win/lv_win.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/win/lv_win.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/win/lv_win.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/win/lv_win.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_358) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/win/lv_win.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_362) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/win/lv_win.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/win/lv_win.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/win/lv_win.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/win/lv_win.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/extra/widgets/win/lv_win.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/win/lv_win.c.i: cmake_force
@@ -5084,7 +5140,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/extra/widgets/win/lv_win.c.s: cma
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_359) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_363) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font.c.i: cmake_force
@@ -5098,7 +5154,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_360) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_364) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.i: cmake_force
@@ -5112,7 +5168,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_dejavu_16_persian_he
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_fmt_txt.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_fmt_txt.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_fmt_txt.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_fmt_txt.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_361) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_fmt_txt.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_365) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_fmt_txt.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_fmt_txt.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_fmt_txt.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_fmt_txt.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_fmt_txt.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_fmt_txt.c.i: cmake_force
@@ -5126,7 +5182,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_fmt_txt.c.s: cmake_f
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_loader.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_loader.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_loader.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_loader.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_362) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_loader.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_366) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_loader.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_loader.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_loader.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_loader.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_loader.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_loader.c.i: cmake_force
@@ -5140,7 +5196,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_loader.c.s: cmake_fo
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_10.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_10.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_10.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_10.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_363) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_10.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_367) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_10.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_10.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_10.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_10.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_10.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_10.c.i: cmake_force
@@ -5154,7 +5210,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_10.c.s: c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_12.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_12.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_12.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_12.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_364) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_12.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_368) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_12.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_12.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_12.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_12.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_12.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_12.c.i: cmake_force
@@ -5168,7 +5224,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_12.c.s: c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_12_subpx.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_12_subpx.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_12_subpx.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_12_subpx.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_365) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_12_subpx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_369) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_12_subpx.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_12_subpx.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_12_subpx.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_12_subpx.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_12_subpx.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_12_subpx.c.i: cmake_force
@@ -5182,7 +5238,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_12_subpx.
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_14.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_14.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_14.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_14.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_366) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_14.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_370) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_14.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_14.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_14.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_14.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_14.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_14.c.i: cmake_force
@@ -5196,7 +5252,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_14.c.s: c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_16.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_16.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_16.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_16.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_367) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_16.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_371) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_16.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_16.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_16.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_16.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_16.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_16.c.i: cmake_force
@@ -5210,7 +5266,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_16.c.s: c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_18.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_18.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_18.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_18.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_368) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_18.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_372) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_18.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_18.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_18.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_18.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_18.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_18.c.i: cmake_force
@@ -5224,7 +5280,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_18.c.s: c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_20.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_20.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_20.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_20.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_369) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_20.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_373) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_20.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_20.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_20.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_20.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_20.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_20.c.i: cmake_force
@@ -5238,7 +5294,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_20.c.s: c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_22.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_22.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_22.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_22.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_370) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_22.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_374) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_22.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_22.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_22.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_22.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_22.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_22.c.i: cmake_force
@@ -5252,7 +5308,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_22.c.s: c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_24.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_24.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_24.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_24.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_371) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_24.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_375) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_24.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_24.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_24.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_24.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_24.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_24.c.i: cmake_force
@@ -5266,7 +5322,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_24.c.s: c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_26.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_26.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_26.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_26.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_372) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_26.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_376) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_26.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_26.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_26.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_26.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_26.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_26.c.i: cmake_force
@@ -5280,7 +5336,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_26.c.s: c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_28.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_28.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_28.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_28.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_373) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_28.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_377) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_28.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_28.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_28.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_28.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_28.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_28.c.i: cmake_force
@@ -5294,7 +5350,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_28.c.s: c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_28_compressed.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_28_compressed.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_28_compressed.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_28_compressed.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_374) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_28_compressed.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_378) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_28_compressed.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_28_compressed.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_28_compressed.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_28_compressed.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_28_compressed.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_28_compressed.c.i: cmake_force
@@ -5308,7 +5364,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_28_compre
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_30.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_30.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_30.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_30.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_375) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_30.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_379) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_30.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_30.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_30.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_30.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_30.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_30.c.i: cmake_force
@@ -5322,7 +5378,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_30.c.s: c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_32.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_32.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_32.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_32.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_376) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_380) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_32.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_32.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_32.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_32.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_32.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_32.c.i: cmake_force
@@ -5336,7 +5392,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_32.c.s: c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_34.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_34.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_34.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_34.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_377) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_34.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_381) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_34.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_34.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_34.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_34.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_34.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_34.c.i: cmake_force
@@ -5350,7 +5406,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_34.c.s: c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_36.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_36.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_36.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_36.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_378) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_36.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_382) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_36.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_36.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_36.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_36.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_36.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_36.c.i: cmake_force
@@ -5364,7 +5420,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_36.c.s: c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_38.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_38.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_38.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_38.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_379) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_38.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_383) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_38.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_38.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_38.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_38.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_38.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_38.c.i: cmake_force
@@ -5378,7 +5434,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_38.c.s: c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_40.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_40.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_40.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_40.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_380) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_40.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_384) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_40.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_40.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_40.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_40.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_40.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_40.c.i: cmake_force
@@ -5392,7 +5448,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_40.c.s: c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_42.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_42.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_42.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_42.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_381) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_42.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_385) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_42.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_42.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_42.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_42.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_42.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_42.c.i: cmake_force
@@ -5406,7 +5462,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_42.c.s: c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_44.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_44.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_44.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_44.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_382) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_44.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_386) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_44.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_44.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_44.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_44.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_44.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_44.c.i: cmake_force
@@ -5420,7 +5476,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_44.c.s: c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_46.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_46.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_46.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_46.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_383) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_46.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_387) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_46.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_46.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_46.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_46.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_46.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_46.c.i: cmake_force
@@ -5434,7 +5490,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_46.c.s: c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_48.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_48.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_48.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_48.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_384) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_48.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_388) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_48.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_48.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_48.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_48.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_48.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_48.c.i: cmake_force
@@ -5448,7 +5504,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_48.c.s: c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_8.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_8.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_8.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_8.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_385) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_8.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_389) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_8.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_8.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_8.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_8.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_montserrat_8.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_8.c.i: cmake_force
@@ -5462,7 +5518,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_montserrat_8.c.s: cm
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_simsun_16_cjk.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_simsun_16_cjk.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_simsun_16_cjk.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_simsun_16_cjk.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_386) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_simsun_16_cjk.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_390) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_simsun_16_cjk.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_simsun_16_cjk.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_simsun_16_cjk.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_simsun_16_cjk.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_simsun_16_cjk.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_simsun_16_cjk.c.i: cmake_force
@@ -5476,7 +5532,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_simsun_16_cjk.c.s: c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_unscii_16.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_unscii_16.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_unscii_16.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_unscii_16.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_387) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_unscii_16.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_391) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_unscii_16.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_unscii_16.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_unscii_16.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_unscii_16.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_unscii_16.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_unscii_16.c.i: cmake_force
@@ -5490,7 +5546,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_unscii_16.c.s: cmake
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_unscii_8.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_unscii_8.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_unscii_8.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_unscii_8.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_388) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_unscii_8.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_392) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_unscii_8.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_unscii_8.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_unscii_8.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_unscii_8.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/font/lv_font_unscii_8.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_unscii_8.c.i: cmake_force
@@ -5504,7 +5560,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/font/lv_font_unscii_8.c.s: cmake_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/hal/lv_hal_disp.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/hal/lv_hal_disp.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/hal/lv_hal_disp.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/hal/lv_hal_disp.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_389) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/hal/lv_hal_disp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_393) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/hal/lv_hal_disp.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/hal/lv_hal_disp.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/hal/lv_hal_disp.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/hal/lv_hal_disp.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/hal/lv_hal_disp.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/hal/lv_hal_disp.c.i: cmake_force
@@ -5518,7 +5574,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/hal/lv_hal_disp.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/hal/lv_hal_indev.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/hal/lv_hal_indev.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/hal/lv_hal_indev.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/hal/lv_hal_indev.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_390) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/hal/lv_hal_indev.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_394) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/hal/lv_hal_indev.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/hal/lv_hal_indev.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/hal/lv_hal_indev.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/hal/lv_hal_indev.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/hal/lv_hal_indev.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/hal/lv_hal_indev.c.i: cmake_force
@@ -5532,7 +5588,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/hal/lv_hal_indev.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/hal/lv_hal_tick.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/hal/lv_hal_tick.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/hal/lv_hal_tick.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/hal/lv_hal_tick.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_391) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/hal/lv_hal_tick.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_395) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/hal/lv_hal_tick.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/hal/lv_hal_tick.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/hal/lv_hal_tick.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/hal/lv_hal_tick.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/hal/lv_hal_tick.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/hal/lv_hal_tick.c.i: cmake_force
@@ -5546,7 +5602,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/hal/lv_hal_tick.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_anim.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_anim.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_anim.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_anim.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_392) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_anim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_396) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_anim.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_anim.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_anim.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_anim.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_anim.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_anim.c.i: cmake_force
@@ -5560,7 +5616,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_anim.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_anim_timeline.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_anim_timeline.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_anim_timeline.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_anim_timeline.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_393) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_anim_timeline.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_397) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_anim_timeline.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_anim_timeline.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_anim_timeline.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_anim_timeline.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_anim_timeline.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_anim_timeline.c.i: cmake_force
@@ -5574,7 +5630,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_anim_timeline.c.s: cmake_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_area.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_area.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_area.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_area.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_394) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_area.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_398) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_area.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_area.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_area.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_area.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_area.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_area.c.i: cmake_force
@@ -5588,7 +5644,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_area.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_async.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_async.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_async.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_async.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_395) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_async.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_399) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_async.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_async.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_async.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_async.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_async.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_async.c.i: cmake_force
@@ -5602,7 +5658,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_async.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_bidi.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_bidi.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_bidi.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_bidi.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_396) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_bidi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_400) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_bidi.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_bidi.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_bidi.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_bidi.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_bidi.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_bidi.c.i: cmake_force
@@ -5616,7 +5672,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_bidi.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_color.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_color.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_color.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_color.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_397) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_color.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_401) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_color.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_color.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_color.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_color.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_color.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_color.c.i: cmake_force
@@ -5630,7 +5686,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_color.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_fs.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_fs.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_fs.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_fs.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_398) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_fs.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_402) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_fs.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_fs.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_fs.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_fs.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_fs.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_fs.c.i: cmake_force
@@ -5644,7 +5700,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_fs.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_gc.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_gc.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_gc.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_gc.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_399) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_gc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_403) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_gc.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_gc.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_gc.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_gc.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_gc.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_gc.c.i: cmake_force
@@ -5658,7 +5714,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_gc.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_ll.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_ll.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_ll.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_ll.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_400) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_ll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_404) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_ll.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_ll.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_ll.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_ll.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_ll.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_ll.c.i: cmake_force
@@ -5672,7 +5728,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_ll.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_log.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_log.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_log.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_log.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_401) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_log.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_405) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_log.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_log.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_log.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_log.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_log.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_log.c.i: cmake_force
@@ -5686,7 +5742,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_log.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_lru.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_lru.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_lru.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_lru.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_402) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_lru.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_406) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_lru.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_lru.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_lru.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_lru.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_lru.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_lru.c.i: cmake_force
@@ -5700,7 +5756,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_lru.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_math.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_math.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_math.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_math.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_403) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_407) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_math.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_math.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_math.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_math.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_math.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_math.c.i: cmake_force
@@ -5714,7 +5770,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_math.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_mem.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_mem.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_mem.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_mem.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_404) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_mem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_408) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_mem.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_mem.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_mem.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_mem.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_mem.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_mem.c.i: cmake_force
@@ -5728,7 +5784,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_mem.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_printf.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_printf.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_printf.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_printf.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_405) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_printf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_409) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_printf.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_printf.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_printf.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_printf.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_printf.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_printf.c.i: cmake_force
@@ -5742,7 +5798,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_printf.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_style.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_style.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_style.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_style.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_406) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_style.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_410) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_style.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_style.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_style.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_style.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_style.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_style.c.i: cmake_force
@@ -5756,7 +5812,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_style.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_style_gen.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_style_gen.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_style_gen.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_style_gen.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_407) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_style_gen.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_411) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_style_gen.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_style_gen.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_style_gen.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_style_gen.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_style_gen.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_style_gen.c.i: cmake_force
@@ -5770,7 +5826,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_style_gen.c.s: cmake_forc
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_templ.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_templ.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_templ.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_templ.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_408) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_templ.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_412) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_templ.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_templ.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_templ.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_templ.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_templ.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_templ.c.i: cmake_force
@@ -5784,7 +5840,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_templ.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_timer.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_timer.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_timer.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_timer.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_409) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_timer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_413) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_timer.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_timer.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_timer.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_timer.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_timer.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_timer.c.i: cmake_force
@@ -5798,7 +5854,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_timer.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_tlsf.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_tlsf.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_tlsf.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_tlsf.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_410) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_tlsf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_414) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_tlsf.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_tlsf.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_tlsf.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_tlsf.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_tlsf.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_tlsf.c.i: cmake_force
@@ -5812,7 +5868,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_tlsf.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_txt.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_txt.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_txt.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_txt.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_411) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_txt.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_415) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_txt.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_txt.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_txt.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_txt.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_txt.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_txt.c.i: cmake_force
@@ -5826,7 +5882,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_txt.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_txt_ap.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_txt_ap.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_txt_ap.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_txt_ap.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_412) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_txt_ap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_416) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_txt_ap.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_txt_ap.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_txt_ap.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_txt_ap.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_txt_ap.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_txt_ap.c.i: cmake_force
@@ -5840,7 +5896,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_txt_ap.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_utils.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_utils.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_utils.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_utils.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_413) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_utils.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_417) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_utils.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_utils.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_utils.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_utils.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/misc/lv_utils.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_utils.c.i: cmake_force
@@ -5854,7 +5910,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/misc/lv_utils.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_arc.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_arc.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_arc.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_arc.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_414) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_arc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_418) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_arc.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_arc.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_arc.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_arc.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_arc.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_arc.c.i: cmake_force
@@ -5868,7 +5924,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_arc.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_bar.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_bar.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_bar.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_bar.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_415) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_bar.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_419) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_bar.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_bar.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_bar.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_bar.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_bar.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_bar.c.i: cmake_force
@@ -5882,7 +5938,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_bar.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_btn.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_btn.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_btn.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_btn.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_416) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_btn.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_420) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_btn.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_btn.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_btn.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_btn.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_btn.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_btn.c.i: cmake_force
@@ -5896,7 +5952,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_btn.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_btnmatrix.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_btnmatrix.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_btnmatrix.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_btnmatrix.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_417) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_btnmatrix.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_421) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_btnmatrix.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_btnmatrix.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_btnmatrix.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_btnmatrix.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_btnmatrix.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_btnmatrix.c.i: cmake_force
@@ -5910,7 +5966,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_btnmatrix.c.s: cmake_f
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_canvas.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_canvas.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_canvas.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_canvas.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_418) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_canvas.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_422) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_canvas.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_canvas.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_canvas.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_canvas.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_canvas.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_canvas.c.i: cmake_force
@@ -5924,7 +5980,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_canvas.c.s: cmake_forc
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_checkbox.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_checkbox.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_checkbox.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_checkbox.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_419) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_checkbox.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_423) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_checkbox.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_checkbox.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_checkbox.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_checkbox.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_checkbox.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_checkbox.c.i: cmake_force
@@ -5938,7 +5994,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_checkbox.c.s: cmake_fo
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_dropdown.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_dropdown.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_dropdown.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_dropdown.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_420) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_dropdown.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_424) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_dropdown.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_dropdown.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_dropdown.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_dropdown.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_dropdown.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_dropdown.c.i: cmake_force
@@ -5952,7 +6008,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_dropdown.c.s: cmake_fo
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_img.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_img.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_img.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_img.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_421) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_img.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_425) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_img.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_img.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_img.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_img.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_img.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_img.c.i: cmake_force
@@ -5966,7 +6022,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_img.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_label.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_label.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_label.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_label.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_422) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_label.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_426) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_label.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_label.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_label.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_label.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_label.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_label.c.i: cmake_force
@@ -5980,7 +6036,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_label.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_line.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_line.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_line.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_line.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_423) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_line.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_427) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_line.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_line.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_line.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_line.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_line.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_line.c.i: cmake_force
@@ -5994,7 +6050,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_line.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_objx_templ.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_objx_templ.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_objx_templ.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_objx_templ.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_424) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_objx_templ.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_428) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_objx_templ.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_objx_templ.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_objx_templ.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_objx_templ.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_objx_templ.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_objx_templ.c.i: cmake_force
@@ -6008,7 +6064,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_objx_templ.c.s: cmake_
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_roller.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_roller.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_roller.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_roller.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_425) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_roller.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_429) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_roller.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_roller.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_roller.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_roller.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_roller.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_roller.c.i: cmake_force
@@ -6022,7 +6078,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_roller.c.s: cmake_forc
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_slider.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_slider.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_slider.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_slider.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_426) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_slider.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_430) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_slider.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_slider.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_slider.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_slider.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_slider.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_slider.c.i: cmake_force
@@ -6036,7 +6092,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_slider.c.s: cmake_forc
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_switch.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_switch.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_switch.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_switch.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_427) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_switch.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_431) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_switch.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_switch.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_switch.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_switch.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_switch.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_switch.c.i: cmake_force
@@ -6050,7 +6106,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_switch.c.s: cmake_forc
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_table.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_table.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_table.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_table.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_428) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_table.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_432) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_table.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_table.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_table.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_table.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_table.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_table.c.i: cmake_force
@@ -6064,7 +6120,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_table.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_textarea.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_textarea.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_textarea.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_textarea.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_429) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_textarea.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_433) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_textarea.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_textarea.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_textarea.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_textarea.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/src/widgets/lv_textarea.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_textarea.c.i: cmake_force
@@ -6078,7 +6134,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/src/widgets/lv_textarea.c.s: cmake_fo
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/makefile/test.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/makefile/test.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/makefile/test.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/makefile/test.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_430) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/makefile/test.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_434) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/makefile/test.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/makefile/test.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/makefile/test.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/makefile/test.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/makefile/test.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/makefile/test.c.i: cmake_force
@@ -6092,7 +6148,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/makefile/test.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/lv_test_indev.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/lv_test_indev.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/lv_test_indev.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/lv_test_indev.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_431) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/lv_test_indev.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_435) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/lv_test_indev.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/lv_test_indev.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/lv_test_indev.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/lv_test_indev.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/lv_test_indev.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/lv_test_indev.c.i: cmake_force
@@ -6106,7 +6162,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/lv_test_indev.c.s: cmake_fo
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/lv_test_init.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/lv_test_init.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/lv_test_init.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/lv_test_init.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_432) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/lv_test_init.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_436) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/lv_test_init.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/lv_test_init.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/lv_test_init.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/lv_test_init.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/lv_test_init.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/lv_test_init.c.i: cmake_force
@@ -6120,7 +6176,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/lv_test_init.c.s: cmake_for
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/_test_template.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/_test_template.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/test_cases/_test_template.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/_test_template.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_433) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/_test_template.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_437) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/_test_template.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/_test_template.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/_test_template.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/_test_template.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/test_cases/_test_template.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/_test_template.c.i: cmake_force
@@ -6134,7 +6190,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/_test_template.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_arc.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_arc.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/test_cases/test_arc.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_arc.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_434) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_arc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_438) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_arc.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_arc.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_arc.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_arc.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/test_cases/test_arc.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_arc.c.i: cmake_force
@@ -6148,7 +6204,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_arc.c.s: cm
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_bar.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_bar.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/test_cases/test_bar.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_bar.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_435) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_bar.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_439) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_bar.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_bar.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_bar.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_bar.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/test_cases/test_bar.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_bar.c.i: cmake_force
@@ -6162,7 +6218,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_bar.c.s: cm
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_checkbox.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_checkbox.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/test_cases/test_checkbox.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_checkbox.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_436) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_checkbox.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_440) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_checkbox.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_checkbox.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_checkbox.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_checkbox.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/test_cases/test_checkbox.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_checkbox.c.i: cmake_force
@@ -6176,7 +6232,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_checkbox.c.
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_config.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_config.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/test_cases/test_config.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_config.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_437) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_config.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_441) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_config.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_config.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_config.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_config.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/test_cases/test_config.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_config.c.i: cmake_force
@@ -6190,7 +6246,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_config.c.s:
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_demo_stress.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_demo_stress.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/test_cases/test_demo_stress.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_demo_stress.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_438) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_demo_stress.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_442) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_demo_stress.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_demo_stress.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_demo_stress.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_demo_stress.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/test_cases/test_demo_stress.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_demo_stress.c.i: cmake_force
@@ -6204,7 +6260,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_demo_stress
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_demo_widgets.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_demo_widgets.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/test_cases/test_demo_widgets.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_demo_widgets.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_439) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_demo_widgets.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_443) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_demo_widgets.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_demo_widgets.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_demo_widgets.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_demo_widgets.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/test_cases/test_demo_widgets.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_demo_widgets.c.i: cmake_force
@@ -6218,7 +6274,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_demo_widget
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_dropdown.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_dropdown.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/test_cases/test_dropdown.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_dropdown.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_440) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_dropdown.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_444) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_dropdown.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_dropdown.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_dropdown.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_dropdown.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/test_cases/test_dropdown.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_dropdown.c.i: cmake_force
@@ -6232,7 +6288,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_dropdown.c.
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_event.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_event.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/test_cases/test_event.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_event.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_441) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_event.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_445) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_event.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_event.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_event.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_event.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/test_cases/test_event.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_event.c.i: cmake_force
@@ -6246,7 +6302,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_event.c.s: 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_font_loader.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_font_loader.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/test_cases/test_font_loader.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_font_loader.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_442) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_font_loader.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_446) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_font_loader.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_font_loader.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_font_loader.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_font_loader.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/test_cases/test_font_loader.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_font_loader.c.i: cmake_force
@@ -6260,7 +6316,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_font_loader
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_fs.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_fs.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/test_cases/test_fs.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_fs.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_443) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_fs.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_447) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_fs.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_fs.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_fs.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_fs.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/test_cases/test_fs.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_fs.c.i: cmake_force
@@ -6274,7 +6330,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_fs.c.s: cma
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_line.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_line.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/test_cases/test_line.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_line.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_444) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_line.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_448) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_line.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_line.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_line.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_line.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/test_cases/test_line.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_line.c.i: cmake_force
@@ -6288,7 +6344,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_line.c.s: c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_mem.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_mem.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/test_cases/test_mem.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_mem.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_445) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_mem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_449) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_mem.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_mem.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_mem.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_mem.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/test_cases/test_mem.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_mem.c.i: cmake_force
@@ -6302,7 +6358,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_mem.c.s: cm
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_obj_tree.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_obj_tree.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/test_cases/test_obj_tree.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_obj_tree.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_446) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_obj_tree.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_450) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_obj_tree.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_obj_tree.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_obj_tree.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_obj_tree.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/test_cases/test_obj_tree.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_obj_tree.c.i: cmake_force
@@ -6316,7 +6372,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_obj_tree.c.
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_slider.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_slider.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/test_cases/test_slider.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_slider.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_447) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_slider.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_451) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_slider.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_slider.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_slider.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_slider.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/test_cases/test_slider.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_slider.c.i: cmake_force
@@ -6330,7 +6386,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_slider.c.s:
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_snapshot.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_snapshot.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/test_cases/test_snapshot.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_snapshot.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_448) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_snapshot.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_452) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_snapshot.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_snapshot.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_snapshot.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_snapshot.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/test_cases/test_snapshot.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_snapshot.c.i: cmake_force
@@ -6344,7 +6400,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_snapshot.c.
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_style.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_style.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/test_cases/test_style.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_style.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_449) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_style.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_453) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_style.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_style.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_style.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_style.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/test_cases/test_style.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_style.c.i: cmake_force
@@ -6358,7 +6414,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_style.c.s: 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_switch.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_switch.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/test_cases/test_switch.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_switch.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_450) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_switch.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_454) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_switch.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_switch.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_switch.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_switch.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/test_cases/test_switch.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_switch.c.i: cmake_force
@@ -6372,7 +6428,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_switch.c.s:
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_table.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_table.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/test_cases/test_table.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_table.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_451) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_table.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_455) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_table.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_table.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_table.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_table.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/test_cases/test_table.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_table.c.i: cmake_force
@@ -6386,7 +6442,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_table.c.s: 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_textarea.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_textarea.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/test_cases/test_textarea.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_textarea.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_452) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_textarea.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_456) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_textarea.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_textarea.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_textarea.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_textarea.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/test_cases/test_textarea.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_textarea.c.i: cmake_force
@@ -6400,7 +6456,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_textarea.c.
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_tiny_ttf.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_tiny_ttf.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/test_cases/test_tiny_ttf.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_tiny_ttf.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_453) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_tiny_ttf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_457) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_tiny_ttf.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_tiny_ttf.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_tiny_ttf.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_tiny_ttf.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/test_cases/test_tiny_ttf.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_tiny_ttf.c.i: cmake_force
@@ -6414,7 +6470,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_tiny_ttf.c.
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_txt.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_txt.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/test_cases/test_txt.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_txt.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_454) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_txt.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_458) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_txt.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_txt.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_txt.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_txt.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/test_cases/test_txt.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_txt.c.i: cmake_force
@@ -6428,7 +6484,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_cases/test_txt.c.s: cm
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_fonts/font_1.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_fonts/font_1.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/test_fonts/font_1.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_fonts/font_1.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_455) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_fonts/font_1.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_459) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_fonts/font_1.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_fonts/font_1.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_fonts/font_1.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_fonts/font_1.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/test_fonts/font_1.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_fonts/font_1.c.i: cmake_force
@@ -6442,7 +6498,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_fonts/font_1.c.s: cmak
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_fonts/font_2.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_fonts/font_2.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/test_fonts/font_2.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_fonts/font_2.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_456) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_fonts/font_2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_460) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_fonts/font_2.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_fonts/font_2.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_fonts/font_2.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_fonts/font_2.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/test_fonts/font_2.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_fonts/font_2.c.i: cmake_force
@@ -6456,7 +6512,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_fonts/font_2.c.s: cmak
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_fonts/font_3.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_fonts/font_3.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/test_fonts/font_3.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_fonts/font_3.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_457) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_fonts/font_3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_461) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_fonts/font_3.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_fonts/font_3.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_fonts/font_3.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_fonts/font_3.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/test_fonts/font_3.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_fonts/font_3.c.i: cmake_force
@@ -6470,7 +6526,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_fonts/font_3.c.s: cmak
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_fonts/ubuntu_font.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_fonts/ubuntu_font.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/test_fonts/ubuntu_font.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_fonts/ubuntu_font.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_458) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_fonts/ubuntu_font.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_462) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_fonts/ubuntu_font.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_fonts/ubuntu_font.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_fonts/ubuntu_font.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_fonts/ubuntu_font.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/src/test_fonts/ubuntu_font.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_fonts/ubuntu_font.c.i: cmake_force
@@ -6484,7 +6540,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/src/test_fonts/ubuntu_font.c.s:
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/unity/unity.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/unity/unity.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/unity/unity.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/unity/unity.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_459) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/unity/unity.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_463) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/unity/unity.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/unity/unity.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/unity/unity.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/unity/unity.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/unity/unity.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/unity/unity.c.i: cmake_force
@@ -6498,7 +6554,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/unity/unity.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/unity/unity_support.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/unity/unity_support.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/unity/unity_support.c
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/unity/unity_support.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_460) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/unity/unity_support.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_464) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/unity/unity_support.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/unity/unity_support.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/unity/unity_support.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/unity/unity_support.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Lib/lvgl/tests/unity/unity_support.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/unity/unity_support.c.i: cmake_force
@@ -6512,7 +6568,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/unity/unity_support.c.s: cmake_
 CMakeFiles/MotionKit.elf.dir/Core/Src/App/Connection.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Src/App/Connection.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/Connection.c
 CMakeFiles/MotionKit.elf.dir/Core/Src/App/Connection.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_461) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/App/Connection.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_465) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/App/Connection.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Src/App/Connection.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Src/App/Connection.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Src/App/Connection.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/Connection.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Src/App/Connection.c.i: cmake_force
@@ -6526,7 +6582,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Src/App/Connection.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Src/App/Display.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Src/App/Display.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/Display.c
 CMakeFiles/MotionKit.elf.dir/Core/Src/App/Display.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_462) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/App/Display.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_466) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/App/Display.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Src/App/Display.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Src/App/Display.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Src/App/Display.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/Display.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Src/App/Display.c.i: cmake_force
@@ -6537,66 +6593,24 @@ CMakeFiles/MotionKit.elf.dir/Core/Src/App/Display.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/MotionKit.elf.dir/Core/Src/App/Display.c.s"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/Display.c -o CMakeFiles/MotionKit.elf.dir/Core/Src/App/Display.c.s
 
-CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/components/ui_comp_hook.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
-CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/components/ui_comp_hook.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/LVGL_UI/components/ui_comp_hook.c
-CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/components/ui_comp_hook.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_463) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/components/ui_comp_hook.c.obj"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/components/ui_comp_hook.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/components/ui_comp_hook.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/components/ui_comp_hook.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/LVGL_UI/components/ui_comp_hook.c
+CMakeFiles/MotionKit.elf.dir/Core/Src/App/IMU.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
+CMakeFiles/MotionKit.elf.dir/Core/Src/App/IMU.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/IMU.c
+CMakeFiles/MotionKit.elf.dir/Core/Src/App/IMU.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_467) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/App/IMU.c.obj"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Src/App/IMU.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Src/App/IMU.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Src/App/IMU.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/IMU.c
 
-CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/components/ui_comp_hook.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/components/ui_comp_hook.c.i"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/LVGL_UI/components/ui_comp_hook.c > CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/components/ui_comp_hook.c.i
+CMakeFiles/MotionKit.elf.dir/Core/Src/App/IMU.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/MotionKit.elf.dir/Core/Src/App/IMU.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/IMU.c > CMakeFiles/MotionKit.elf.dir/Core/Src/App/IMU.c.i
 
-CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/components/ui_comp_hook.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/components/ui_comp_hook.c.s"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/LVGL_UI/components/ui_comp_hook.c -o CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/components/ui_comp_hook.c.s
-
-CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/screens/ui_OverviewScreen.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
-CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/screens/ui_OverviewScreen.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/LVGL_UI/screens/ui_OverviewScreen.c
-CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/screens/ui_OverviewScreen.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_464) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/screens/ui_OverviewScreen.c.obj"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/screens/ui_OverviewScreen.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/screens/ui_OverviewScreen.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/screens/ui_OverviewScreen.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/LVGL_UI/screens/ui_OverviewScreen.c
-
-CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/screens/ui_OverviewScreen.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/screens/ui_OverviewScreen.c.i"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/LVGL_UI/screens/ui_OverviewScreen.c > CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/screens/ui_OverviewScreen.c.i
-
-CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/screens/ui_OverviewScreen.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/screens/ui_OverviewScreen.c.s"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/LVGL_UI/screens/ui_OverviewScreen.c -o CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/screens/ui_OverviewScreen.c.s
-
-CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/ui.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
-CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/ui.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/LVGL_UI/ui.c
-CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/ui.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_465) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/ui.c.obj"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/ui.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/ui.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/ui.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/LVGL_UI/ui.c
-
-CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/ui.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/ui.c.i"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/LVGL_UI/ui.c > CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/ui.c.i
-
-CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/ui.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/ui.c.s"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/LVGL_UI/ui.c -o CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/ui.c.s
-
-CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/ui_helpers.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
-CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/ui_helpers.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/LVGL_UI/ui_helpers.c
-CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/ui_helpers.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_466) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/ui_helpers.c.obj"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/ui_helpers.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/ui_helpers.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/ui_helpers.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/LVGL_UI/ui_helpers.c
-
-CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/ui_helpers.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/ui_helpers.c.i"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/LVGL_UI/ui_helpers.c > CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/ui_helpers.c.i
-
-CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/ui_helpers.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/ui_helpers.c.s"
-	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/LVGL_UI/ui_helpers.c -o CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/ui_helpers.c.s
+CMakeFiles/MotionKit.elf.dir/Core/Src/App/IMU.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/MotionKit.elf.dir/Core/Src/App/IMU.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/IMU.c -o CMakeFiles/MotionKit.elf.dir/Core/Src/App/IMU.c.s
 
 CMakeFiles/MotionKit.elf.dir/Core/Src/App/Motion.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Src/App/Motion.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/Motion.c
 CMakeFiles/MotionKit.elf.dir/Core/Src/App/Motion.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_467) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/App/Motion.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_468) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/App/Motion.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Src/App/Motion.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Src/App/Motion.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Src/App/Motion.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/App/Motion.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Src/App/Motion.c.i: cmake_force
@@ -6610,7 +6624,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Src/App/Motion.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/IMU/mpu6050.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/IMU/mpu6050.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/Drv/IMU/mpu6050.c
 CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/IMU/mpu6050.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_468) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/IMU/mpu6050.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_469) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/IMU/mpu6050.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/IMU/mpu6050.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/IMU/mpu6050.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/IMU/mpu6050.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/Drv/IMU/mpu6050.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/IMU/mpu6050.c.i: cmake_force
@@ -6624,7 +6638,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/IMU/mpu6050.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/LCD.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/LCD.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/Drv/LCD.c
 CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/LCD.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_469) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/LCD.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_470) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/LCD.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/LCD.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/LCD.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/LCD.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/Drv/LCD.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/LCD.c.i: cmake_force
@@ -6638,7 +6652,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/LCD.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/NodeMotor.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/NodeMotor.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/Drv/NodeMotor.c
 CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/NodeMotor.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_470) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/NodeMotor.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_471) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/NodeMotor.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/NodeMotor.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/NodeMotor.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/NodeMotor.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/Drv/NodeMotor.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/NodeMotor.c.i: cmake_force
@@ -6652,7 +6666,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/NodeMotor.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Src/can.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Src/can.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/can.c
 CMakeFiles/MotionKit.elf.dir/Core/Src/can.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_471) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/can.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_472) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/can.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Src/can.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Src/can.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Src/can.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/can.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Src/can.c.i: cmake_force
@@ -6666,7 +6680,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Src/can.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Src/dma.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Src/dma.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/dma.c
 CMakeFiles/MotionKit.elf.dir/Core/Src/dma.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_472) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_473) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/dma.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Src/dma.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Src/dma.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Src/dma.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/dma.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Src/dma.c.i: cmake_force
@@ -6680,7 +6694,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Src/dma.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Src/freertos.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Src/freertos.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/freertos.c
 CMakeFiles/MotionKit.elf.dir/Core/Src/freertos.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_473) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/freertos.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_474) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/freertos.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Src/freertos.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Src/freertos.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Src/freertos.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/freertos.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Src/freertos.c.i: cmake_force
@@ -6694,7 +6708,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Src/freertos.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Src/gpio.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/gpio.c
 CMakeFiles/MotionKit.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_474) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_475) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/gpio.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Src/gpio.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Src/gpio.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Src/gpio.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/gpio.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Src/gpio.c.i: cmake_force
@@ -6708,7 +6722,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Src/gpio.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Src/i2c.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Src/i2c.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/i2c.c
 CMakeFiles/MotionKit.elf.dir/Core/Src/i2c.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_475) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_476) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/i2c.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Src/i2c.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Src/i2c.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Src/i2c.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/i2c.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Src/i2c.c.i: cmake_force
@@ -6722,7 +6736,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Src/i2c.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Src/main.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Src/main.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/main.c
 CMakeFiles/MotionKit.elf.dir/Core/Src/main.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_476) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_477) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/main.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Src/main.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Src/main.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Src/main.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/main.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Src/main.c.i: cmake_force
@@ -6736,7 +6750,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Src/main.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Src/spi.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Src/spi.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/spi.c
 CMakeFiles/MotionKit.elf.dir/Core/Src/spi.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_477) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_478) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/spi.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Src/spi.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Src/spi.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Src/spi.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/spi.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Src/spi.c.i: cmake_force
@@ -6750,7 +6764,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Src/spi.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/stm32f1xx_hal_msp.c
 CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_478) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_479) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/stm32f1xx_hal_msp.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_hal_msp.c.i: cmake_force
@@ -6764,7 +6778,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_hal_msp.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/stm32f1xx_hal_timebase_tim.c
 CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_479) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_480) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/stm32f1xx_hal_timebase_tim.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.i: cmake_force
@@ -6778,7 +6792,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.s: cmake_forc
 CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_it.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_it.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/stm32f1xx_it.c
 CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_it.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_480) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_481) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_it.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_it.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_it.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_it.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/stm32f1xx_it.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_it.c.i: cmake_force
@@ -6792,7 +6806,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Src/stm32f1xx_it.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Src/syscalls.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/syscalls.c
 CMakeFiles/MotionKit.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_481) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_482) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/syscalls.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Src/syscalls.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Src/syscalls.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Src/syscalls.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/syscalls.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Src/syscalls.c.i: cmake_force
@@ -6806,7 +6820,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Src/syscalls.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Src/sysmem.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/sysmem.c
 CMakeFiles/MotionKit.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_482) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/sysmem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_483) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/sysmem.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Src/sysmem.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Src/sysmem.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Src/sysmem.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/sysmem.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Src/sysmem.c.i: cmake_force
@@ -6820,7 +6834,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Src/sysmem.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Src/system_stm32f1xx.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Src/system_stm32f1xx.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/system_stm32f1xx.c
 CMakeFiles/MotionKit.elf.dir/Core/Src/system_stm32f1xx.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_483) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/system_stm32f1xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_484) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/system_stm32f1xx.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Src/system_stm32f1xx.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Src/system_stm32f1xx.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Src/system_stm32f1xx.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/system_stm32f1xx.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Src/system_stm32f1xx.c.i: cmake_force
@@ -6834,7 +6848,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Src/system_stm32f1xx.c.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Core/Src/usart.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Src/usart.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/usart.c
 CMakeFiles/MotionKit.elf.dir/Core/Src/usart.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_484) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/usart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_485) "Building C object CMakeFiles/MotionKit.elf.dir/Core/Src/usart.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Core/Src/usart.c.obj -MF CMakeFiles/MotionKit.elf.dir/Core/Src/usart.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Core/Src/usart.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Src/usart.c
 
 CMakeFiles/MotionKit.elf.dir/Core/Src/usart.c.i: cmake_force
@@ -6847,7 +6861,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Src/usart.c.s: cmake_force
 
 CMakeFiles/MotionKit.elf.dir/Core/Startup/startup_stm32f103rctx.s.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Core/Startup/startup_stm32f103rctx.s.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Startup/startup_stm32f103rctx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_485) "Building ASM object CMakeFiles/MotionKit.elf.dir/Core/Startup/startup_stm32f103rctx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_486) "Building ASM object CMakeFiles/MotionKit.elf.dir/Core/Startup/startup_stm32f103rctx.s.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/MotionKit.elf.dir/Core/Startup/startup_stm32f103rctx.s.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Startup/startup_stm32f103rctx.s
 
 CMakeFiles/MotionKit.elf.dir/Core/Startup/startup_stm32f103rctx.s.i: cmake_force
@@ -6861,7 +6875,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Startup/startup_stm32f103rctx.s.s: cmake_force
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_486) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_487) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj -MF CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c
 
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.i: cmake_force
@@ -6875,7 +6889,7 @@ CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.s:
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_487) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_488) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.obj -MF CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c
 
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c.i: cmake_force
@@ -6889,7 +6903,7 @@ CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_488) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_489) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj -MF CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c
 
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.i: cmake_force
@@ -6903,7 +6917,7 @@ CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cort
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_489) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_490) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj -MF CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c
 
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.i: cmake_force
@@ -6917,7 +6931,7 @@ CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_490) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_491) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj -MF CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c
 
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.i: cmake_force
@@ -6931,7 +6945,7 @@ CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_491) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_492) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj -MF CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c
 
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.i: cmake_force
@@ -6945,7 +6959,7 @@ CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flas
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_492) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_493) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj -MF CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c
 
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.i: cmake_force
@@ -6959,7 +6973,7 @@ CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flas
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_493) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_494) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj -MF CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c
 
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.i: cmake_force
@@ -6973,7 +6987,7 @@ CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_494) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_495) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj -MF CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c
 
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.i: cmake_force
@@ -6987,7 +7001,7 @@ CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_495) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_496) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj -MF CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c
 
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.i: cmake_force
@@ -7001,7 +7015,7 @@ CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_496) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_497) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj -MF CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c
 
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.i: cmake_force
@@ -7015,7 +7029,7 @@ CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_497) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_498) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj -MF CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c
 
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.i: cmake_force
@@ -7029,7 +7043,7 @@ CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_498) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_499) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj -MF CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c
 
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.i: cmake_force
@@ -7043,7 +7057,7 @@ CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_499) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_500) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj -MF CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c
 
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.i: cmake_force
@@ -7057,7 +7071,7 @@ CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_500) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_501) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj -MF CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c
 
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.i: cmake_force
@@ -7071,7 +7085,7 @@ CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_501) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_502) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj -MF CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c
 
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.i: cmake_force
@@ -7085,7 +7099,7 @@ CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_502) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_503) "Building C object CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj -MF CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c
 
 CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.i: cmake_force
@@ -7099,7 +7113,7 @@ CMakeFiles/MotionKit.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_503) "Building C object CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_504) "Building C object CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj -MF CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c
 
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.i: cmake_force
@@ -7113,7 +7127,7 @@ CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/croutine.c
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_504) "Building C object CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_505) "Building C object CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj -MF CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/croutine.c
 
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i: cmake_force
@@ -7127,7 +7141,7 @@ CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_505) "Building C object CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_506) "Building C object CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj -MF CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
 
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i: cmake_force
@@ -7141,7 +7155,7 @@ CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_group
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/list.c
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_506) "Building C object CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_507) "Building C object CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj -MF CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/list.c
 
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.i: cmake_force
@@ -7155,7 +7169,7 @@ CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.s: c
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_507) "Building C object CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_508) "Building C object CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj -MF CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c
 
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.i: cmake_force
@@ -7169,7 +7183,7 @@ CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GC
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_508) "Building C object CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_509) "Building C object CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj -MF CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
 
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i: cmake_force
@@ -7183,7 +7197,7 @@ CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/Me
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/queue.c
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_509) "Building C object CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_510) "Building C object CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj -MF CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/queue.c
 
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.i: cmake_force
@@ -7197,7 +7211,7 @@ CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.s: 
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_510) "Building C object CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_511) "Building C object CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj -MF CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
 
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i: cmake_force
@@ -7211,7 +7225,7 @@ CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buff
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/tasks.c
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_511) "Building C object CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_512) "Building C object CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj -MF CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/tasks.c
 
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i: cmake_force
@@ -7225,7 +7239,7 @@ CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.s: 
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: CMakeFiles/MotionKit.elf.dir/flags.make
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/timers.c
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: CMakeFiles/MotionKit.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_512) "Building C object CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_513) "Building C object CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj -MF CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj.d -o CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj -c /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/timers.c
 
 CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.i: cmake_force
@@ -7238,6 +7252,10 @@ CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s:
 
 # Object files for target MotionKit.elf
 MotionKit_elf_OBJECTS = \
+"CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/components/ui_comp_hook.c.obj" \
+"CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/screens/ui_OverviewScreen.c.obj" \
+"CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/ui.c.obj" \
+"CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/ui_helpers.c.obj" \
 "CMakeFiles/MotionKit.elf.dir/Core/Inc/Drv/Montserrat_60_NUM.c.obj" \
 "CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.obj" \
 "CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_argb.c.obj" \
@@ -7700,10 +7718,7 @@ MotionKit_elf_OBJECTS = \
 "CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/unity/unity_support.c.obj" \
 "CMakeFiles/MotionKit.elf.dir/Core/Src/App/Connection.c.obj" \
 "CMakeFiles/MotionKit.elf.dir/Core/Src/App/Display.c.obj" \
-"CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/components/ui_comp_hook.c.obj" \
-"CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/screens/ui_OverviewScreen.c.obj" \
-"CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/ui.c.obj" \
-"CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/ui_helpers.c.obj" \
+"CMakeFiles/MotionKit.elf.dir/Core/Src/App/IMU.c.obj" \
 "CMakeFiles/MotionKit.elf.dir/Core/Src/App/Motion.c.obj" \
 "CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/IMU/mpu6050.c.obj" \
 "CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/LCD.c.obj" \
@@ -7754,6 +7769,10 @@ MotionKit_elf_OBJECTS = \
 # External object files for target MotionKit.elf
 MotionKit_elf_EXTERNAL_OBJECTS =
 
+MotionKit.elf: CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/components/ui_comp_hook.c.obj
+MotionKit.elf: CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/screens/ui_OverviewScreen.c.obj
+MotionKit.elf: CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/ui.c.obj
+MotionKit.elf: CMakeFiles/MotionKit.elf.dir/Core/Inc/App/LVGL_UI/ui_helpers.c.obj
 MotionKit.elf: CMakeFiles/MotionKit.elf.dir/Core/Inc/Drv/Montserrat_60_NUM.c.obj
 MotionKit.elf: CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.c.obj
 MotionKit.elf: CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_argb.c.obj
@@ -8216,10 +8235,7 @@ MotionKit.elf: CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/unity/unity.c.ob
 MotionKit.elf: CMakeFiles/MotionKit.elf.dir/Core/Lib/lvgl/tests/unity/unity_support.c.obj
 MotionKit.elf: CMakeFiles/MotionKit.elf.dir/Core/Src/App/Connection.c.obj
 MotionKit.elf: CMakeFiles/MotionKit.elf.dir/Core/Src/App/Display.c.obj
-MotionKit.elf: CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/components/ui_comp_hook.c.obj
-MotionKit.elf: CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/screens/ui_OverviewScreen.c.obj
-MotionKit.elf: CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/ui.c.obj
-MotionKit.elf: CMakeFiles/MotionKit.elf.dir/Core/Src/App/LVGL_UI/ui_helpers.c.obj
+MotionKit.elf: CMakeFiles/MotionKit.elf.dir/Core/Src/App/IMU.c.obj
 MotionKit.elf: CMakeFiles/MotionKit.elf.dir/Core/Src/App/Motion.c.obj
 MotionKit.elf: CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/IMU/mpu6050.c.obj
 MotionKit.elf: CMakeFiles/MotionKit.elf.dir/Core/Src/Drv/LCD.c.obj
@@ -8268,7 +8284,7 @@ MotionKit.elf: CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Sou
 MotionKit.elf: CMakeFiles/MotionKit.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
 MotionKit.elf: CMakeFiles/MotionKit.elf.dir/build.make
 MotionKit.elf: CMakeFiles/MotionKit.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_513) "Linking C executable MotionKit.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_514) "Linking C executable MotionKit.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MotionKit.elf.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/MotionKit.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/MotionKit.bin"

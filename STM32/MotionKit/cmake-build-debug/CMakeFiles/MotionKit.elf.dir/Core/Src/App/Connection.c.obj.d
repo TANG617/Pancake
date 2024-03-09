@@ -61,4 +61,7 @@ CMakeFiles/MotionKit.elf.dir/Core/Src/App/Connection.c.obj: \
  /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/main.h \
  /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h \
  /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h \
- /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/PancakeConfig.h
+ /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/PancakeConfig.h \
+ /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/App/Motion.h \
+ /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/Drv/NodeMotor.h \
+ /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/Core/Inc/can.h
