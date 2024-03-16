@@ -18,6 +18,7 @@
 #define MAX_INT16  (128*256 -1 )
 
 typedef enum{
+    Enable = 0x00,
     VelocityMode = 0x01,
     PositionMode = 0x02,
 }ControlFrameMode;

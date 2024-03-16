@@ -21,6 +21,9 @@ ControlFrameType DecodeControlFrame(){
             break;
          case PositionMode:
             break;
+        case Enable:
+            MotionEnable(&PancakeMotion);
+            break;
         default:
             break;
     }
