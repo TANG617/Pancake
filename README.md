@@ -84,7 +84,7 @@ Reference: AGV Market Investigation by Loup Ventures
 
 #### Kinect V2 + ROS 驱动测试
 
-![image-20240413121456425](https://cdn.jsdelivr.net/gh/TANG617/images@master/20240413121456ifLoPjimage-20240413121456425.png)
+<img src="https://cdn.jsdelivr.net/gh/TANG617/images@master/20240413121456ifLoPjimage-20240413121456425.png" alt="image-20240413121456425" />
 
 #### ROS远程控制测试
 
