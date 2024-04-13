@@ -45,9 +45,9 @@ void MotionSetLinearVelocity(MotionType *Motion,double Velocity){
 }
 //Positive Rotate means turns right
 void MotionSetAngularVelocity(MotionType *Motion, double Rotate){
-    Motion->LMotor.Velocity += Rotate * Motion->LMotor.Direction;
+    Motion->LMotor.Velocity -= Rotate * Motion->LMotor.Direction;
     osDelay(MOTION_DELAY);
-    Motion->RMotor.Velocity -= Rotate * Motion->RMotor.Direction;
+    Motion->RMotor.Velocity += Rotate * Motion->RMotor.Direction;
 }
 
 void StartMotionTask(void *argument)

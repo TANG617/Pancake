@@ -23,6 +23,6 @@ CMake Deprecation Warning:
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
 -- Minimal optimization, debug info included
--- Configuring done (2.9s)
+-- Configuring done (2.2s)
 -- Generating done (0.1s)
 -- Build files have been written to: /Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug

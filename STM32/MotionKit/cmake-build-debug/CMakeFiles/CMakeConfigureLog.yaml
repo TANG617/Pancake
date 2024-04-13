@@ -135,8 +135,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Fdm45A"
-      binary: "/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Fdm45A"
+      source: "/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-N3Asu0"
+      binary: "/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-N3Asu0"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -145,12 +145,12 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Fdm45A'
+        Change Dir: '/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-N3Asu0'
         
-        Run Build Command(s): /Users/timli/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_92d46/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_92d46.dir/build.make CMakeFiles/cmTC_92d46.dir/build
-        Building C object CMakeFiles/cmTC_92d46.dir/CMakeCCompilerABI.c.obj
-        /opt/homebrew/bin/arm-none-eabi-gcc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_92d46.dir/CMakeCCompilerABI.c.obj -c /Users/timli/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /Users/timli/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_64e55/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_64e55.dir/build.make CMakeFiles/cmTC_64e55.dir/build
+        Building C object CMakeFiles/cmTC_64e55.dir/CMakeCCompilerABI.c.obj
+        /opt/homebrew/bin/arm-none-eabi-gcc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_64e55.dir/CMakeCCompilerABI.c.obj -c /Users/timli/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/opt/homebrew/bin/arm-none-eabi-gcc
         Target: arm-none-eabi
@@ -158,8 +158,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 13.2.1 20231009 (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_92d46.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_92d46.dir/'
-         /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/13.2.1/cc1 -quiet -v -iprefix /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/ -isysroot /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ /Users/timli/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_92d46.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o /var/folders/d0/j8mk8sqj1vq6yyqnh7jfzr040000gn/T//cck7WO7F.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_64e55.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_64e55.dir/'
+         /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/13.2.1/cc1 -quiet -v -iprefix /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/ -isysroot /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ /Users/timli/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_64e55.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o /var/folders/d0/j8mk8sqj1vq6yyqnh7jfzr040000gn/T//cc0pKhzn.s
         GNU C17 (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) version 13.2.1 20231009 (arm-none-eabi)
         	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
         
@@ -176,17 +176,17 @@ events:
          /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include
         End of search list.
         Compiler executable checksum: 18f4550fe29065d7f2478f7cc0cc177e
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_92d46.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_92d46.dir/'
-         /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_92d46.dir/CMakeCCompilerABI.c.obj /var/folders/d0/j8mk8sqj1vq6yyqnh7jfzr040000gn/T//cck7WO7F.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_64e55.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_64e55.dir/'
+         /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_64e55.dir/CMakeCCompilerABI.c.obj /var/folders/d0/j8mk8sqj1vq6yyqnh7jfzr040000gn/T//cc0pKhzn.s
         GNU assembler version 2.41.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) 2.41.0.20231009
         COMPILER_PATH=/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/13.2.1/:/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../libexec/gcc/:/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/:/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/:/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/:/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_92d46.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_92d46.dir/CMakeCCompilerABI.c.'
-        Linking C static library libcmTC_92d46.a
-        /Users/timli/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -P CMakeFiles/cmTC_92d46.dir/cmake_clean_target.cmake
-        /Users/timli/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92d46.dir/link.txt --verbose=1
-        arm-none-eabi-ar qc libcmTC_92d46.a CMakeFiles/cmTC_92d46.dir/CMakeCCompilerABI.c.obj
-        /opt/homebrew/bin/arm-none-eabi-ranlib libcmTC_92d46.a
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_64e55.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_64e55.dir/CMakeCCompilerABI.c.'
+        Linking C static library libcmTC_64e55.a
+        /Users/timli/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -P CMakeFiles/cmTC_64e55.dir/cmake_clean_target.cmake
+        /Users/timli/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64e55.dir/link.txt --verbose=1
+        arm-none-eabi-ar qc libcmTC_64e55.a CMakeFiles/cmTC_64e55.dir/CMakeCCompilerABI.c.obj
+        /opt/homebrew/bin/arm-none-eabi-ranlib libcmTC_64e55.a
         
       exitCode: 0
   -
@@ -218,12 +218,12 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(arm-none-eabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Fdm45A']
+        ignore line: [Change Dir: '/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-N3Asu0']
         ignore line: []
-        ignore line: [Run Build Command(s): /Users/timli/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_92d46/fast]
-        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_92d46.dir/build.make CMakeFiles/cmTC_92d46.dir/build]
-        ignore line: [Building C object CMakeFiles/cmTC_92d46.dir/CMakeCCompilerABI.c.obj]
-        ignore line: [/opt/homebrew/bin/arm-none-eabi-gcc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_92d46.dir/CMakeCCompilerABI.c.obj -c /Users/timli/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /Users/timli/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_64e55/fast]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_64e55.dir/build.make CMakeFiles/cmTC_64e55.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_64e55.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [/opt/homebrew/bin/arm-none-eabi-gcc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_64e55.dir/CMakeCCompilerABI.c.obj -c /Users/timli/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/opt/homebrew/bin/arm-none-eabi-gcc]
         ignore line: [Target: arm-none-eabi]
@@ -231,8 +231,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 13.2.1 20231009 (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_92d46.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_92d46.dir/']
-        ignore line: [ /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/13.2.1/cc1 -quiet -v -iprefix /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/ -isysroot /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ /Users/timli/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_92d46.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o /var/folders/d0/j8mk8sqj1vq6yyqnh7jfzr040000gn/T//cck7WO7F.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_64e55.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_64e55.dir/']
+        ignore line: [ /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/13.2.1/cc1 -quiet -v -iprefix /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/ -isysroot /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ /Users/timli/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_64e55.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o /var/folders/d0/j8mk8sqj1vq6yyqnh7jfzr040000gn/T//cc0pKhzn.s]
         ignore line: [GNU C17 (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) version 13.2.1 20231009 (arm-none-eabi)]
         ignore line: [	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
         ignore line: []
@@ -249,17 +249,17 @@ events:
         ignore line: [ /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 18f4550fe29065d7f2478f7cc0cc177e]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_92d46.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_92d46.dir/']
-        ignore line: [ /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_92d46.dir/CMakeCCompilerABI.c.obj /var/folders/d0/j8mk8sqj1vq6yyqnh7jfzr040000gn/T//cck7WO7F.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_64e55.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_64e55.dir/']
+        ignore line: [ /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_64e55.dir/CMakeCCompilerABI.c.obj /var/folders/d0/j8mk8sqj1vq6yyqnh7jfzr040000gn/T//cc0pKhzn.s]
         ignore line: [GNU assembler version 2.41.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) 2.41.0.20231009]
         ignore line: [COMPILER_PATH=/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/13.2.1/:/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../libexec/gcc/:/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/]
         ignore line: [LIBRARY_PATH=/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/:/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/:/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/:/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_92d46.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_92d46.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C static library libcmTC_92d46.a]
-        ignore line: [/Users/timli/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -P CMakeFiles/cmTC_92d46.dir/cmake_clean_target.cmake]
-        ignore line: [/Users/timli/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92d46.dir/link.txt --verbose=1]
-        ignore line: [arm-none-eabi-ar qc libcmTC_92d46.a CMakeFiles/cmTC_92d46.dir/CMakeCCompilerABI.c.obj]
-        ignore line: [/opt/homebrew/bin/arm-none-eabi-ranlib libcmTC_92d46.a]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_64e55.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_64e55.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C static library libcmTC_64e55.a]
+        ignore line: [/Users/timli/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -P CMakeFiles/cmTC_64e55.dir/cmake_clean_target.cmake]
+        ignore line: [/Users/timli/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64e55.dir/link.txt --verbose=1]
+        ignore line: [arm-none-eabi-ar qc libcmTC_64e55.a CMakeFiles/cmTC_64e55.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [/opt/homebrew/bin/arm-none-eabi-ranlib libcmTC_64e55.a]
         ignore line: []
         ignore line: []
         implicit libs: []
@@ -277,8 +277,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ddqkt5"
-      binary: "/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ddqkt5"
+      source: "/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-gvyrxS"
+      binary: "/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-gvyrxS"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -287,12 +287,12 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ddqkt5'
+        Change Dir: '/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-gvyrxS'
         
-        Run Build Command(s): /Users/timli/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_04e53/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_04e53.dir/build.make CMakeFiles/cmTC_04e53.dir/build
-        Building CXX object CMakeFiles/cmTC_04e53.dir/CMakeCXXCompilerABI.cpp.obj
-        /opt/homebrew/bin/arm-none-eabi-g++   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_04e53.dir/CMakeCXXCompilerABI.cpp.obj -c /Users/timli/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /Users/timli/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_68a28/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_68a28.dir/build.make CMakeFiles/cmTC_68a28.dir/build
+        Building CXX object CMakeFiles/cmTC_68a28.dir/CMakeCXXCompilerABI.cpp.obj
+        /opt/homebrew/bin/arm-none-eabi-g++   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_68a28.dir/CMakeCXXCompilerABI.cpp.obj -c /Users/timli/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/opt/homebrew/bin/arm-none-eabi-g++
         Target: arm-none-eabi
@@ -300,8 +300,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 13.2.1 20231009 (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_04e53.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_04e53.dir/'
-         /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/13.2.1/cc1plus -quiet -v -iprefix /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/ -isysroot /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ /Users/timli/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_04e53.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o /var/folders/d0/j8mk8sqj1vq6yyqnh7jfzr040000gn/T//cc0YmwkH.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_68a28.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_68a28.dir/'
+         /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/13.2.1/cc1plus -quiet -v -iprefix /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/ -isysroot /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ /Users/timli/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_68a28.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o /var/folders/d0/j8mk8sqj1vq6yyqnh7jfzr040000gn/T//ccgYzEMh.s
         GNU C++17 (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) version 13.2.1 20231009 (arm-none-eabi)
         	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
         
@@ -324,17 +324,17 @@ events:
          /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include
         End of search list.
         Compiler executable checksum: 4ff2f957a4f92f408126d7aa1ec592f3
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_04e53.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_04e53.dir/'
-         /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_04e53.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/d0/j8mk8sqj1vq6yyqnh7jfzr040000gn/T//cc0YmwkH.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_68a28.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_68a28.dir/'
+         /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_68a28.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/d0/j8mk8sqj1vq6yyqnh7jfzr040000gn/T//ccgYzEMh.s
         GNU assembler version 2.41.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) 2.41.0.20231009
         COMPILER_PATH=/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/13.2.1/:/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../libexec/gcc/:/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/:/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/:/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/:/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_04e53.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_04e53.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX static library libcmTC_04e53.a
-        /Users/timli/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -P CMakeFiles/cmTC_04e53.dir/cmake_clean_target.cmake
-        /Users/timli/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04e53.dir/link.txt --verbose=1
-        arm-none-eabi-ar qc libcmTC_04e53.a CMakeFiles/cmTC_04e53.dir/CMakeCXXCompilerABI.cpp.obj
-        /opt/homebrew/bin/arm-none-eabi-ranlib libcmTC_04e53.a
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_68a28.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_68a28.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX static library libcmTC_68a28.a
+        /Users/timli/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -P CMakeFiles/cmTC_68a28.dir/cmake_clean_target.cmake
+        /Users/timli/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68a28.dir/link.txt --verbose=1
+        arm-none-eabi-ar qc libcmTC_68a28.a CMakeFiles/cmTC_68a28.dir/CMakeCXXCompilerABI.cpp.obj
+        /opt/homebrew/bin/arm-none-eabi-ranlib libcmTC_68a28.a
         
       exitCode: 0
   -
@@ -372,12 +372,12 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(arm-none-eabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ddqkt5']
+        ignore line: [Change Dir: '/Users/timli/RoboticProjects/Pancake/STM32/MotionKit/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-gvyrxS']
         ignore line: []
-        ignore line: [Run Build Command(s): /Users/timli/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_04e53/fast]
-        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_04e53.dir/build.make CMakeFiles/cmTC_04e53.dir/build]
-        ignore line: [Building CXX object CMakeFiles/cmTC_04e53.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [/opt/homebrew/bin/arm-none-eabi-g++   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_04e53.dir/CMakeCXXCompilerABI.cpp.obj -c /Users/timli/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /Users/timli/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_68a28/fast]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_68a28.dir/build.make CMakeFiles/cmTC_68a28.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_68a28.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [/opt/homebrew/bin/arm-none-eabi-g++   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_68a28.dir/CMakeCXXCompilerABI.cpp.obj -c /Users/timli/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/opt/homebrew/bin/arm-none-eabi-g++]
         ignore line: [Target: arm-none-eabi]
@@ -385,8 +385,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 13.2.1 20231009 (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_04e53.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_04e53.dir/']
-        ignore line: [ /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/13.2.1/cc1plus -quiet -v -iprefix /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/ -isysroot /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ /Users/timli/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_04e53.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o /var/folders/d0/j8mk8sqj1vq6yyqnh7jfzr040000gn/T//cc0YmwkH.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_68a28.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_68a28.dir/']
+        ignore line: [ /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/13.2.1/cc1plus -quiet -v -iprefix /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/ -isysroot /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ /Users/timli/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_68a28.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -fdiagnostics-color=always -o /var/folders/d0/j8mk8sqj1vq6yyqnh7jfzr040000gn/T//ccgYzEMh.s]
         ignore line: [GNU C++17 (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) version 13.2.1 20231009 (arm-none-eabi)]
         ignore line: [	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
         ignore line: []
@@ -409,17 +409,17 @@ events:
         ignore line: [ /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 4ff2f957a4f92f408126d7aa1ec592f3]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_04e53.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_04e53.dir/']
-        ignore line: [ /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_04e53.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/d0/j8mk8sqj1vq6yyqnh7jfzr040000gn/T//cc0YmwkH.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_68a28.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_68a28.dir/']
+        ignore line: [ /Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_68a28.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/d0/j8mk8sqj1vq6yyqnh7jfzr040000gn/T//ccgYzEMh.s]
         ignore line: [GNU assembler version 2.41.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) 2.41.0.20231009]
         ignore line: [COMPILER_PATH=/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/13.2.1/:/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../libexec/gcc/:/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/]
         ignore line: [LIBRARY_PATH=/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/:/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/:/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/:/Applications/ArmGNUToolchain/13.2.Rel1/arm-none-eabi/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_04e53.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_04e53.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX static library libcmTC_04e53.a]
-        ignore line: [/Users/timli/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -P CMakeFiles/cmTC_04e53.dir/cmake_clean_target.cmake]
-        ignore line: [/Users/timli/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04e53.dir/link.txt --verbose=1]
-        ignore line: [arm-none-eabi-ar qc libcmTC_04e53.a CMakeFiles/cmTC_04e53.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [/opt/homebrew/bin/arm-none-eabi-ranlib libcmTC_04e53.a]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_68a28.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_68a28.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX static library libcmTC_68a28.a]
+        ignore line: [/Users/timli/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -P CMakeFiles/cmTC_68a28.dir/cmake_clean_target.cmake]
+        ignore line: [/Users/timli/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68a28.dir/link.txt --verbose=1]
+        ignore line: [arm-none-eabi-ar qc libcmTC_68a28.a CMakeFiles/cmTC_68a28.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [/opt/homebrew/bin/arm-none-eabi-ranlib libcmTC_68a28.a]
         ignore line: []
         ignore line: []
         implicit libs: []
