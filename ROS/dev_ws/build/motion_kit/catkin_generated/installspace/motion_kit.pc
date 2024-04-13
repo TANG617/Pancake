@@ -1,8 +1,0 @@
-prefix=/catkin_ws/install
-
-Name: motion_kit
-Description: Description of motion_kit
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
