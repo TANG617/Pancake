@@ -50,9 +50,9 @@ Reference: AGV Market Investigation by Loup Ventures
 
 ### 总装
 
-![image-20240413121057627](https://cdn.jsdelivr.net/gh/TANG617/images@master/20240413121057ciGzXfimage-20240413121057627.png)
+![image-20240413123419857](https://cdn.jsdelivr.net/gh/TANG617/images@master/20240413123419SmuVoYimage-20240413123419857.png)
 
-![image-20240413121103577](https://cdn.jsdelivr.net/gh/TANG617/images@master/20240413121103zm009Yimage-20240413121103577.png)
+![image-20240413123432497](https://cdn.jsdelivr.net/gh/TANG617/images@master/20240413123432kZOh2nimage-20240413123432497.png)
 
 ## 软件设计
 
@@ -64,19 +64,19 @@ Reference: AGV Market Investigation by Loup Ventures
 
 #### LVGL移植
 
-![image-20240413121231208](https://cdn.jsdelivr.net/gh/TANG617/images@master/20240413121231JrVwXGimage-20240413121231208.png)
+![image-20240413123352448](https://cdn.jsdelivr.net/gh/TANG617/images@master/20240413123352w7oEDBimage-20240413123352448.png)
 
 #### CAN协议调试
 
-![image-20240413121258862](https://cdn.jsdelivr.net/gh/TANG617/images@master/20240413121258EnmGuwimage-20240413121258862.png)
+![image-20240413123512891](https://cdn.jsdelivr.net/gh/TANG617/images@master/20240413123512pwVBx5image-20240413123512891.png)
 
 #### BLE遥控测试以及电机测试
 
-![image-20240413121321794](https://cdn.jsdelivr.net/gh/TANG617/images@master/20240413121321r7Z4Hqimage-20240413121321794.png)
+![image-20240413123504031](https://cdn.jsdelivr.net/gh/TANG617/images@master/20240413123504RWSLCjimage-20240413123504031.png)
 
 #### 负载测试
 
-![image-20240413121351291](https://cdn.jsdelivr.net/gh/TANG617/images@master/20240413121351BcVi05image-20240413121351291.png)
+![image-20240413123456112](https://cdn.jsdelivr.net/gh/TANG617/images@master/20240413123456HcrTZOimage-20240413123456112.png)
 
 ### Jetson 部分
 
@@ -84,23 +84,23 @@ Reference: AGV Market Investigation by Loup Ventures
 
 #### Kinect V2 + ROS 驱动测试
 
-<img src="https://cdn.jsdelivr.net/gh/TANG617/images@master/20240413121456ifLoPjimage-20240413121456425.png" alt="image-20240413121456425" />
+![image-20240413123208426](https://cdn.jsdelivr.net/gh/TANG617/images@master/20240413123208RaSufgimage-20240413123208426.png)
 
 #### ROS远程控制测试
 
-![image-20240413121526428](https://cdn.jsdelivr.net/gh/TANG617/images@master/20240413121526I0tAXEimage-20240413121526428.png)
+![image-20240413123158105](https://cdn.jsdelivr.net/gh/TANG617/images@master/202404131231586vP5Ciimage-20240413123158105.png)
 
 #### 视觉SLAM
 
 
 
-![image-20240413121554096](https://cdn.jsdelivr.net/gh/TANG617/images@master/20240413121554PZ8Q7Dimage-20240413121554096.png)
+![image-20240413123245372](https://cdn.jsdelivr.net/gh/TANG617/images@master/20240413123245yxe7zSimage-20240413123245372.png)
 
 #### 自动化运行测试
 
-![image-20240413121628512](https://cdn.jsdelivr.net/gh/TANG617/images@master/20240413121628ZWwQYnimage-20240413121628512.png)
+![image-20240413123301087](https://cdn.jsdelivr.net/gh/TANG617/images@master/20240413123301wxkuHlimage-20240413123301087.png)
 
-![image-20240413121653965](https://cdn.jsdelivr.net/gh/TANG617/images@master/20240413121654lwXSDOimage-20240413121653965.png)
+![image-20240413123309381](https://cdn.jsdelivr.net/gh/TANG617/images@master/20240413123309qeNGebimage-20240413123309381.png)
 
 ## 性能指标
 
