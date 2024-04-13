@@ -1,6 +1,16 @@
 # PANCAKE: 分布式运输小车集群
 
-## 概述
+## 工程概述
+
+`3D_Model`: 小车3D模型文件
+
+`Jetson_ROS`: 在Jetson Nano上的ROS workspace
+
+`LVGL_UI`: 适用于Pioneer开发板的LVGL框架的UI设计
+
+`STM32_Firmware`: 适用于Pioneer开发板的固件源代码,使用CLion打开和gcc-arm/CMake工具链
+
+## 项目概述
 
 ### 传统的智能运输方案
 
